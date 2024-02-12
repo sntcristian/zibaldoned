@@ -7,7 +7,7 @@ import re
 stanza.download('it')
 nlp = stanza.Pipeline('it', processors='tokenize,ner')
 
-with open("test.csv", "r", encoding="utf-8") as f:
+with open("../test.csv", "r", encoding="utf-8") as f:
     data = csv.DictReader(f)
     data = list(data)
 f.close()
@@ -32,7 +32,7 @@ for row in data:
 pbar.close()
 
 keys = entita_nominate[0].keys()
-with open("results_kind.csv", "w", encoding="utf-8") as f:
+with open("../results/kind/output_kind.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(entita_nominate)

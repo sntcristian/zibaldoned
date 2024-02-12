@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # Load the CSV file into a pandas DataFrame
-df = pd.read_csv('paragraphs.csv')
+df = pd.read_csv('../paragraphs.csv')
 
 # Split the dataset into train, validation, and test sets
 train_val, test = train_test_split(df, test_size=0.15, random_state=42)

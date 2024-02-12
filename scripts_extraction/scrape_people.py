@@ -45,7 +45,7 @@ def web_scraper(url):
 url_to_scrape = 'https://digitalzibaldone.net/index/people'
 response = web_scraper(url_to_scrape)
 if response:
-    with open("people.json", "w", encoding="utf-8") as f:
+    with open("../people.json", "w", encoding="utf-8") as f:
         json.dump(response, f, indent=4, ensure_ascii=False)
 
 print(len(response))
