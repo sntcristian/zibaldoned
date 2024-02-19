@@ -133,7 +133,7 @@ for par in paragraphs:
                     surface_tokens = surface.split(" ")
                     count = 0
                     for token in surface_tokens:
-                        if token in pattern_tokens:
+                        if token in pattern_tokens and len(token)>2:
                             count += 1
                     if count >= 1:
                         start = entita[1]
