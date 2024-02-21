@@ -54,7 +54,8 @@ for row in data:
                             for match in re.finditer(surface+"\W", input_text):
                                 start_pos = match.start()
                                 end_pos = match.end()-1
-                                output.append({"id":row["id"],"surface": surface, "tag": tag, "start_pos":start_pos, "end_pos": end_pos, "left_context":input_text[0:start_pos], "right_context":input_text[end_pos:]})
+                                output.append({"id":row["id"],"surface": surface, "type": tag, "start_pos":start_pos,
+                                               "end_pos": end_pos, "left_context":input_text[0:start_pos], "right_context":input_text[end_pos:]})
                             used_patterns.add(surface)
         pbar.update(1)
     except Exception as e:

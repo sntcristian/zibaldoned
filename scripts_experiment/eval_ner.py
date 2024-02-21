@@ -17,10 +17,10 @@ def eval_ner(data, model_result):
         end_pos1 = int(entity1["end"])
         ent_type1 = entity1["type"]
         for entity2 in model_result:
-            id2 = entity2["doc_id"]
+            id2 = entity2["id"]
             start_pos2 = int(entity2["start_pos"])
             end_pos2 = int(entity2["end_pos"])
-            ent_type2 = entity2["tag"]
+            ent_type2 = entity2["type"]
             char_intersection = len(set(range(start_pos1, end_pos1)).intersection(set(range(start_pos2, end_pos2))))
             if id2 == id1 and char_intersection > 0 and ent_type1==ent_type2:
                 matches.append(entity1)
@@ -32,7 +32,7 @@ def eval_ner(data, model_result):
             fn.append(entity1)
 
     for entity2 in model_result:
-        if entity2 not in tp and entity2["tag"]!="ORG":
+        if entity2 not in tp:
             fp.append(entity2)
 
     precision = len(matches) / (len(matches) + len(fp))

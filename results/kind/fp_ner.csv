@@ -1,491 +1,102 @@
 id,surface_form,start_pos,end_pos,type
-p394_1,Dio,749,752,PER
-p394_1,Genesi,999,1005,PER
-p394_1,Dio,1197,1200,PER
-p394_1,De ligno,1469,1477,PER
-p394_1,Dio,1792,1795,PER
-p394_1,Dio,2187,2190,PER
-p394_1,Dio,2742,2745,PER
-p394_1,Dio,3197,3200,PER
-p394_1,Dio,3928,3931,PER
-p394_1,Iddio,4484,4489,PER
-p394_1,Dio,4764,4767,PER
-p394_1,Mosaica,5320,5327,PER
-p3284_1,fixus,464,469,PER
-p169_1,Male,2106,2110,PER
-p4397_2,Ione,280,284,PER
-p4397_2,Steph.,301,307,PER
-p4397_2,Homerum,734,741,PER
-p3062_2,Manheim,187,194,PER
-p3062_2,LIX.,204,208,PER
-p4509_5,Ballonzare,0,10,PER
-p4509_5,Bucacchiare,55,66,PER
-p4509_5,Bucherare,68,77,PER
-p4509_5,Fo,79,81,PER
-p4509_5,Torreggiare,112,123,PER
-p4509_5,Criailler,125,134,PER
-p4509_5,Rimailler,136,145,PER
-p3477_4,Bardo,1725,1730,PER
-p2587_1,Spagnuolo,52,61,PER
-p2587_1,Terme,674,679,LOC
-p4169_2,Negletto,0,8,PER
-p4169_2,Calvus,37,43,PER
-p4002_1,S. Maxim,55,63,PER
-p490_1,Talete,118,124,LOC
-p490_1,Teeteto,748,755,PER
-p490_1,Lugduni,813,820,PER
-p490_1,Laert.,847,853,PER
-p3552_1,S. Mich,670,677,PER
-p1445_1,de Festis Graecorum,248,267,PER
-p2323_1,Dossuarius.,512,523,LOC
-p2323_1,Vedilo,772,778,PER
-p2323_1,V. Forcell,1300,1310,PER
-p2323_1,Gloss,1314,1319,PER
-p2323_1,V.,1368,1370,PER
-p3074_2,V. Forcell,154,164,PER
-p3074_2,Pertaesus,166,175,PER
-p3074_2,Distisus,177,185,PER
-p3074_2,Fisus,187,192,PER
-p3074_2,Conspiratus,254,265,PER
-p3074_2,V. Forc,267,274,PER
-p3074_2,Nuptus,390,396,PER
-p3074_2,Falsus,403,409,PER
-p4408_2,Hector,182,188,PER
-p4408_2,Dolonéide,231,240,PER
-p47_3,Plin,2341,2345,PER
-p3347_1,Gotha,4063,4068,PER
-p4319_2,D.-G.,3548,3553,PER
-p294_1,Lorenzo Sarno,446,459,PER
-p294_1,Laonde,2778,2784,PER
-p294_1,V.,5597,5599,PER
-p4245_5,Taranta,0,7,LOC
-p4245_5,Tarantola,48,57,PER
-p4245_5,Tarantella,59,69,PER
-p4245_5,Tarande,102,109,PER
-p4245_5,Tarantolato,123,134,PER
-p4245_5,V.,136,138,PER
-p4073_2,V. Lucian,166,175,PER
-p3960_1,Maria Vergine Santissima,87,111,LOC
-p3761_3,V.,26,28,PER
-p3761_3,Forcell,205,212,PER
-p3761_3,Forcell,360,367,PER
-p3761_3,Comte,754,759,PER
-p4019_4,Piscium,187,194,PER
-p3186_1,Ella,257,261,PER
-p3186_1,Ella,427,431,PER
-p3186_1,Grammatico,5053,5063,PER
-p3186_1,Forcell,5113,5120,PER
-p3186_1,Melissus,5125,5133,LOC
-p3186_1,Fabric.,5135,5142,PER
-p3186_1,G. G. Rousseau.,5745,5760,PER
-p4073_1,Mori d'Affrica,202,216,PER
-p4073_1,V. Guicc.,282,291,PER
-p4483_3,Vedilo,158,164,PER
-p4257_4,Undatus,0,7,PER
-p4257_4,Ondoyer,155,162,PER
-p4257_4,Ondulation,172,182,PER
-p4014_5,V. Forcell.,286,297,PER
-p111_1,Arriano,116,123,LOC
-p4197_4,Rasitare,0,8,PER
-p4197_4,Otho,18,22,PER
-p364_1,Midleton,138,146,PER
-p1010_2,Dolendum,275,283,PER
-p1010_2,Andrès,293,299,PER
-p1010_2,Andrès,690,696,PER
-p1010_2,Andrès,1021,1027,PER
-p4208_3,Bibliot,23,30,PER
-p4208_3,Bolog.,257,263,PER
-p2538_1,Castelvetro,1693,1704,LOC
-p4377_1,Mars,1410,1414,PER
-p2012_1,Samuelis Aniensis Chronica,490,516,PER
-p2012_1,Malte,677,682,PER
-p2012_1,Langue,735,741,PER
-p4464_2,Vedilo,122,128,PER
-p4464_2,Laert.,206,212,PER
-p360_1,Corn,86,90,PER
-p4312_2,P. Möller.,76,86,PER
-p4312_2,Copenhague,101,111,PER
-p3980_1,D. Quijote,656,666,PER
-p3980_1,Amberes,704,711,PER
-p4302_4,V. Crusca,182,191,PER
-p3954_2,du Roi,157,163,PER
-p3954_2,Maria Vergine Santissima,253,277,LOC
-p4188_8,Casaub,182,188,PER
-p4188_8,Athenae,193,200,LOC
-p86_1,Corinne,15,22,PER
-p4082_4,Gramm,95,100,PER
-p4082_4,Toscana,102,109,LOC
-p4346_1,Phaedr,611,617,PER
-p4157_1,Enchirid,165,173,PER
-p3884_1,Rémusberg,294,303,PER
-p3884_1,Roi de Prusse,359,372,PER
-p501_2,Movent,216,222,PER
-p501_2,Galli Senoni,254,266,PER
-p501_2,Clusio,279,285,PER
-p501_2,Romamque,287,295,PER
-p501_2,D. Julio,458,466,PER
-p2677_1,Machiavello,1542,1553,LOC
-p2677_1,Onomademo,2390,2399,PER
-p2556_1,Crusca,283,289,PER
-p2556_1,Dis...,1803,1809,LOC
-p4229_4,Dio,2385,2388,PER
-p4229_4,Loreto,2644,2650,LOC
-p2376_1,Atium,589,594,PER
-p2376_1,Atius,598,603,PER
-p2376_1,Atia,607,611,PER
-p4140_4,Canz,130,134,PER
-p4140_4,Canz,174,178,PER
-p2221_2,Fuisset,61,68,PER
-p2221_2,Fuerat,124,130,PER
-p2221_2,Georg.,671,677,PER
-p2221_2,Georg.,756,762,PER
-p2221_2,Impulerat,917,926,PER
-p1029_2,Dionigi,190,197,PER
-p1029_2,Macedone,233,241,PER
-p1029_2,de Vita Phaedri,283,298,PER
-p1029_2,Manhemii,327,335,PER
-p3542_2,Perpetuitassint.,91,107,LOC
-p4433_2,Greek,123,128,PER
-p4433_2,Maloeis,139,146,PER
-p4433_2,Maleventum,351,361,PER
-p4433_2,Beneventum,520,530,PER
-p4433_2,Maleventũ,556,565,PER
-p3816_3,Libella,23,30,PER
-p3816_3,Circulus,196,204,PER
-p3816_3,V. Forc.,339,347,PER
-p4479_3,Orell,1064,1069,PER
-p3390_1,Crusca,476,482,PER
-p3390_1,{alborotto,486,496,PER
-p502_1,Vivitur,530,537,PER
-p57_2,Cecco da Varlungo,118,135,PER
-p3695_1,Forcell,336,343,PER
-p4135_4,Longinum,60,68,PER
-p4190_7,Ranarum Aristophanis,37,57,PER
-p4190_7,Pacis Aristophan,89,105,PER
-p2354_1,Dei,285,288,PER
-p2354_1,Dei,595,598,PER
-p2354_1,Virgilio,632,640,LOC
-p2354_1,Memorab,771,778,PER
-p4122_12,Mad,86,89,PER
-p4122_12,Beritola,91,99,PER
-p2982_1,Iliade,669,675,PER
-p4092_1,Vecchiezza,850,860,PER
-p2349_1,Venere,427,433,LOC
-p2152_2,Grammaire,279,288,PER
-p2152_2,Orthograph,350,360,PER
-p2152_2,Clypeus,410,417,PER
-p2302_1,Lamia,36,41,PER
-p2302_1,Lammia,252,258,PER
-p2302_1,Lammie,534,540,PER
-p2302_1,Gentili,554,561,PER
-p2302_1,Lammie,654,660,PER
-p2302_1,Lamia,1461,1466,PER
-p2302_1,Lamia,1983,1988,PER
-p2302_1,Lamia,2094,2099,PER
-p2302_1,Lammia,2355,2361,PER
-p2302_1,Lammia,2471,2477,PER
-p2302_1,Fata,2633,2637,PER
-p2302_1,Fata,2685,2689,PER
-p2302_1,V.,2922,2924,PER
-p2302_1,Fatum,2942,2947,PER
-p3317_1,Iul,56,59,LOC
-p1043_1,Greci,446,451,PER
-p4117_1,Longin,136,142,PER
-p3994_1,Nigellus,14,22,PER
-p3994_1,Tenellus,273,281,PER
-p3994_1,Claud,460,465,PER
-p3994_1,Mamert.,467,474,PER
-p3826_3,Forcell,46,53,PER
-p3826_3,Mansum,432,438,PER
-p4112_4,Descansado,0,10,PER
-p4112_4,Novelas,60,67,PER
-p4112_4,Milan.,80,86,PER
-p3071_1,Dompter,0,7,PER
-p3071_1,de Rep,132,138,PER
-p3071_1,Veggasi,217,224,PER
-p593_2,Paradox,168,175,PER
-p3881_3,Imbuo,733,738,PER
-p3868_1,Tono,117,121,PER
-p3868_1,Crepo,139,144,PER
-p3868_1,Forcell,1124,1131,PER
-p3868_1,V. Forc,1430,1437,PER
-p158_1,Frigidus,165,173,PER
-p3742_3,Perocch'ella,1389,1401,PER
-p724_1,Sorbonae,104,112,LOC
-p144_1,Arcadia,2614,2621,LOC
-p3438_1,palazzo Lucernari,977,994,LOC
-p3438_1,Pensieri,1240,1248,PER
-p2740_1,Cadmeo,4237,4243,PER
-p2740_1,Fenicio,4246,4253,PER
-p4093_4,Retinere,0,8,PER
-p2995_1,Crusca,393,399,PER
-p1145_1,Laonde,660,666,PER
-p1281_3,V. Johannis Buxtorfii Lex,483,508,PER
-p1281_3,Chaldaicum Talmudicum,510,531,PER
-p1281_3,‎‏וֹיּהּ‏‎,569,577,PER
-p1281_3,Basileę,579,586,PER
-p1281_3,silva,1419,1424,PER
-p1281_3,Sylva,1716,1721,PER
-p1281_3,Hyle,1789,1793,PER
-p3797_1,Veggansi,1917,1925,PER
-p3797_1,Dei,2230,2233,PER
-p4145_3,Mordiller,0,9,PER
-p4042_1,Guicc.,32,38,PER
-p989_1,Attico,97,103,LOC
-p979_1,R. S. Acroasis,942,956,PER
-p979_1,Pisis,971,976,PER
-p979_1,Prosperi,978,986,PER
-p3596_1,Gerusalemme,105,116,LOC
-p3596_1,Colle,2725,2730,PER
-p3596_1,monte Oliveto,3080,3093,LOC
-p3596_1,Angeli,3985,3991,PER
-p3596_1,Beati,3998,4003,PER
-p1084_1,Don Chisciotte,487,501,PER
-p1084_1,Rivoluz,784,791,PER
-p1084_1,Spagna,796,802,LOC
-p1084_1,Réflex,880,886,PER
-p1630_2,Danischmend,168,179,PER
-p1630_2,Fanfani,281,288,PER
-p3985_2,Mentar,909,915,PER
-p4492_7,Pindem,394,400,PER
-p3960_2,Tovaglia,36,44,PER
-p3960_2,D. Quijote,99,109,PER
-p1155_4,Andrès,917,923,PER
-p4214_3,Notisi,662,668,PER
-p4154_5,V. Crus.,55,63,PER
-p4154_5,Forc,66,70,PER
-p4154_5,Gloss,74,79,PER
-p1014_2,Andrès,95,101,PER
-p1014_2,Andrès,383,389,PER
-p4257_8,Falco,0,5,PER
-p4257_8,faucon,8,14,PER
-p4257_8,Forcell,38,45,PER
-p4257_8,Flocon,103,109,PER
-p4257_8,Violette,111,119,PER
-p4414_3,Batracomiomachia,454,470,PER
-p4414_3,Schweigh.,635,644,PER
-p4414_3,Schweigh.,732,741,PER
-p4127_9,suite des Ruines,768,784,LOC
-p4127_9,Les Ruines,786,796,LOC
-p4411_2,J. des Savans,436,449,PER
-p2809_1,V. Forcell,230,240,PER
-p2809_1,Crusca,1011,1017,PER
-p2809_1,Gio,1086,1089,PER
-p2809_1,Venez,1349,1354,PER
-p2809_1,Venez.,1530,1536,PER
-p2809_1,Crusca,1625,1631,PER
-p2809_1,Monferrato,1700,1710,LOC
-p3472_1,Sofisti,2177,2184,PER
-p3472_1,Cinegetico,2528,2538,PER
-p3558_2,Forcell,668,675,PER
-p4116_1,Laus,69,73,PER
-p4214_4,Perocch',1169,1177,PER
-p456_1,Romano,48,54,PER
-p456_1,Romano,476,482,PER
-p1790_1,Napoletano,100,110,PER
-p1352_1,Laonde,508,514,PER
-p2734_1,V.,253,255,PER
-p2734_1,S. Atanas,340,349,PER
-p399_1,Dio,319,322,PER
-p399_1,Genesi,1153,1159,PER
+p4103_5,Guicc.,30,36,PER
+p4103_5,Giovanni Battista,160,177,PER
+p480_1,Heinsio,405,412,PER
 p109_1,Baggeo,0,6,PER
 p109_1,Frontone,615,623,LOC
-p3571_2,V. Forc,132,139,PER
-p3571_2,Iul,190,193,LOC
-p3571_2,Caes.,195,200,PER
-p3571_2,V. Forcell,1738,1748,PER
-p3571_2,Spero,1753,1758,PER
-p606_1,Gradazione,357,367,PER
-p606_1,Dio,1109,1112,PER
-p983_2,Trévoux,189,196,PER
-p2255_1,Vita Virgilii,409,422,PER
-p4435_1,Mariandini,183,193,PER
-p4435_1,Bῶρμον,317,323,PER
-p4435_1,Dalech,781,787,PER
-p4435_1,Fabric,824,830,PER
-p4435_1,Casaub,966,972,PER
-p980_1,Romania,156,163,LOC
-p980_1,Romaneski,239,248,PER
-p980_1,Dacia,345,350,LOC
-p4122_10,Vilipeso,0,8,PER
-p4122_10,Crusca,28,34,PER
-p4000_1,Petrarca Canz,450,463,LOC
-p3344_1,Jul,429,432,PER
-p489_1,Romano,273,279,PER
-p4153_5,Labruyère,181,190,PER
-p884_1,Maius.,532,538,PER
-p884_1,Maius.,658,664,PER
-p3158_1,Niuno,681,686,PER
-p1365_1,Odiss,713,718,PER
-p1365_1,Pindemonte,724,734,LOC
-p4473_5,Patrimon,61,69,LOC
-p3736_2,Exuo,191,195,PER
-p3736_2,Induo,197,202,PER
-p3736_2,Vestire,285,292,PER
-p3736_2,Spogliato,294,303,PER
-p3736_2,Spoglio,307,314,PER
-p3736_2,Vestito,317,324,PER
-p95_2,Tevere,96,102,LOC
-p95_2,Euseb,720,725,PER
-p1444_1,Minerva,106,113,LOC
-p4524_9,Apolog,71,77,PER
-p4524_9,A.,148,150,PER
-p1402_1,Galileo,675,682,LOC
-p4299_1,Astii,383,388,PER
-p666_1,Mad,232,235,PER
-p666_1,Mme,476,479,PER
-p511_2,Floro,20,25,LOC
-p511_2,Gracchus,92,100,PER
-p511_2,Quum,256,260,PER
-p511_2,Aventinum,267,276,PER
-p511_2,C. Gracchus,292,303,PER
-p511_2,Forcellini,1021,1031,LOC
-p511_2,Crusca,1759,1765,PER
-p511_2,Melibea,1846,1853,PER
-p511_2,Mons,1888,1892,PER
-p511_2,Venetia,1907,1914,PER
-p511_2,Fuggiam,1929,1936,PER
-p511_2,Dufresne,2104,2112,PER
-p3702_3,V. Forcell,232,242,PER
-p3702_3,Adoleo,247,253,LOC
-p3702_3,Forcell,771,778,PER
-p270_3,D'Argens,679,687,PER
-p270_3,Laonde,998,1004,PER
-p1789_1,Angelica,439,447,PER
-p4036_10,Fedone,712,718,PER
-p4454_1,Taurasiam,130,139,PER
-p4454_1,Cesaunam,141,149,PER
-p4454_1,Aleriam,151,158,PER
-p4454_1,Scipio,215,221,PER
-p4454_1,Barbatus,415,423,PER
-p4454_1,Gnaivo,443,449,PER
-p4454_1,Calatinus,1034,1043,LOC
-p4454_1,Cicero de Senectute,1123,1142,PER
-p112_1,Clem,163,167,LOC
-p112_1,Dio,341,344,PER
-p211_3,Pietrino,1117,1125,PER
-p3062_3,Desbillons loc,68,82,LOC
-p3062_3,Desbill,203,210,PER
-p3062_3,Niuno,484,489,PER
-p4010_5,Perizonio,1273,1282,PER
-p4010_5,Eusebio,1529,1536,PER
-p4010_5,Fedone,1566,1572,PER
-p4010_5,Fenice,1809,1815,LOC
-p4400_1,Vindobonae,97,107,PER
-p1012_1,Andrès,518,524,PER
-p4112_1,Crusca,167,173,PER
-p4112_1,Forcell,185,192,PER
-p4136_1,V. Toup.,18,26,PER
-p4136_1,Longin,30,36,PER
-p961_1,B. Ital,515,522,PER
-p961_1,Omero,1325,1330,LOC
-p961_1,Hecatęum Milesium,1473,1490,PER
-p961_1,Herodotus,1513,1522,PER
-p961_1,Porphyr,1538,1545,PER
-p961_1,B. G. II.,1633,1642,PER
-p961_1,Cneium Pompeium,1854,1869,PER
-p961_1,Fabric.,1878,1885,PER
-p1142_3,Glossari,894,902,PER
-p1142_3,Moretum,1379,1386,PER
-p1142_3,Severo,1458,1464,PER
-p1142_3,Falisco,1472,1479,PER
-p1142_3,Celeo,1608,1613,PER
-p1142_3,Forcell,2360,2367,PER
-p3006_1,Suso,7,11,PER
-p3006_1,Susum,83,88,PER
-p4016_2,V. Forcell.,115,126,PER
-p4016_2,San Germano,273,284,PER
-p4016_2,Guicc.,793,799,PER
-p4068_6,Laurel,23,29,PER
-p4068_6,Laurel,40,46,PER
-p4068_6,Laurellus,128,137,PER
-p4068_6,Abortus,141,148,PER
-p4068_6,Mercordì Santo,182,196,PER
-p1393_1,Lucianee,1638,1646,PER
-p1393_1,Iliaci,1668,1674,PER
-p1393_1,Testor,1710,1716,PER
-p1393_1,Danaum,1772,1778,PER
+p501_1,Suida,321,326,PER
+p88_1,Corinna,143,150,PER
+p88_1,Corinna,329,336,PER
+p1965_1,France,218,224,PER
+p4201_1,Anguillara,27,37,LOC
+p3988_2,Gramm,56,61,PER
+p3988_2,Lips.,75,80,PER
+p3988_2,Forcell,215,222,PER
+p3988_2,Dium,227,231,LOC
+p2923_3,Terentia,462,470,PER
+p2923_3,Forcell,552,559,PER
+p2923_3,Belle,564,569,LOC
+p4229_4,Dio,2385,2388,PER
+p4229_4,Loreto,2644,2650,LOC
+p3996_4,V. Forc,139,146,PER
+p4227_4,Varchi,42,48,LOC
+p4227_4,Ercolano,50,58,LOC
+p4227_4,Venez.,60,66,LOC
+p3735_1,V. Forc,62,69,PER
+p3735_1,Ruo,227,230,PER
+p3735_1,Ruta caesa,241,251,LOC
+p3735_1,Parnas.,575,582,PER
+p21_5,Longino,8,15,PER
+p21_5,Longino,2471,2478,PER
+p473_2,Artageram,77,86,PER
+p4282_8,Culter,0,6,PER
+p4282_8,V. Forcell.,55,66,PER
+p4282_8,Spagnuoli,72,81,PER
+p4232_3,Athenae,105,112,LOC
+p3005_2,Crusca,765,771,PER
 p4475_2,Goffredo,245,253,PER
 p4475_2,Lusiadi,298,305,PER
-p883_1,Barbari,234,241,PER
-p883_1,Barbari,556,563,PER
-p883_1,Troiani,822,829,PER
-p883_1,Cambridge,871,880,PER
-p2324_1,Adsalio,444,451,PER
-p2324_1,Adsalitura,473,483,PER
-p2324_1,Adsaltura,488,497,PER
-p4239_2,V. Crusca,56,65,PER
-p3876_1,Ella,1442,1446,PER
-p2660_2,Arcadi,155,161,PER
-p1108_2,Forcell,607,614,PER
-p2804_1,Tebe,2200,2204,PER
-p2804_1,Ella,2323,2327,PER
-p4406_2,Finnland und seine Bewohner,716,743,PER
-p4406_2,Streifereyen unter den Calmucken,957,989,PER
-p3020_2,Vedilo,810,816,PER
-p4119_7,Porzio,78,84,LOC
-p4119_7,Congiura de' Baroni,86,105,PER
-p2460_1,Rob,1113,1116,PER
-p2460_1,Venez.,1265,1271,PER
-p2460_1,Giananton,1300,1309,PER
-p2460_1,V.a' Lettori,1609,1621,PER
-p2460_1,Venez.,1711,1717,PER
-p2460_1,Firenzuola,1890,1900,LOC
-p2460_1,Alamanni,2002,2010,LOC
-p4197_3,Galba,54,59,PER
-p4193_1,Photius,131,138,PER
-p4193_1,Biblioth,140,148,PER
-p198_1,Du je,32,37,PER
-p198_1,I.,4660,4662,PER
-p1023_2,Virgilio,262,270,LOC
-p1023_2,Andrès,425,431,PER
-p41_2,Alfieri},179,187,PER
-p2608_2,Catil.,11,17,PER
-p2608_2,Maria montesque polliceri,25,50,PER
-p13_3,Lorenzo Mascheroni,65,83,PER
-p13_3,Ugo di Bassville,97,113,PER
-p4049_3,Fante,0,5,PER
-p4049_3,Crus.,349,354,PER
-p4049_3,V.,1571,1573,PER
-p4049_3,V.,1729,1731,PER
-p4049_3,Pindemonte,1798,1808,LOC
-p4152_5,Memorab,142,149,PER
-p4483_2,Canz,201,205,PER
-p4483_2,Pretto,349,355,PER
-p2650_1,Galli,345,350,PER
-p2650_1,Maffei,478,484,LOC
-p2650_1,Veneto,500,506,LOC
-p2650_1,Veneto,719,725,LOC
-p2650_1,Venete,858,864,LOC
-p2650_1,Pronus,1176,1182,PER
-p2650_1,Torrente,1458,1466,PER
-p2650_1,Latina,2101,2107,LOC
-p2650_1,Putto,2135,2140,PER
-p2650_1,Mantovani,2230,2239,PER
-p4255_5,Guicciard,103,112,PER
-p4255_5,Forcell,238,245,PER
-p4255_5,V. Toupio,293,302,PER
-p4255_5,Longin,306,312,LOC
-p3340_1,Louis catorze,60,73,PER
-p3340_1,Iul,184,187,PER
-p3340_1,Caes.,189,194,PER
-p540_1,Lael,1334,1338,PER
-p79_1,Corinne,237,244,PER
-p4197_2,Bimulus,33,40,PER
-p4197_2,V. Forcell,65,75,PER
-p1741_2,Mad,1296,1299,PER
-p3989_1,du Roi,497,503,PER
-p4211_3,Marco Monaco,208,220,PER
-p4211_3,Male lo Schotto,456,471,PER
-p1033_3,Spagnuolo,948,957,PER
-p1033_3,Andrès,1294,1300,PER
-p1033_3,Ann,1395,1398,PER
-p1033_3,Sc,1403,1405,PER
-p2245_1,Curii,564,569,PER
-p2245_1,Catoni[,581,588,PER
-p2245_1,Cato Maior,589,599,PER
-p2245_1,Cato Minor,601,611,PER
-p2582_1,Satira,41,47,PER
+p1043_1,Greci,446,451,PER
+p4004_5,Setola,0,6,PER
+p3852_5,Forcell,192,199,PER
+p342_2,Giove,320,325,LOC
+p4246_1,Spino,156,161,PER
+p4246_1,Mauro,218,223,PER
+p1961_2,Scalda,96,102,PER
+p1961_2,Andrès,108,114,PER
+p1961_2,Scaldi,181,187,PER
+p2138_1,Forc,369,373,PER
+p4248_8,V. Crusca,24,33,PER
+p1447_3,Vit,408,411,PER
+p2384_1,Omero,676,681,LOC
+p520_1,Lucano,2580,2586,LOC
+p3682_1,Lupo,480,484,PER
+p4382_1,Pindem,111,117,PER
+p4382_1,Carmina Homerica,230,246,PER
+p4382_1,Prolegomena,248,259,PER
+p4030_5,Faventia,0,8,LOC
+p4030_5,Faenza,11,17,LOC
+p4030_5,Guicc.,49,55,PER
+p4030_5,Faventini,75,84,PER
+p4030_5,Fayence,100,107,LOC
+p4030_5,Faenza,112,118,LOC
+p4030_5,Faventia,152,160,LOC
+p2709_1,Danischmend,1336,1347,PER
+p4124_7,Apollon,19,26,PER
+p4124_7,Dyscol,28,34,PER
+p4124_7,Histor,36,42,PER
+p943_1,Rèmusat,716,723,PER
+p239_2,Latina,220,226,LOC
+p239_2,Numidica,2724,2732,PER
+p239_2,Mad,3560,3563,PER
+p239_2,Laonde,4466,4472,PER
+p4219_1,Phyth,590,595,PER
+p4219_1,Versio Andreae Schotti,1355,1377,PER
+p4219_1,Antiquissimos,2224,2237,PER
+p4219_1,διακαϑαίρειν,3266,3278,PER
+p4046_3,Sui,433,436,LOC
+p4046_3,V.,458,460,PER
+p553_2,Germani,893,900,PER
+p595_1,Crusca,136,142,PER
+p595_1,Tite,241,245,PER
+p4126_1,Forcell,137,144,PER
+p63_4,belle Amadriadi,226,241,LOC
+p63_4,Pane,266,270,PER
+p4025_5,Crusca,53,59,PER
+p4025_5,D. Quij,216,223,PER
+p3494_1,Dei,441,444,PER
+p3494_1,Forcell,1512,1519,PER
+p3494_1,Nympha,1683,1689,LOC
+p3494_1,Pani,1977,1981,PER
+p3494_1,V. Forcell,2011,2021,PER
+p3494_1,Indigetes,2033,2042,PER
+p3494_1,Semideus,2044,2052,PER
+p3494_1,Astii,2080,2085,PER
+p3494_1,V.,2141,2143,PER
+p4122_6,Recanati,60,68,LOC
+p205_1,Caroso,130,136,PER
+p4102_5,Recanati,592,600,LOC
+p3080_2,gramm,1759,1764,PER
 p4482_2,Orell,624,629,PER
 p4482_2,Apophthegm,903,913,PER
 p4482_2,Ebraeor,915,922,PER
@@ -494,145 +105,379 @@ p4482_2,Franequerae,955,966,PER
 p4482_2,Quodam,976,982,PER
 p4482_2,Cur,1000,1003,PER
 p4482_2,Orell,1128,1133,PER
-p64_3,Cremona Manini,61,75,PER
+p4062_3,Lucian,42,48,PER
+p1760_1,Rocca,550,555,LOC
+p1760_1,Pirotta,574,581,PER
+p1858_1,Copernico,20,29,LOC
+p1858_1,Samo,305,309,LOC
+p3169_1,Santa Chiara,109,121,PER
+p4140_3,Crus,26,30,PER
+p4140_3,Entendu,32,39,PER
+p4140_3,Canz,136,140,PER
+p4163_9,Augustin de Roxas,132,149,PER
+p4153_2,Forcell,18,25,PER
+p1028_3,Andrès loc,47,57,PER
+p981_1,Longin.,362,369,LOC
+p981_1,Alexandr,814,822,PER
+p981_1,Bonon,854,859,PER
+p981_1,typis Laelii,861,873,PER
+p981_1,Vulpe,876,881,PER
+p981_1,Johannis Aloysii Mingarellii,919,947,PER
+p981_1,Mons,986,990,PER
+p981_1,dai Romani,1788,1798,PER
+p981_1,Romani,2535,2541,PER
+p981_1,Greci,2613,2618,PER
+p212_3,De la délicatesse,346,363,PER
+p697_1,Crusca,240,246,PER
+p697_1,Crusca,412,418,LOC
+p3702_2,Adoleo,0,6,PER
+p3702_2,Adoleo,93,99,LOC
+p3595_1,Gerusalemme,61,72,LOC
+p3595_1,Gerusalemme,982,993,LOC
+p3595_1,Gerusalemme,1285,1296,LOC
+p3595_1,Gerusalemme,1515,1526,LOC
+p3595_1,Eroi,2032,2036,PER
+p3060_2,Forcell,79,86,PER
+p1153_1,Caveo,519,524,PER
+p1153_1,V.,625,627,PER
+p4478_1,Dei,28,31,PER
+p4478_1,Omero,63,68,LOC
+p206_3,Laerz,84,89,PER
+p9_2,Horace,1447,1453,PER
+p4010_4,Crusca,379,385,PER
+p3577_1,Mons,728,732,PER
+p4196_1,Irrepo,143,149,PER
+p3761_2,V. Forcell,235,245,PER
+p2987_1,Bastian Borrego,215,230,PER
+p4177_3,Notisi,155,161,PER
+p4030_9,Settuagesima,178,190,PER
+p3960_2,Tovaglia,36,44,PER
+p3960_2,D. Quijote,99,109,PER
+p2715_1,Degli Scritt,11,23,PER
+p3058_1,Varsavia,249,257,LOC
+p3058_1,Milano,299,305,LOC
+p2821_3,Forcell,1172,1179,PER
+p4326_2,Omero,24,29,LOC
+p942_1,Scien,122,127,LOC
+p942_1,Traduz,179,185,PER
+p942_1,Leu-Lee,200,207,LOC
+p942_1,Rèmusat,347,354,PER
+p942_1,Abel,1563,1567,PER
+p942_1,Rèmusat,1568,1575,PER
+p942_1,Panthéon Chinois,1807,1823,PER
+p942_1,Préface,1845,1852,PER
+p942_1,Hammer,2029,2035,PER
+p4183_2,V. Casaub,191,200,PER
+p4183_2,Athenae,205,212,LOC
+p4183_2,V. Casaub,873,882,PER
+p4041_6,Senof,185,190,LOC
+p4041_6,Cineg,196,201,PER
+p4519_3,Pontedera,592,601,LOC
+p4519_3,Iulii,603,608,LOC
+p4519_3,Trojanos Graecorum,871,889,PER
+p3797_1,Veggansi,1917,1925,PER
+p3797_1,Dei,2230,2233,PER
+p4180_1,Athenae,53,60,LOC
+p4007_6,V. Scap.,39,47,PER
+p324_5,Fabricio,764,772,PER
+p3984_1,V. Forc,37,44,PER
+p2360_1,Extremus,0,8,PER
+p1346_2,Aegle,350,355,LOC
+p1346_2,Virg,357,361,LOC
+p4110_4,Visitazione di Maria Vergine Santissima,260,299,LOC
+p4092_1,Vecchiezza,850,860,PER
+p4467_2,Anabasi,29,36,PER
+p4151_8,Tero,0,4,PER
+p4151_8,V. Forcell.,32,43,PER
+p2865_1,Crusca,440,446,PER
+p3624_2,Fuam.,222,227,PER
+p993_1,Gallie,1084,1090,PER
+p993_1,Cesena,1290,1296,LOC
+p993_1,Scozzesi,1379,1387,PER
+p993_1,Bardi,1645,1650,PER
+p993_1,Romani,1732,1738,PER
+p993_1,Sascrita,3640,3648,PER
+p2355_2,Lecator,2257,2264,PER
+p2355_2,Licator,2279,2286,PER
+p1_4,Giove,84,89,LOC
+p3071_1,Dompter,0,7,PER
+p3071_1,de Rep,132,138,PER
+p3071_1,Veggasi,217,224,PER
+p1366_1,Bocc,27,31,PER
+p1366_1,Frullone,571,579,PER
+p1366_1,Omero,684,689,LOC
+p601_2,Cato,5,9,PER
+p4239_2,V. Crusca,56,65,PER
+p2350_2,Traherent,361,370,PER
+p2350_2,Admoneat,398,406,PER
+p3986_1,Memini,527,533,PER
+p3967_1,Ippocrate,305,314,LOC
+p4101_5,Terent,83,89,LOC
+p4101_5,Davus,129,134,PER
+p4101_5,Lucian,230,236,PER
+p966_2,Niuna,312,317,PER
+p453_2,Dei,299,302,PER
+p453_2,Dei,538,541,PER
+p1848_1,Arabi,372,377,LOC
+p1848_1,Sirac,460,465,PER
+p1848_1,Lucano,833,839,LOC
+p2982_1,Iliade,669,675,PER
+p3835_1,Prussia,201,208,LOC
+p1179_1,Chinesi,2060,2067,PER
+p4046_4,Nettuno,98,105,LOC
+p4046_4,Polifemo,108,116,PER
+p4046_4,Sui,224,227,PER
+p4046_4,Sum.,235,239,PER
+p3247_1,Mad,4011,4014,PER
+p4144_4,Eunuch,318,324,PER
+p4144_4,Pio Clem,377,385,PER
+p4165_4,Versio Camerarii,248,264,PER
+p4150_1,V. Forc,323,330,PER
+p4150_1,Gloss,334,339,PER
+p3896_1,Aristot,121,128,LOC
+p3896_1,Aristot,203,210,LOC
+p3704_1,Abluo,2688,2693,PER
+p3704_1,Diluo,2696,2701,PER
+p3704_1,Veggasi,2711,2718,PER
+p4510_1,Lampasco,982,990,PER
+p4165_16,de Idololat.,70,82,PER
+p86_1,Corinne,15,22,PER
+p3997_3,marg,14,18,LOC
+p13_1,Ato,348,351,PER
+p13_1,Rodope,357,363,PER
+p13_1,Capo,443,447,PER
+p13_1,Dio,495,498,PER
+p13_1,Nettuno,916,923,LOC
+p13_1,Greco,1087,1092,PER
+p13_1,Dio,1139,1142,PER
+p13_1,Dio,2288,2291,PER
+p2199_1,Vedilo,518,524,PER
+p2199_1,Musso,528,533,PER
+p2199_1,Mutio,535,540,PER
+p2199_1,Mutitus,542,549,PER
+p2199_1,Mussitare,551,560,PER
+p2199_1,Mussare,601,608,PER
+p2199_1,Mutire,652,658,PER
+p2009_1,Fluxus,193,199,PER
+p1176_2,Suida,654,659,PER
+p3357_3,μελετάω,444,451,LOC
+p3357_3,Μελετάω,546,553,PER
+p4241_2,Spruzzolare,0,11,PER
+p4241_2,Svolticchiare,29,42,PER
 p1140_1,Teucri,400,406,PER
 p1140_1,Iactabant,2341,2350,PER
 p1140_1,Spargebant,2352,2362,PER
-p4121_6,Ateniesi,31,39,PER
-p4148_12,Enfantiller,0,11,PER
-p4148_12,Fendiller,199,208,PER
-p4148_12,Fendiller,330,339,PER
-p3620_2,Gracchi,121,128,PER
-p1011_2,Normanni,278,286,PER
-p1011_2,Andrès,288,294,PER
-p1011_2,Andrès,659,665,PER
-p1121_1,Grammaire,1949,1958,PER
-p2876_2,Alipes,924,930,PER
-p2876_2,Apuleio,1206,1213,LOC
-p2876_2,Vitruvio,1235,1243,LOC
-p2876_2,Marziano Capella,1265,1281,LOC
-p2876_2,Plinio,1336,1342,LOC
-p2876_2,Vitruvio,1498,1506,LOC
-p2876_2,bijugus,1557,1564,PER
-p2876_2,bijugis,1567,1574,PER
-p2876_2,Forcell,2567,2574,PER
-p2258_2,V.,385,387,PER
-p303_1,Laerz,163,168,PER
-p303_1,Bione,173,178,LOC
-p2654_1,Codicis,0,7,PER
-p2654_1,Vatic,11,16,PER
-p2654_1,Hinc,231,235,PER
-p2654_1,S. Paul,744,751,PER
-p2654_1,Maius,985,990,PER
-p2654_1,Tulli Cic,995,1004,PER
-p2654_1,Maio Vaticanae Bibliothecae,1051,1078,PER
-p4076_3,Cristiano,2001,2010,PER
-p4076_3,Cristiano,2059,2068,PER
-p4076_3,Cristiano,2315,2324,PER
-p4076_3,Eterno,2385,2391,PER
-p4076_3,Angelo,2423,2429,PER
-p4076_3,Museo Vaticano,2680,2694,LOC
-p4076_3,Venere,2779,2785,LOC
-p4076_3,Mercurio,2790,2798,LOC
-p4076_3,de' Morti,3750,3759,PER
-p2226_2,Dufresne pactibus,300,317,PER
-p2226_2,Cistellaria,341,352,PER
-p2226_2,Pactus,411,417,PER
-p2226_2,Exceptuare,807,817,PER
-p1671_1,Lusiade,1099,1106,PER
-p1671_1,Gerusalemme,1137,1148,LOC
-p1671_1,Goffredo,1343,1351,PER
-p1858_1,Copernico,20,29,LOC
-p1858_1,Samo,305,309,LOC
-p1962_1,De l'Allemagne,2141,2155,PER
-p4170_9,Crus,21,25,PER
-p4170_9,V. Crus.,73,81,PER
-p4170_9,Matteo,145,151,PER
-p4170_9,Taddeo,153,159,PER
-p2325_1,Volgus,0,6,PER
-p2589_1,Aristidi,2352,2360,PER
-p4491_2,Pensées,313,320,PER
-p4491_2,Amsterd.,354,362,PER
-p2344_2,Heinsio,471,478,PER
-p2344_2,Praetento nel Forcell,1105,1126,PER
-p4399_1,Journ,314,319,PER
-p4399_1,des savans,321,331,PER
-p4399_1,Juillet.,347,355,PER
-p28_1,Sonetti,270,277,PER
-p4140_10,Phormionis,179,189,PER
-p4140_10,V. Plat.,191,199,PER
-p4140_10,Astii,204,209,PER
-p3_5,Merope,806,812,PER
-p4302_1,Pisa,412,416,PER
-p1297_1,G. C.,449,454,PER
-p1435_1,Lombarde,479,487,LOC
-p1435_1,Becco,1420,1425,PER
-p1435_1,Capro,1443,1448,PER
-p2076_2,Quassare,20,28,PER
-p2076_2,V. Forcell,1058,1068,PER
-p2076_2,Forcell,1332,1339,PER
-p2076_2,Gloss,1440,1445,PER
-p4479_2,Werther,496,503,PER
-p4479_2,Paolo,538,543,PER
-p4479_2,Virginia,546,554,PER
-p4009_1,Fragola,30,37,PER
-p4009_1,Gloss,63,68,PER
-p4009_1,Ugola,90,95,PER
-p4120_16,Lucian.,40,47,PER
-p4481_1,Laerz.,705,711,PER
-p4481_1,Corinne,1182,1189,PER
-p3069_1,Regnier Desmarais,12,29,PER
-p4163_5,Progymnasm,216,226,PER
-p4163_5,Basileae,254,262,PER
-p3956_2,Spagnuolo,18,27,PER
-p3956_2,Quizà,81,86,PER
-p3956_2,Pretto,226,232,PER
-p4121_1,Crusca,24,30,PER
-p4121_1,Mil.,104,108,PER
+p2624_2,Pontedera,70,79,LOC
+p2624_2,Patav,150,155,PER
+p2624_2,typis Seminarii,165,180,PER
+p2624_2,B. V. Addolorata,242,258,PER
+p472_1,Eiusque,262,269,PER
+p472_1,Velleiano,348,357,PER
+p472_1,V.,522,524,PER
+p4494_1,Londr.,893,899,PER
+p4226_1,V. Mannuccii Adagia,175,194,PER
 p4356_2,Furioso,654,661,PER
-p4275_1,Émile,389,394,PER
-p3245_1,Mad,899,902,PER
-p342_2,Giove,320,325,LOC
-p4465_6,Preivernum,222,232,PER
-p4465_6,Piperno,253,260,PER
-p4465_6,Volsci,279,285,LOC
-p3762_1,Sulla,73,78,PER
-p3762_1,Sylla Symmachus,81,96,PER
-p3762_1,Ambros,108,114,PER
-p3762_1,V. Forcell.,156,167,PER
-p4300_5,Frugolare,10,19,PER
-p4300_5,Malm,21,25,PER
-p4300_5,Spruzzolo,69,78,PER
-p4300_5,Satira,89,95,PER
-p2974_3,Ructus,268,274,PER
-p2974_3,Eructo,851,857,LOC
-p4219_1,Phyth,590,595,PER
-p4219_1,Versio Andreae Schotti,1355,1377,PER
-p4219_1,Antiquissimos,2224,2237,PER
-p4219_1,διακαϑαίρειν,3266,3278,PER
-p4509_3,Nutrīcare,14,23,PER
-p4509_3,Crusca,490,496,PER
-p4509_3,Romitonzolo,500,511,PER
-p4509_3,Rapulum,666,673,PER
-p4509_3,Raponzolo,759,768,PER
-p4509_3,Raiponce,987,995,PER
-p4509_3,Sucer,1026,1031,PER
-p3905_1,Veggasi,414,421,PER
-p3905_1,Ella,440,444,PER
-p3905_1,V. Victor,2214,2223,PER
-p1927_2,Eneide,2662,2668,PER
-p3607_1,Eroe,513,517,PER
-p3607_1,Eroe,3167,3171,PER
-p3607_1,Eroe,3448,3452,PER
-p943_1,Rèmusat,716,723,PER
+p1078_1,Enea,1036,1040,LOC
+p3400_1,Danese,1026,1032,PER
+p3400_1,Alemagna,1089,1097,PER
+p4405_1,Argentoraten,174,186,PER
+p4405_1,Schweighaeuser,218,232,PER
+p4379_1,Wolfio,161,167,PER
+p4379_1,Tisameno Orestis,377,393,PER
+p4379_1,Doriesi,799,806,PER
+p4379_1,Greco,841,846,PER
+p4379_1,Prolegom,2181,2189,PER
+p4379_1,Homerum,2194,2201,PER
+p4379_1,Risposemi,3055,3064,PER
+p4414_3,Batracomiomachia,454,470,PER
+p4414_3,Schweigh.,635,644,PER
+p4414_3,Schweigh.,732,741,PER
+p1558_2,Vedilo,114,120,PER
+p28_3,Alcaici,157,164,PER
+p28_3,Simonidei,167,176,PER
+p28_3,Eroici,196,202,PER
+p28_3,Morali,205,211,PER
+p2368_1,Tristis,0,7,PER
+p4015_2,V. la Crusca,42,54,PER
+p4015_2,Forcell,334,341,PER
+p4015_2,Impransus,379,388,PER
+p3023_1,V. Forcell,42,52,PER
+p3023_1,Gloss,56,61,PER
+p3023_1,Nótisi,544,550,PER
+p3023_1,Venanz,571,577,PER
+p3023_1,Fortun,579,585,PER
+p3125_1,Romani,770,776,PER
+p3125_1,Lusiade,1060,1067,PER
+p3125_1,Enriade,1211,1218,PER
+p3125_1,Gerusalemme,1562,1573,LOC
+p3125_1,Goffredo,1901,1909,PER
+p3125_1,Dio,2680,2683,PER
+p3125_1,Tunisina,2994,3002,LOC
+p3125_1,Algerina,3005,3013,LOC
+p3125_1,Canz,3376,3380,PER
+p3125_1,Ateniesi,5530,5538,PER
+p3125_1,Spagna,5928,5934,LOC
+p3057_2,Crusca,21,27,PER
+p3057_2,Osbech,127,133,PER
+p3057_2,Crusca,191,197,PER
+p107_4,Arriano Stor,47,59,LOC
+p107_4,B. G.,292,297,PER
+p3625_1,Nótisi,20,26,PER
+p3625_1,Nótisi,281,287,PER
+p3625_1,Forcell.,967,975,PER
+p3625_1,Forcell,1376,1383,PER
+p3625_1,Gloss,1429,1434,PER
+p3625_1,Confundere,1439,1449,PER
+p3625_1,Corn,3878,3882,PER
+p3625_1,Le Fevre,3920,3928,PER
+p3625_1,de Phaedro,4000,4010,PER
+p3625_1,Greci,5428,5433,PER
+p4120_15,Lucian.,31,38,PER
+p4120_15,San Francesco di Assisi.,71,95,LOC
+p465_1,Brundisium,210,220,PER
+p465_1,Brundisii,316,325,PER
+p465_1,Brindisi,412,420,LOC
+p465_1,Burmanno,494,502,PER
+p465_1,Lugd,522,526,PER
+p465_1,Sam,543,546,PER
+p465_1,Luchtmans.,548,558,PER
+p3053_1,V. Forcell,260,270,PER
 p4499_6,Talus,0,5,PER
 p4499_6,Cipolla,24,31,PER
 p4499_6,V. Forcell.,284,295,PER
 p4499_6,Ceniza,300,306,PER
-p3768_1,Gerusalemme,424,435,LOC
-p3768_1,Lusiade,647,654,PER
-p3768_1,Enriade,685,692,PER
-p4182_6,Canz,92,96,PER
-p107_4,Arriano Stor,47,59,LOC
-p107_4,B. G.,292,297,PER
-p723_1,Dei,262,265,PER
+p270_3,D'Argens,679,687,PER
+p270_3,Laonde,998,1004,PER
+p2264_1,Aliquando,938,947,PER
+p2264_1,Vedilo,969,975,PER
+p62_3,Isso,26,30,LOC
+p62_3,Persiani,376,384,PER
+p15_1,Lod,75,78,LOC
+p15_1,Breme,83,88,LOC
+p15_1,Breme,1701,1706,LOC
+p15_1,Gravina,3481,3488,LOC
+p15_1,Breme,6774,6779,LOC
+p15_1,Dei,8223,8226,PER
+p4227_6,Barone N. N.,473,485,PER
+p4227_6,Hertzogenbrück,488,502,LOC
+p4227_6,Manini,552,558,PER
+p8_3,Cavalli,1576,1583,PER
+p8_3,Beca,1708,1712,PER
+p8_3,Nencia,1721,1727,PER
+p8_3,Barba,2041,2046,PER
+p1659_1,Empire,338,344,PER
+p2674_2,Apollonio,132,141,PER
+p144_1,Arcadia,2614,2621,LOC
+p4397_1,Morale,471,477,PER
+p4167_9,Applichisi,142,152,PER
+p2453_1,Corinne,1034,1041,PER
+p4010_5,Perizonio,1273,1282,PER
+p4010_5,Eusebio,1529,1536,PER
+p4010_5,Fedone,1566,1572,PER
+p4010_5,Fenice,1809,1815,LOC
+p4048_1,Ioni,170,174,PER
+p3390_1,Crusca,476,482,PER
+p3390_1,{alborotto,486,496,PER
+p4248_2,μοχϑηρος,0,8,PER
+p4248_2,Casaub,165,171,PER
+p4248_2,Athenae,176,183,LOC
+p4124_3,Laert.,111,117,PER
+p3117_1,Veggasi,1773,1780,PER
+p3117_1,Vedesi,2657,2663,PER
+p3687_1,Sella,0,5,PER
+p3687_1,Sella,375,380,PER
+p3687_1,Sella,410,415,PER
+p3687_1,v. la Crusca,432,444,PER
+p1790_1,Napoletano,100,110,PER
+p3135_1,Romani,499,505,PER
+p3135_1,Parlino,1004,1011,PER
+p4301_3,Lascerian,140,149,PER
+p4301_3,Sonetto,196,203,PER
+p43_5,V. Laerz.,430,439,PER
+p43_5,Gręc,521,525,PER
+p4281_3,Praefat,70,77,PER
+p4281_3,Dion.,82,87,PER
+p4281_3,Giovanni Leunclavio,97,116,PER
+p4281_3,Leunclavii Jus Graeco,227,248,PER
+p2247_1,Nocchiero,0,9,PER
+p2247_1,Nauclerus,139,148,PER
+p1150_3,Deor.,737,742,PER
+p1150_3,Menaechm.,947,956,PER
+p4148_1,Perticari,99,108,LOC
+p4148_1,Calcagna,145,153,PER
+p4148_1,Sacca,167,172,PER
+p1012_1,Andrès,518,524,PER
+p2996_1,V. Forcell,755,765,PER
+p2996_1,A,770,771,LOC
+p2996_1,V.,1115,1117,PER
+p2996_1,Aucupo,1667,1673,PER
+p2996_1,Nuncupo,1724,1731,PER
+p2996_1,Opitulo,2010,2017,PER
+p2996_1,Forcell,2116,2123,PER
+p2996_1,Tollo,2128,2133,LOC
+p2996_1,Forcell,2219,2226,PER
+p2796_2,Veggasi,2464,2471,PER
+p24_3,Longino,320,327,PER
+p24_3,Meco,925,929,PER
+p24_3,Canz,1234,1238,PER
+p24_3,Guisa,1286,1291,PER
+p24_3,Canz,2591,2595,PER
+p24_3,Elle,2635,2639,PER
+p24_3,Canz,2758,2762,PER
+p3642_1,V.,798,800,PER
+p3642_1,de Solìs,831,839,PER
+p1270_2,Etiopi,1011,1017,PER
+p2243_2,Enea,84,88,LOC
+p2243_2,Troia,528,533,PER
+p4158_8,Casaub,436,442,PER
+p4158_8,Aristides de Neptuno,789,809,PER
+p4158_8,Jebbii,827,833,PER
+p4158_8,Τhes,1763,1767,LOC
+p4158_8,Heraclid.,1778,1787,PER
+p4158_8,Charact.,1838,1846,PER
+p4158_8,Mantinea,1999,2007,PER
+p4158_8,Forcell,2738,2745,PER
+p32_4,Gręciappellant,3604,3618,PER
+p2202_2,Valesii,378,385,PER
+p2202_2,carmen,410,416,PER
+p2202_2,Valerii,418,425,PER
+p2477_1,Niuno,65,70,PER
+p4147_3,Caratt,96,102,PER
+p1789_1,Angelica,439,447,PER
+p2991_1,S,317,318,LOC
+p2991_1,Quaeso,332,338,PER
+p2991_1,Forcell,488,495,PER
+p2991_1,S,500,501,LOC
+p2991_1,Haesum,1496,1502,PER
+p2991_1,Forcell,1654,1661,PER
+p2991_1,Haereo,1663,1669,PER
+p4029_2,Colla,10,15,PER
+p4029_2,Gloss,101,106,PER
+p714_1,Mad,448,451,PER
+p3347_1,Gotha,4063,4068,PER
+p4240_1,Ipomone,305,312,PER
+p3964_3,Empedocle,1271,1280,LOC
+p3964_3,Omero,2553,2558,LOC
+p3964_3,Senofonte,4586,4595,PER
+p3964_3,Loreto,4723,4729,LOC
+p1061_4,Calvinista,20,30,PER
+p3709_1,Forc,497,501,PER
+p3709_1,Forc,580,584,PER
+p3709_1,Vivescere,618,627,LOC
+p4114_1,V. Scap.,47,55,PER
+p4148_4,Trottiner,0,9,PER
+p4148_4,Trévoux,108,115,PER
+p4148_4,Archéol,150,157,PER
+p3486_2,Dei,819,822,PER
+p208_1,sur les Eloges,157,171,PER
+p208_1,Thomas.,485,492,PER
+p4190_8,de Regno,124,132,PER
+p4190_8,A.,147,149,PER
+p4190_8,Morell,167,173,PER
+p2879_2,paonessa,1366,1374,PER
+p4151_7,V. Forc,53,60,PER
+p1120_1,Auctare,189,196,PER
+p1120_1,Mactare,304,311,PER
+p3298_6,Quieturus,104,113,PER
+p3298_6,Iul,144,147,LOC
+p3298_6,Caes.,149,154,PER
