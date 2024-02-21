@@ -2,7 +2,7 @@ import json
 import requests
 
 
-json_f = open("../people.json", "r", encoding="utf-8")
+json_f = open("people.json", "r", encoding="utf-8")
 data = json.load(json_f)
 json_f.close()
 
@@ -47,5 +47,5 @@ for item in data:
     item["labels"] = list(labels)
     output.append(item)
 
-out_f = open("../people_labels.json", "w", encoding="utf-8")
+out_f = open("people_labels.json", "w", encoding="utf-8")
 json.dump(output, out_f, indent=4, ensure_ascii=False)

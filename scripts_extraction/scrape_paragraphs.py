@@ -6,7 +6,7 @@ from tqdm import tqdm
 import re
 
 
-with open("../people.json", "r", encoding="utf-8") as f:
+with open("people.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 ps = set()
@@ -37,7 +37,7 @@ for p in ps:
         continue
 
 o_keys = output[0].keys()
-with open("../paragraphs.csv", "w", encoding="utf-8") as f:
+with open("paragraphs.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, o_keys)
     dict_writer.writeheader()
     dict_writer.writerows(output)

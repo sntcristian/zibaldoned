@@ -1,13 +1,12 @@
 import stanza
 import csv
 from tqdm import tqdm
-import re
 
 #load NER model 
 stanza.download('it')
 nlp = stanza.Pipeline('it', processors='tokenize,ner')
 
-with open("../test.csv", "r", encoding="utf-8") as f:
+with open("test.csv", "r", encoding="utf-8") as f:
     data = csv.DictReader(f)
     data = list(data)
 f.close()
@@ -17,7 +16,6 @@ entita_nominate = []
 for row in data:
     doc_id = row["id"]
     doc_txt = row["text"]
-    doc_txt = re.sub(r"\[.*?\]\s", "", doc_txt)
     doc = nlp(doc_txt)
     for sent in doc.sentences:
         for entita in sent.ents:
@@ -32,7 +30,7 @@ for row in data:
 pbar.close()
 
 keys = entita_nominate[0].keys()
-with open("../results/kind/output_kind.csv", "w", encoding="utf-8") as f:
+with open("../results/kind/output.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(entita_nominate)

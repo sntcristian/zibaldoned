@@ -4,16 +4,16 @@ import stanza
 import re
 from tqdm import tqdm
 
-with open("../paragraphs.csv", "r", encoding="utf-8") as f1:
+with open("paragraphs.csv", "r", encoding="utf-8") as f1:
     paragraphs = csv.DictReader(f1)
     paragraphs = list(paragraphs)
 f1.close()
 
-with open("../people_labels.json", "r", encoding="utf-8") as f2:
+with open("people_labels.json", "r", encoding="utf-8") as f2:
     people = json.load(f2)
 f2.close()
 
-with open("../places_labels.csv", "r", encoding="utf-8") as f3:
+with open("places_labels.csv", "r", encoding="utf-8") as f3:
     places = csv.DictReader(f3)
     places = list(places)
 f3.close()
@@ -150,7 +150,7 @@ for par in paragraphs:
 pbar.close()
 
 keys = annotations[0].keys()
-with open("../annotations.csv", "w", encoding="utf-8") as f:
+with open("annotations.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(annotations)

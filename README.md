@@ -26,5 +26,5 @@ This project develops three strategies:
 
 ## Result
 
-The result of the annotation process is available in  [this file](annotations.csv). 
+The result of the annotation process is available in  [this file](scripts_extraction/annotations.csv). 
 Documentation on how to use source code coming soon.

@@ -39,7 +39,7 @@ def eval_ner(data, model_result):
     recall = len(matches) / (len(matches) + len(fn))
     f1 = (2 * precision * recall) / (precision + recall)
 
-    with open("../results/llamantino_1/results.txt", "w") as output:
+    with open("../results/kind/results.txt", "w") as output:
         output.write("True Positives: " + str(len(tp)) + "\n\n")
         output.write("False Positives: " + str(len(fp)) + "\n\n")
         output.write("False Negatives: " + str(len(fn)) + "\n\n")
@@ -51,37 +51,36 @@ def eval_ner(data, model_result):
     n_keys = fn[0].keys()
     fp_keys = fp[0].keys()
 
-    tp_file = open("../results/llamantino_1/tp_ner.csv", "w", encoding="utf-8")
+    tp_file = open("../results/kind/tp_ner.csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(tp_file, p_keys)
     dict_writer.writeheader()
     dict_writer.writerows(matches)
     tp_file.close()
 
-    fp_file = open("../results/llamantino_1/fp_ner.csv", "w", encoding="utf-8")
+    fp_file = open("../results/kind/fp_ner.csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(fp_file, fp_keys)
     dict_writer.writeheader()
     dict_writer.writerows(fp)
     fp_file.close()
 
-    fn_file = open("../results/llamantino_1/fn_ner.csv", "w", encoding="utf-8")
+    fn_file = open("../results/kind/fn_ner.csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(fn_file, n_keys)
     dict_writer.writeheader()
     dict_writer.writerows(fn)
     fn_file.close()
 
 
-with open("../test.csv", "r", encoding="utf-8") as f1:
+with open("test.csv", "r", encoding="utf-8") as f1:
     paragraphs = csv.DictReader(f1)
     paragraphs = list(paragraphs)
-    paragraphs = paragraphs[:201]
 f1.close()
 
-with open("../annotations.csv", "r", encoding="utf-8") as f2:
+with open("../scripts_extraction/annotations.csv", "r", encoding="utf-8") as f2:
     data = csv.DictReader(f2)
     data = list(data)
 f2.close()
 
-with open("../results/llamantino_1/output_0_200.csv", "r", encoding="utf-8") as f3:
+with open("../results/kind/output.csv", "r", encoding="utf-8") as f3:
     model_result = csv.DictReader(f3)
     model_result = list(model_result)
 f3.close()
