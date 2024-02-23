@@ -11,7 +11,6 @@ import torch
 with open("./test.csv", "r", encoding="utf-8") as f:
     data = csv.DictReader(f)
     data = list(data)
-data = data[:10]
 
 model_id = "swap-uniba/LLaMAntino-2-13b-hf-evalita-ITA"
 
