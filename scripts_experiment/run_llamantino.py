@@ -1,8 +1,6 @@
 import csv
-import random
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import re
-import json
 from tqdm import tqdm
 import gc
 import torch
