@@ -1,0 +1,390 @@
+par_id,surface,start,end,wikidata,type,match,pattern
+p3400_1,europa,431,437,Q46,LOC,exact,
+p4226_1,Basil.,154,160,Q78,LOC,exact,
+p24_3,Toscana,2626,2633,Q1273,LOC,exact,
+p24_3,Italia,4601,4607,Q38,LOC,exact,
+p24_3,Orazio,4190,4196,Q6197,PER,exact,
+p24_3,Pindaro,2390,2397,Q134929,PER,exact,
+p24_3,Pindaro,4230,4237,Q134929,PER,exact,
+p24_3,Chiabrera,4702,4711,Q2344301,PER,partial,Gabbriello Chiabrera
+p24_3,Gravina,3586,3593,Q727363,PER,partial,Giovanni Vincenzo Gravina
+p24_3,Maffei,3618,3624,Q1587432,PER,partial,"Francesco Scipione, marchese di Maffei"
+p24_3,Pindarico,67,76,Q134929,PER,levenshtein,Pindaro
+p3486_2,grecia,486,492,Q11772,LOC,exact,
+p3643_1,Lapponia,3309,3317,Q212640,LOC,exact,
+p3643_1,Russia,3348,3354,Q159,LOC,exact,
+p3643_1,Orazio,2834,2840,Q6197,PER,exact,
+p32_4,Roma,5852,5856,Q1747689,LOC,exact,
+p32_4,Celso,2471,2476,Q312420,PER,exact,
+p32_4,Celso,5388,5393,Q312420,PER,exact,
+p2624_2,Patav.,150,156,Q617,LOC,exact,
+p1932_2,francia,656,663,Q142,LOC,exact,
+p1021_2,italia,109,115,Q38,LOC,exact,
+p1021_2,italia,395,401,Q38,LOC,exact,
+p1021_2,francia,121,128,Q142,LOC,exact,
+p3247_1,Staël nell'Alemagna,4019,4038,Q123041,PER,partial,Anne Louise Germaine de Staël
+p993_1,grecia,146,152,Q11772,LOC,exact,
+p993_1,grecia,870,876,Q11772,LOC,exact,
+p993_1,grecia,2134,2140,Q11772,LOC,exact,
+p993_1,grecia,2442,2448,Q11772,LOC,exact,
+p993_1,inghilterra,1446,1457,Q21,LOC,exact,
+p993_1,roma,2064,2068,Q1747689,LOC,exact,
+p993_1,italia,2073,2079,Q38,LOC,exact,
+p993_1,india,3862,3867,Q668,LOC,exact,
+p993_1,Costantino,2850,2860,Q8413,PER,exact,
+p4036_4,Nardi,50,55,Q352569,PER,partial,Jacopo Nardi
+p4246_1,Ven.,299,303,Q641,LOC,exact,
+p3964_3,italia,1028,1034,Q38,LOC,exact,
+p3964_3,italia,1837,1843,Q38,LOC,exact,
+p3964_3,italia,1960,1966,Q38,LOC,exact,
+p3964_3,italia,3076,3082,Q38,LOC,exact,
+p3964_3,grecia,1916,1922,Q11772,LOC,exact,
+p3964_3,grecia,2607,2613,Q11772,LOC,exact,
+p3964_3,Atene,3698,3703,Q844930,LOC,exact,
+p3964_3,Ippocrate,2563,2572,Q5264,PER,exact,
+p3964_3,Omero,2553,2558,Q6691,PER,exact,
+p3964_3,Omero,3669,3674,Q6691,PER,exact,
+p3964_3,Omero,3995,4000,Q6691,PER,exact,
+p4302_3,Dante,75,80,Q1067,PER,exact,
+p4302_3,Giuseppe,170,178,Q128267,PER,exact,
+p983_1,grecia,20,26,Q11772,LOC,exact,
+p983_1,Montfaucon,226,236,Q705306,PER,partial,Bernard de Montfaucon
+p324_1,italia,216,222,Q38,LOC,exact,
+p4428_2,Niebuhr,2429,2436,Q60586,PER,exact,
+p4110_4,Maria,275,280,Q345,PER,exact,
+p3117_1,troia,3003,3008,Q22647,LOC,exact,
+p3117_1,Andromaca,2892,2901,Q19376,PER,exact,
+p3117_1,Ettore,2883,2889,Q159666,PER,exact,
+p3117_1,Ettore,2993,2999,Q159666,PER,exact,
+p3117_1,Omero,2680,2685,Q6691,PER,exact,
+p3117_1,Omero,3501,3506,Q6691,PER,exact,
+p2442_1,Forcellini,114,124,Q550353,PER,partial,Egidio Forcellini
+p2355_2,Ducange,2246,2253,Q442240,PER,exact,
+p3949_1,Vergine Maria,84,97,Q345,PER,exact,
+p2329_1,grecia,1427,1433,Q11772,LOC,exact,
+p1848_1,grecia,709,715,Q11772,LOC,exact,
+p1848_1,europa,1473,1479,Q46,LOC,exact,
+p8_3,Martignoni annal,2130,2146,Q61895559,PER,partial,Ignazio Martignoni
+p3682_1,Ven.,835,839,Q641,LOC,exact,
+p4148_4,Richelet,84,92,Q1236889,PER,partial,César-Pierre Richelet
+p4379_1,Trojam,332,338,Q22647,LOC,exact,
+p4379_1,Mycenarum,352,361,Q132564,LOC,exact,
+p4379_1,Graeciae,447,455,Q11772,LOC,exact,
+p4379_1,Firenze,3723,3730,Q2044,LOC,exact,
+p4379_1,Achille,3014,3021,Q41746,PER,exact,
+p4379_1,Heyne,2350,2355,Q63182,PER,partial,Christian Gottlob Heyne
+p4102_5,europa,507,513,Q46,LOC,exact,
+p4102_5,america,516,523,Q828,LOC,exact,
+p392_1,italia,675,681,Q38,LOC,exact,
+p4010_5,Euripide,1622,1630,Q48305,PER,exact,
+p4494_1,Londr.,893,899,Q84,LOC,exact,
+p996_1,grecia,387,393,Q11772,LOC,exact,
+p996_1,grecia,442,448,Q11772,LOC,exact,
+p996_1,grecia,2045,2051,Q11772,LOC,exact,
+p996_1,italia,423,429,Q38,LOC,exact,
+p996_1,italia,830,836,Q38,LOC,exact,
+p996_1,impero greco,702,714,Q2497438,LOC,exact,
+p996_1,impero greco,1370,1382,Q2497438,LOC,exact,
+p996_1,Fozio,2383,2388,Q243187,PER,exact,
+p996_1,Omero,1939,1944,Q6691,PER,exact,
+p996_1,Porfirio,2197,2205,Q203445,PER,exact,
+p996_1,Teodoro Metochita,2733,2750,Q221657,PER,exact,
+p996_1,Giovanni Tzetze,2687,2702,Q530515,PER,exact,
+p996_1,Longino,2182,2189,Q436634,PER,partial,Cassio Dionisio Longino
+p697_1,italia,1886,1892,Q38,LOC,exact,
+p697_1,italia,2137,2143,Q38,LOC,exact,
+p697_1,europa,1980,1986,Q46,LOC,exact,
+p3988_2,Lips.,75,80,Q2079,LOC,exact,
+p1760_1,Ispagna,530,537,Q29,LOC,exact,
+p1760_1,Rocca,44,49,Q2831673,PER,partial,Albert Jean Michel de Rocca
+p2522_1,San Pietro,1015,1025,Q33923,PER,exact,
+p942_1,Paris,1825,1830,Q90,LOC,exact,
+p4281_3,Recanati,2126,2134,Q83362,LOC,exact,
+p1965_1,Staël,39,44,Q123041,PER,partial,Anne Louise Germaine de Staël
+p1043_1,L'inghilterra,0,13,Q21,LOC,exact,
+p1043_1,italia,595,601,Q38,LOC,exact,
+p1043_1,italia,1034,1040,Q38,LOC,exact,
+p1043_1,spagna,1062,1068,Q29,LOC,exact,
+p1043_1,europa,1117,1123,Q46,LOC,exact,
+p3137_2,Achille,3301,3308,Q41746,PER,exact,
+p3137_2,Andromaca,2278,2287,Q19376,PER,exact,
+p3137_2,Ettore,2104,2110,Q159666,PER,exact,
+p3137_2,Ettore,3235,3241,Q159666,PER,exact,
+p3137_2,Omero,2502,2507,Q6691,PER,exact,
+p3137_2,Omero,3209,3214,Q6691,PER,exact,
+p3137_2,Patroclo,2224,2232,Q186271,PER,exact,
+p4025_5,Maria,136,141,Q345,PER,exact,
+p4170_2,V. Monti,38,46,Q723643,PER,partial,Vincenzo Monti
+p928_1,italia,713,719,Q38,LOC,exact,
+p239_2,impero romano,433,446,Q2277,LOC,exact,
+p239_2,europa,2458,2464,Q46,LOC,exact,
+p239_2,europa,3475,3481,Q46,LOC,exact,
+p239_2,europa,4312,4318,Q46,LOC,exact,
+p239_2,Transilvania,2510,2522,Q39473,LOC,exact,
+p239_2,Polonia,2527,2534,Q36,LOC,exact,
+p239_2,Russia,2539,2545,Q159,LOC,exact,
+p239_2,Spagna,2594,2600,Q29,LOC,exact,
+p239_2,Spagna,4269,4275,Q29,LOC,exact,
+p239_2,Francia,2606,2613,Q142,LOC,exact,
+p239_2,Francia,3549,3556,Q142,LOC,exact,
+p239_2,Affrica Cartaginese e Numidica,2702,2732,Q181238,LOC,exact,
+p239_2,francia,3236,3243,Q142,LOC,exact,
+p239_2,inghilterra,3280,3291,Q21,LOC,exact,
+p239_2,spagna,3298,3304,Q29,LOC,exact,
+p239_2,portogallo,3316,3326,Q45670,LOC,exact,
+p239_2,italia,4333,4339,Q38,LOC,exact,
+p239_2,Augusto,4559,4566,Q1405,PER,exact,
+p239_2,Dante,7674,7679,Q1067,PER,exact,
+p239_2,Petrarca,7721,7729,Q1401,PER,exact,
+p239_2,Alfieri,7687,7694,Q296244,PER,partial,Vittorio Amedeo Alfieri
+p239_2,Caterina,3712,3720,Q1541,PER,levenshtein,Cicerone
+p239_2,Luciano,6254,6261,Q177847,PER,partial,Luciano di Samosata
+p239_2,Maria,3722,3727,Q182021,PER,partial,Maria de' Medici
+p239_2,Sévigné,3568,3575,Q78440560,PER,partial,Madame de Sévigné
+p1518_1,grecia,154,160,Q11772,LOC,exact,
+p4148_1,Cristo,51,57,Q302,PER,exact,
+p2865_1,Floro,78,83,Q316483,PER,exact,
+p114_1,roma,194,198,Q1747689,LOC,exact,
+p114_1,francia,459,466,Q142,LOC,exact,
+p4234_2,Rubbi,227,232,Q16560637,PER,partial,Andrea Rubbi
+p2395_2,Giuseppe,987,995,Q128267,PER,exact,
+p2128_1,italia,495,501,Q38,LOC,exact,
+p62_3,Macedone,651,659,Q8409,PER,partial,Alessandro il Macedone
+p62_3,Macedone,989,997,Q8409,PER,partial,Alessandro il Macedone
+p2991_1,Diomede,1621,1628,Q1226908,PER,exact,
+p2991_1,Plauto,2875,2881,Q47160,PER,exact,
+p2991_1,Terenzio,2884,2892,Q172048,PER,exact,
+p2991_1,Virg,2305,2309,Q1398,PER,levenshtein,Virgilio
+p9_2,Ariosto,1873,1880,Q48900,PER,exact,
+p9_2,Monti,1903,1908,Q723643,PER,partial,Vincenzo Monti
+p9_2,Parini,1893,1899,Q529146,PER,partial,Giuseppe Parini
+p88_1,Staël,161,166,Q123041,PER,partial,Anne Louise Germaine de Staël
+p4046_4,Nettuno,98,105,Q3954,PER,exact,
+p2923_3,Attica,414,420,Q122443,LOC,exact,
+p4248_8,Caro,37,41,Q566851,PER,partial,Annibale Caro
+p3125_1,europa,3569,3575,Q46,LOC,exact,
+p3125_1,italia,4042,4048,Q38,LOC,exact,
+p3125_1,italia,4120,4126,Q38,LOC,exact,
+p3125_1,italia,4236,4242,Q38,LOC,exact,
+p3125_1,ispagna,4480,4487,Q29,LOC,exact,
+p3125_1,grecia,5146,5152,Q11772,LOC,exact,
+p3125_1,grecia,5738,5744,Q11772,LOC,exact,
+p3125_1,impero persiano,5335,5350,Q389688,LOC,exact,
+p3125_1,Eliano,6112,6118,Q313782,PER,exact,
+p3125_1,Cristo,2875,2881,Q302,PER,exact,
+p3125_1,Isocrate,5390,5398,Q221182,PER,exact,
+p3125_1,Isocrate,6191,6199,Q221182,PER,exact,
+p3125_1,Petrarca,3366,3374,Q1401,PER,exact,
+p3125_1,Alessandro,5161,5171,Q8409,PER,partial,Alessandro il Conquistatore
+p3125_1,Alessandro,6060,6070,Q8409,PER,partial,Alessandro il Conquistatore
+p3125_1,Filippo,5571,5578,Q34417,PER,partial,Filippo II d'Asburgo
+p3125_1,Filippo,5617,5624,Q34417,PER,partial,Filippo II d'Asburgo
+p3125_1,Filippo II,5913,5923,Q34417,PER,partial,Filippo II d'Asburgo
+p3125_1,Filippo,6218,6225,Q34417,PER,partial,Filippo II d'Asburgo
+p3125_1,Speroni,5794,5801,Q352663,PER,partial,Sperone Speroni
+p43_5,Menag,490,495,Q648856,PER,levenshtein,Menagio
+p2370_1,grecia,1086,1092,Q11772,LOC,exact,
+p3390_1,europa,40,46,Q46,LOC,exact,
+p3390_1,italia,53,59,Q38,LOC,exact,
+p3390_1,italia,749,755,Q38,LOC,exact,
+p3390_1,Ven.,806,810,Q641,LOC,exact,
+p3390_1,Bembo,787,792,Q334188,PER,partial,Pietro Bembo
+p4158_8,Oxon.,834,839,Q34217,LOC,exact,
+p4158_8,Atene,1719,1724,Q844930,LOC,exact,
+p4158_8,Atene,1990,1995,Q844930,LOC,exact,
+p4158_8,Attica,1908,1914,Q122443,LOC,exact,
+p4158_8,Mantinea,1999,2007,Q1160195,LOC,exact,
+p4158_8,Arcadia,2022,2029,Q12898802,LOC,exact,
+p4158_8,Bologna,2896,2903,Q1891,LOC,exact,
+p4158_8,Teseo,1931,1936,Q1320718,PER,exact,
+p4158_8,Carlo V,2245,2252,Q32500,PER,partial,Carlo V del Sacro Romano Impero
+p4158_8,Meurs,1943,1948,Q547901,PER,partial,Johannes van Meurs
+p4158_8,Plutar,1752,1758,Q41523,PER,levenshtein,Plutarco
+p4158_8,Robertson,2200,2209,Q1113461,PER,partial,William Robertson
+p4158_8,Τheophr,1829,1836,Q160362,PER,levenshtein,Theophr.
+p4158_8,Τheseo,1953,1959,Q1320718,PER,levenshtein,Teseo
+p4329_1,S. Lorenzo,861,871,Q17590,PER,exact,
+p4004_5,Stefano,143,150,Q161775,PER,exact,
+p3761_2,Alessandro,125,135,Q8409,PER,partial,Alessandro il Conquistatore
+p3761_2,Scapula,73,80,Q3179685,PER,partial,Joannes Scapula
+p4232_3,Scapula,166,173,Q3179685,PER,partial,Joannes Scapula
+p4196_1,Tiber,110,115,Q1407,PER,levenshtein,Tiberio
+p1659_1,Wieland,514,521,Q154010,PER,partial,Christoph Martin Wieland
+p1179_1,china,949,954,Q29520,LOC,exact,
+p1179_1,Monti,1369,1374,Q723643,PER,partial,Vincenzo Monti
+p4122_6,San Flaviano,33,45,Q509569,PER,exact,
+p4519_3,Patav.,726,732,Q617,LOC,exact,
+p4241_2,Magalotti,44,53,Q590501,PER,partial,Lorenzo Magalotti
+p3704_1,Ennio,2526,2531,Q47130,PER,exact,
+p3704_1,Forcellini,2575,2585,Q550353,PER,partial,Egidio Forcellini
+p4183_2,Bologna,2542,2549,Q1891,LOC,exact,
+p2283_1,italia,586,592,Q38,LOC,exact,
+p3347_1,Germania,2549,2557,Q183,LOC,exact,
+p3347_1,Germania,3778,3786,Q183,LOC,exact,
+p3347_1,Germania,3941,3949,Q183,LOC,exact,
+p3347_1,europa,3540,3546,Q46,LOC,exact,
+p3347_1,mezzogiorno d'Europa,3834,3854,Q27449,LOC,exact,
+p3347_1,San-Marino,3926,3936,Q238,LOC,exact,
+p3347_1,Lutero,2705,2711,Q9554,PER,exact,
+p3347_1,Saxe-Gotha,4058,4068,Q700229,PER,exact,
+p1140_1,Priamo,299,305,Q170473,PER,exact,
+p1140_1,Servio,2326,2332,Q355350,PER,exact,
+p1140_1,Virgilio,1928,1936,Q1398,PER,exact,
+p2243_2,Virgilio,104,112,Q1398,PER,exact,
+p2243_2,Virgilio,669,677,Q1398,PER,exact,
+p4482_2,Lips.,658,663,Q2079,LOC,exact,
+p3494_1,Platone,2056,2063,Q859,PER,exact,
+p3494_1,Heros,2026,2031,Q122248,PER,levenshtein,Heracles
+p3169_1,Lips.,49,54,Q2079,LOC,exact,
+p3169_1,Weller,35,41,Q111128,PER,partial,Jacob Weller
+p1078_1,Enea,1036,1040,Q82732,PER,exact,
+p2054_2,Virg,789,793,Q1398,PER,levenshtein,Virgilio
+p2987_1,Fray Gerundio de Campazas,155,180,Q8962728,PER,exact,
+p15_1,Anacreonte,5356,5366,Q213484,PER,exact,
+p15_1,Aristotele,5039,5049,Q868,PER,exact,
+p15_1,Lord Byron,7524,7534,Q5679,PER,exact,
+p15_1,Cicerone,11709,11717,Q1541,PER,exact,
+p15_1,Cicerone,12003,12011,Q1541,PER,exact,
+p15_1,Cicerone,12018,12026,Q1541,PER,exact,
+p15_1,Orazio,12111,12117,Q6197,PER,exact,
+p15_1,Klopstock,6425,6434,Q154367,PER,exact,
+p15_1,Omero,5291,5296,Q6691,PER,exact,
+p15_1,Omero,6032,6037,Q6691,PER,exact,
+p15_1,Omero,6450,6455,Q6691,PER,exact,
+p15_1,Pindaro,12100,12107,Q134929,PER,exact,
+p15_1,Senofane,9211,9219,Q131671,PER,exact,
+p15_1,Virgilio,6461,6469,Q1398,PER,exact,
+p15_1,Virgilio,10817,10825,Q1398,PER,exact,
+p15_1,Virgilio,10854,10862,Q1398,PER,exact,
+p15_1,Breme,7984,7989,Q3839154,PER,partial,Ludovico Pietro Arborio Gattinara dei conti di Sartirana dei marchesi di Breme
+p15_1,Breme,10015,10020,Q3839154,PER,partial,Ludovico Pietro Arborio Gattinara dei conti di Sartirana dei marchesi di Breme
+p15_1,Breme,12064,12069,Q3839154,PER,partial,Ludovico Pietro Arborio Gattinara dei conti di Sartirana dei marchesi di Breme
+p15_1,Byron,9696,9701,Q5679,PER,partial,"George Gordon Noel Byron, VI barone di Byron"
+p15_1,Bürger,6062,6068,Q213675,PER,partial,Gottfried August Bürger
+p15_1,Milton,6016,6022,Q79759,PER,partial,Giovanni Milton
+p15_1,Dio,8970,8973,Q7134950,PER,levenshtein,Niso
+p3023_1,Cang,63,67,Q442240,PER,levenshtein,Du Cange
+p2674_2,Fir.,219,223,Q2044,LOC,exact,
+p2140_1,grecia,434,440,Q11772,LOC,exact,
+p2140_1,italia,445,451,Q38,LOC,exact,
+p2715_2,Dante,271,276,Q1067,PER,exact,
+p3382_1,Maria,857,862,Q345,PER,exact,
+p144_1,italia,2732,2738,Q38,LOC,exact,
+p4144_4,Senofonte,566,575,Q129772,PER,exact,
+p4144_4,Visconti,362,370,Q691834,PER,partial,Ennio Quirino Visconti
+p3192_1,italia,1038,1044,Q38,LOC,exact,
+p3192_1,italia,2517,2523,Q38,LOC,exact,
+p3192_1,italia,3183,3189,Q38,LOC,exact,
+p3192_1,europa,1084,1090,Q46,LOC,exact,
+p3192_1,europa,1560,1566,Q46,LOC,exact,
+p3192_1,europa,3618,3624,Q46,LOC,exact,
+p3192_1,Lazio,2473,2478,Q1048669,LOC,exact,
+p3192_1,Lazio,4416,4421,Q1048669,LOC,exact,
+p3192_1,Francia,3389,3396,Q142,LOC,exact,
+p3192_1,Francia,3681,3688,Q142,LOC,exact,
+p4219_1,Bologna,7282,7289,Q1891,LOC,exact,
+p4219_1,Aristotele,6939,6949,Q868,PER,exact,
+p4219_1,Damascio,1478,1486,Q315360,PER,exact,
+p4219_1,Damascio,2876,2884,Q315360,PER,exact,
+p4219_1,Damascio,4682,4690,Q315360,PER,exact,
+p4219_1,Damascio,5240,5248,Q315360,PER,exact,
+p4219_1,Damascio,6574,6582,Q315360,PER,exact,
+p4219_1,Fozio,1433,1438,Q243187,PER,exact,
+p4219_1,Fozio,2217,2222,Q243187,PER,exact,
+p4219_1,Fozio,5263,5268,Q243187,PER,exact,
+p4219_1,Pitagora,7153,7161,Q10261,PER,exact,
+p4219_1,Platone,7144,7151,Q859,PER,exact,
+p4219_1,Dutens,3852,3858,Q947504,PER,partial,Louis Dutens
+p4219_1,Hieroclem,2689,2698,Q1355265,PER,levenshtein,Ierocle
+p4219_1,Isidoro,4092,4099,Q660170,PER,partial,Isidoro di Alessandria
+p4219_1,Isidoro,5171,5178,Q660170,PER,partial,Isidoro di Alessandria
+p4219_1,Isidoro,6639,6646,Q660170,PER,partial,Isidoro di Alessandria
+p4219_1,Isidoro,7254,7261,Q660170,PER,partial,Isidoro di Alessandria
+p4219_1,Schott,2826,2832,Q2848635,PER,partial,André Schott
+p4037_4,Lino,0,4,Q647496,PER,exact,
+p4426_1,Recanati,386,394,Q83362,LOC,exact,
+p2879_2,italia,1868,1874,Q38,LOC,exact,
+p3577_1,italia,189,195,Q38,LOC,exact,
+p3577_1,spagna,606,612,Q29,LOC,exact,
+p3577_1,spagna,751,757,Q29,LOC,exact,
+p3577_1,europa,637,643,Q46,LOC,exact,
+p3577_1,europa,828,834,Q46,LOC,exact,
+p4124_3,S. Girolamo,85,96,Q44248,PER,partial,Eusebio Sofronio Girolamo
+p4124_3,Menag,101,106,Q648856,PER,levenshtein,Menagio
+p13_1,Ato,348,351,Q130321,LOC,exact,
+p13_1,Rodope,357,363,Q6489,LOC,exact,
+p13_1,olimpo,418,424,Q80344,LOC,exact,
+p13_1,Olimpo,903,909,Q80344,LOC,exact,
+p13_1,Milano,2154,2160,Q490,LOC,exact,
+p13_1,Foscolo,2146,2153,Q166234,PER,exact,
+p13_1,Borgno Diss,2112,2123,Q23895319,PER,partial,Girolamo Federico Borgno
+p3135_1,imperio romano,882,896,Q2277,LOC,exact,
+p3135_1,italia,1224,1230,Q38,LOC,exact,
+p4015_2,Certatus,346,354,Q5682,PER,levenshtein,Cervantes
+p28_3,Chiabrera,252,261,Q2344301,PER,partial,Gabbriello Chiabrera
+p21_5,Termopile,1988,1997,Q194450,LOC,exact,
+p21_5,Roma,3155,3159,Q1747689,LOC,exact,
+p21_5,Cicerone,2662,2670,Q1541,PER,exact,
+p21_5,Cicerone,3405,3413,Q1541,PER,exact,
+p21_5,Antonio,2968,2975,Q51673,PER,partial,Marco Antonio
+p21_5,Antonio,3029,3036,Q51673,PER,partial,Marco Antonio
+p21_5,Bruto,3893,3898,Q172248,PER,partial,Marco Giunio Bruto Cepione
+p4125_4,Antigono,10,18,Q554362,PER,partial,Antigono di Caristo
+p324_5,Massillon,571,580,Q1381729,PER,partial,Jean Baptiste Massillon
+p1150_3,Plaut,940,945,Q47160,PER,levenshtein,Plauto
+p2796_2,Castiglione,57,68,Q211133,PER,partial,Baldassarre Castiglione
+p3625_1,Grecia,4769,4775,Q11772,LOC,exact,
+p3625_1,Celso,2704,2709,Q312420,PER,exact,
+p3625_1,Celso,3892,3897,Q312420,PER,exact,
+p3625_1,Celso,4454,4459,Q312420,PER,exact,
+p3625_1,Nepote,3884,3890,Q109594,PER,exact,
+p3625_1,Frontone,2884,2892,Q317055,PER,exact,
+p3625_1,Fedro,2697,2702,Q52166,PER,exact,
+p3625_1,Fedro,3899,3904,Q52166,PER,exact,
+p3625_1,Fedro,4509,4514,Q52166,PER,exact,
+p3625_1,Platone,5058,5065,Q859,PER,exact,
+p3625_1,Platone,5215,5222,Q859,PER,exact,
+p3625_1,Emilio Probo,4372,4384,Q37740777,PER,exact,
+p3625_1,Senofonte,4999,5008,Q129772,PER,exact,
+p3625_1,Senofonte,5203,5212,Q129772,PER,exact,
+p3625_1,Sulpicio Severo,1839,1854,Q336704,PER,exact,
+p3625_1,Terenzio,3962,3970,Q172048,PER,exact,
+p3625_1,Cornelio,2687,2695,Q312420,PER,partial,Aulo Cornelio Celso
+p3625_1,Cornelio,4338,4346,Q312420,PER,partial,Aulo Cornelio Celso
+p3625_1,Desbillons,4632,4642,Q3083432,PER,partial,François-Joseph Desbillons
+p3625_1,Perotti,4537,4544,Q326037,PER,partial,Niccolò Perotti
+p3625_1,Varrone,2875,2882,Q206119,PER,partial,Marco Terenzio Varrone
+p3326_1,italia,653,659,Q38,LOC,exact,
+p3595_1,Goffredo,2398,2406,Q76721,PER,exact,
+p3595_1,Rinaldo,1810,1817,Q16596667,PER,exact,
+p4126_6,Giuseppe,649,657,Q128267,PER,exact,
+p501_1,Laerzio,199,206,Q59138,PER,partial,Diogene Laerzio
+p1028_3,Locke,88,93,Q9353,PER,partial,Giovanni Locke
+p1028_3,Soave,98,103,Q3081091,PER,partial,Giovanni Francesco Soave
+p947_1,Pirrone,2205,2212,Q192313,PER,exact,
+p981_1,Giovanni Archinto,992,1009,Q323369,PER,exact,
+p981_1,Valerio Massimo,2288,2303,Q379991,PER,exact,
+p981_1,S. Agostino,1932,1943,Q8018,PER,partial,Agostino di Ippona
+p981_1,Hager,1844,1849,Q3810214,PER,partial,Giuseppe Hager
+p3896_1,Florent.,150,158,Q2044,LOC,exact,
+p520_1,Lucano,2580,2586,Q188646,PER,exact,
+p520_1,Elvidio Prisco,2601,2615,Q1390986,PER,exact,
+p520_1,Tacito,2571,2577,Q2161,PER,exact,
+p520_1,Catone,2552,2558,Q193506,PER,partial,Marco Porcio Catone Uticense
+p520_1,Trasea Peto,2588,2599,Q594441,PER,partial,Publio Clodio Trasea Peto
+p4229_4,Recanati,2658,2666,Q83362,LOC,exact,
+p724_3,italia,78,84,Q38,LOC,exact,
+p1226_1,italia,3810,3816,Q38,LOC,exact,
+p1226_1,Dante,2942,2947,Q1067,PER,exact,
+p4237_4,Buommattei,199,209,Q3638052,PER,partial,Benedetto Buommattei
+p4237_4,Lollio,186,192,Q44814629,PER,partial,Alberto Lollio
+p4237_4,Salvini,216,223,Q349065,PER,partial,Antonio Maria Salvini
+p107_4,Arriano,47,54,Q31845,PER,exact,
+p860_1,Celso,2148,2153,Q312420,PER,exact,
+p4101_5,Donato,73,79,Q247137,PER,exact,
+p4120_15,San Francesco di Assisi,71,94,Q676555,PER,exact,
+p4237_3,V. Dati,45,52,Q3659787,PER,partial,Carlo Roberto Dati
+p3797_1,America,2530,2537,Q828,LOC,exact,
+p3797_1,impero messicano,1567,1583,Q2608489,LOC,exact,
+p4478_1,oriente,183,190,Q205653,LOC,exact,
+p4478_1,oriente,512,519,Q205653,LOC,exact,
