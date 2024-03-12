@@ -7,7 +7,7 @@ tokenizer = AutoTokenizer.from_pretrained("nickprock/bert-italian-finetuned-ner"
 tagger = AutoModelForTokenClassification.from_pretrained("nickprock/bert-italian-finetuned-ner")
 nlp = pipeline("ner", model=tagger, tokenizer=tokenizer, aggregation_strategy="simple")
 
-with open("./test.csv", "r", encoding="utf-8") as f:
+with open("./paragraphs_23.csv", "r", encoding="utf-8") as f:
     data = csv.DictReader(f)
     data = list(data)
 

@@ -6,7 +6,7 @@ from tqdm import tqdm
 stanza.download('it')
 nlp = stanza.Pipeline('it', processors='tokenize,ner')
 
-with open("test.csv", "r", encoding="utf-8") as f:
+with open("paragraphs_23.csv", "r", encoding="utf-8") as f:
     data = csv.DictReader(f)
     data = list(data)
 f.close()
