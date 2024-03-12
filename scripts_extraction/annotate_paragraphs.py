@@ -60,7 +60,6 @@ for par in paragraphs:
     annotated_chars = set()
     _id = par["id"]
     text = par["text"]
-    text = re.sub(r"\[.*?\]\s", "", text)
     entities = labels_dict[_id]
     persons = [item for item in entities if item["type"]=="PER"]
     places = [item for item in entities if item["type"] == "LOC"]

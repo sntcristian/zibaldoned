@@ -2,11 +2,13 @@ import csv
 
 
 
-def eval_ner(data, model_result):
+def eval_ner(data, model_result, type):
     tp = []  # true positive
     fp = []  # false positive
     fn = []  # false negative
     matches = []  # matched annotations
+    data = [row for row in data if row["type"]==type]
+    model_result = [row for row in model_result if row["type"]==type]
     for entity1 in data:
         id1 = entity1["par_id"]
         start_pos1 = int(entity1["start"])
@@ -35,7 +37,7 @@ def eval_ner(data, model_result):
     recall = len(matches) / (len(matches) + len(fn))
     f1 = (2 * precision * recall) / (precision + recall)
 
-    with open("../results/wikiann/results.txt", "w") as output:
+    with open("../results/kind/results_"+type+".txt", "w") as output:
         output.write("True Positives: " + str(len(tp)) + "\n\n")
         output.write("False Positives: " + str(len(fp)) + "\n\n")
         output.write("False Negatives: " + str(len(fn)) + "\n\n")
@@ -47,19 +49,19 @@ def eval_ner(data, model_result):
     n_keys = fn[0].keys()
     fp_keys = fp[0].keys()
 
-    tp_file = open("../results/wikiann/tp_ner.csv", "w", encoding="utf-8")
+    tp_file = open("../results/kind/tp_ner"+type+".csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(tp_file, p_keys)
     dict_writer.writeheader()
     dict_writer.writerows(matches)
     tp_file.close()
 
-    fp_file = open("../results/wikiann/fp_ner.csv", "w", encoding="utf-8")
+    fp_file = open("../results/kind/fp_ner"+type+".csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(fp_file, fp_keys)
     dict_writer.writeheader()
     dict_writer.writerows(fp)
     fp_file.close()
 
-    fn_file = open("../results/wikiann/fn_ner.csv", "w", encoding="utf-8")
+    fn_file = open("../results/kind/fn_ner"+type+".csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(fn_file, n_keys)
     dict_writer.writeheader()
     dict_writer.writerows(fn)
@@ -71,10 +73,9 @@ with open("../scripts_extraction/annotations_23.csv", "r", encoding="utf-8") as 
     data = list(data)
 f2.close()
 
-with open("../results/wikiann/output.csv", "r", encoding="utf-8") as f3:
+with open("../results/kind/output.csv", "r", encoding="utf-8") as f3:
     model_result = csv.DictReader(f3)
     model_result = list(model_result)
 f3.close()
 
-eval_ner(data, model_result)
-
+eval_ner(data, model_result, "LOC")
