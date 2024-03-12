@@ -6,7 +6,7 @@ import gc
 import torch
 
 
-with open("./test.csv", "r", encoding="utf-8") as f:
+with open("./paragraphs_23.csv", "r", encoding="utf-8") as f:
     data = csv.DictReader(f)
     data = list(data)
 
