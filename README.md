@@ -20,7 +20,8 @@ This project develops three strategies:
       labels 
       and aliases in Wikidata 
 3. Match names of people extracted in the previous step to portions of Zibaldone's text by using exact string 
-   matching and a combination of NER with levenshtein distance in order to find surface forms in the text which are 
+   matching and a combination of POS-tagging with levenshtein distance in order to find surface forms in the text which 
+   are 
    not present in our dictionary of names
    1. Source code is available [here](scripts_extraction/annotate_paragraphs.py)
 
