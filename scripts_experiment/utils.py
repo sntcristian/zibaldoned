@@ -1,8 +1,34 @@
+import numpy as np
+import matplotlib.pyplot as plt
 import csv
 
 
+X = ['Precision', 'Recall', 'F1']
+Yllamantino = [60.886, 64.706, 62.738]
+Ykind = [65.361, 81.765, 72.648]
+Ywikineural = [65.582, 75.098, 70.018]
 
-def eval_ner(data, model_result, type):
+X_axis = np.arange(len(X))
+
+plt.bar(X_axis - 0.2, Yllamantino, 0.3, label='LLaMantino')
+plt.bar(X_axis + 0.1, Ykind, 0.3, label='Kind')
+plt.bar(X_axis + 0.4, Ywikineural, 0.3, label='Wikineural')
+
+plt.xticks(X_axis, X)
+plt.xlabel("Metrics")
+plt.ylabel("Score")
+plt.title("Score of models for each metric")
+plt.legend()
+plt.show()
+
+
+
+def eval_ner(data, type, path):
+    with open(path+"/output.csv", "r", encoding="utf-8") as f3:
+        model_result = csv.DictReader(f3)
+        model_result = list(model_result)
+    f3.close()
+
     tp = []  # true positive
     fp = []  # false positive
     fn = []  # false negative
@@ -37,7 +63,7 @@ def eval_ner(data, model_result, type):
     recall = len(matches) / (len(matches) + len(fn))
     f1 = (2 * precision * recall) / (precision + recall)
 
-    with open("../results/kind/results_"+type+".txt", "w") as output:
+    with open(path+"/results_"+type+".txt", "w") as output:
         output.write("True Positives: " + str(len(tp)) + "\n\n")
         output.write("False Positives: " + str(len(fp)) + "\n\n")
         output.write("False Negatives: " + str(len(fn)) + "\n\n")
@@ -49,19 +75,19 @@ def eval_ner(data, model_result, type):
     n_keys = fn[0].keys()
     fp_keys = fp[0].keys()
 
-    tp_file = open("../results/kind/tp_ner"+type+".csv", "w", encoding="utf-8")
+    tp_file = open(path+"/tp_ner"+type+".csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(tp_file, p_keys)
     dict_writer.writeheader()
     dict_writer.writerows(matches)
     tp_file.close()
 
-    fp_file = open("../results/kind/fp_ner"+type+".csv", "w", encoding="utf-8")
+    fp_file = open(path+"/fp_ner"+type+".csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(fp_file, fp_keys)
     dict_writer.writeheader()
     dict_writer.writerows(fp)
     fp_file.close()
 
-    fn_file = open("../results/kind/fn_ner"+type+".csv", "w", encoding="utf-8")
+    fn_file = open(path+"/fn_ner"+type+".csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(fn_file, n_keys)
     dict_writer.writeheader()
     dict_writer.writerows(fn)
@@ -73,9 +99,11 @@ with open("../scripts_extraction/annotations_23.csv", "r", encoding="utf-8") as 
     data = list(data)
 f2.close()
 
-with open("../results/kind/output.csv", "r", encoding="utf-8") as f3:
-    model_result = csv.DictReader(f3)
-    model_result = list(model_result)
-f3.close()
 
-eval_ner(data, model_result, "LOC")
+
+eval_ner(data, path="../results/kind", type="LOC")
+eval_ner(data, path="../results/kind", type="PER")
+eval_ner(data, path="../results/llamantino", type="LOC")
+eval_ner(data, path="../results/llamantino", type="PER")
+eval_ner(data, path="../results/wikiann", type="LOC")
+eval_ner(data, path="../results/wikiann", type="PER")
