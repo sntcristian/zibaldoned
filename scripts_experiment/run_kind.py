@@ -2,11 +2,11 @@ import stanza
 import csv
 from tqdm import tqdm
 
-#load NER model 
+#load NER model
 stanza.download('it')
 nlp = stanza.Pipeline('it', processors='tokenize,ner')
 
-with open("paragraphs_23.csv", "r", encoding="utf-8") as f:
+with open("../scripts_extraction/paragraphs_final.csv", "r", encoding="utf-8") as f:
     data = csv.DictReader(f)
     data = list(data)
 f.close()
@@ -30,7 +30,7 @@ for row in data:
 pbar.close()
 
 keys = entita_nominate[0].keys()
-with open("../results/kind/output.csv", "w", encoding="utf-8") as f:
+with open("../results/kind_final/output.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(entita_nominate)

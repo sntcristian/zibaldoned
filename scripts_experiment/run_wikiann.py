@@ -7,7 +7,7 @@ tokenizer = AutoTokenizer.from_pretrained("nickprock/bert-italian-finetuned-ner"
 tagger = AutoModelForTokenClassification.from_pretrained("nickprock/bert-italian-finetuned-ner")
 nlp = pipeline("ner", model=tagger, tokenizer=tokenizer, aggregation_strategy="simple")
 
-with open("./paragraphs_23.csv", "r", encoding="utf-8") as f:
+with open("../scripts_extraction/paragraphs_final.csv", "r", encoding="utf-8") as f:
     data = csv.DictReader(f)
     data = list(data)
 
@@ -45,7 +45,7 @@ for row in data:
 pbar.close()
 
 keys = output[0].keys()
-a_file = open("../results/wikiann/output.csv", "w", encoding="utf-8")
+a_file = open("../results/wikiann_final/output.csv", "w", encoding="utf-8")
 dict_writer = csv.DictWriter(a_file, keys)
 dict_writer.writeheader()
 dict_writer.writerows(output)
