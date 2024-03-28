@@ -101,9 +101,9 @@ f2.close()
 
 
 
-eval_ner(data, path="../results/kind", type="LOC")
-eval_ner(data, path="../results/kind", type="PER")
-eval_ner(data, path="../results/llamantino", type="LOC")
-eval_ner(data, path="../results/llamantino", type="PER")
-eval_ner(data, path="../results/wikiann", type="LOC")
-eval_ner(data, path="../results/wikiann", type="PER")
+eval_ner(data, path="../results/kind_final", type="LOC")
+eval_ner(data, path="../results/kind_final", type="PER")
+eval_ner(data, path="../results/llamantino_final", type="LOC")
+eval_ner(data, path="../results/llamantino_final", type="PER")
+eval_ner(data, path="../results/wikiann_final", type="LOC")
+eval_ner(data, path="../results/wikiann_final", type="PER")
