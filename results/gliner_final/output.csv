@@ -1,0 +1,745 @@
+id,surface_form,start_pos,end_pos,type
+https://digitalzibaldone.net/node/p2700_1,nazione,721,728,luogo
+https://digitalzibaldone.net/node/p2700_1,Tiraboschi,1510,1520,persona
+https://digitalzibaldone.net/node/p2700_1,Perticari,1530,1539,persona
+https://digitalzibaldone.net/node/p2700_1,Dante,1553,1558,persona
+https://digitalzibaldone.net/node/p2702_1,uomo,248,252,persona
+https://digitalzibaldone.net/node/p2702_1,uomo,561,565,persona
+https://digitalzibaldone.net/node/p2702_1,uomo,631,635,persona
+https://digitalzibaldone.net/node/p2702_1,uomo,877,881,persona
+https://digitalzibaldone.net/node/p2702_1,uomo,1065,1069,persona
+https://digitalzibaldone.net/node/p2702_1,festa,1100,1105,luogo
+https://digitalzibaldone.net/node/p2702_1,festa,1274,1279,luogo
+https://digitalzibaldone.net/node/p2705_1,Italia,114,120,luogo
+https://digitalzibaldone.net/node/p2705_1,Perticari,127,136,persona
+https://digitalzibaldone.net/node/p2705_1,Dante,149,154,persona
+https://digitalzibaldone.net/node/p2705_2,Perticari,33,42,persona
+https://digitalzibaldone.net/node/p2705_3,filosofi,21,29,persona
+https://digitalzibaldone.net/node/p2705_3,filosofi,1007,1015,persona
+https://digitalzibaldone.net/node/p2708_1,Cartesio,0,8,persona
+https://digitalzibaldone.net/node/p2708_1,peripatetici,34,46,persona
+https://digitalzibaldone.net/node/p2708_1,Cartesio,171,179,persona
+https://digitalzibaldone.net/node/p2708_1,edifizio,325,333,luogo
+https://digitalzibaldone.net/node/p2708_1,Newton,426,432,persona
+https://digitalzibaldone.net/node/p2708_1,scuole,486,492,luogo
+https://digitalzibaldone.net/node/p2708_1,Platone,591,598,persona
+https://digitalzibaldone.net/node/p2709_1,Cartesio,473,481,persona
+https://digitalzibaldone.net/node/p2709_1,Newton,484,490,persona
+https://digitalzibaldone.net/node/p2711_1,filosofi antichi,2,18,persona
+https://digitalzibaldone.net/node/p2711_1,uomo,870,874,persona
+https://digitalzibaldone.net/node/p2711_1,fanciullo,1244,1253,persona
+https://digitalzibaldone.net/node/p2711_1,California,1276,1286,luogo
+https://digitalzibaldone.net/node/p2712_1,sole,739,743,luogo
+https://digitalzibaldone.net/node/p2712_1,filosofo,1915,1923,persona
+https://digitalzibaldone.net/node/p2715_1,Perticari,0,9,persona
+https://digitalzibaldone.net/node/p2715_2,Petrarca,89,97,persona
+https://digitalzibaldone.net/node/p2715_2,Boccaccio,131,140,persona
+https://digitalzibaldone.net/node/p2715_2,Dante,271,276,persona
+https://digitalzibaldone.net/node/p2715_3,scrittore,979,988,persona
+https://digitalzibaldone.net/node/p2715_3,scrittore,1197,1206,persona
+https://digitalzibaldone.net/node/p2717_1,scrittore,220,229,persona
+https://digitalzibaldone.net/node/p2717_1,Platone,271,278,persona
+https://digitalzibaldone.net/node/p2717_1,Socrate,388,395,persona
+https://digitalzibaldone.net/node/p2717_1,Platone,439,446,persona
+https://digitalzibaldone.net/node/p2717_1,Lisia,505,510,persona
+https://digitalzibaldone.net/node/p2717_1,Socrate,516,523,persona
+https://digitalzibaldone.net/node/p2717_1,Platone,589,596,persona
+https://digitalzibaldone.net/node/p2717_1,scrittore,1136,1145,persona
+https://digitalzibaldone.net/node/p2717_1,Platone,1370,1377,persona
+https://digitalzibaldone.net/node/p2718_1,Perticari,132,141,persona
+https://digitalzibaldone.net/node/p2721_1,Gelli,9,14,persona
+https://digitalzibaldone.net/node/p2721_2,Perticari,195,204,persona
+https://digitalzibaldone.net/node/p2721_3,Aristotele,0,10,persona
+https://digitalzibaldone.net/node/p2721_3,Perticari,60,69,persona
+https://digitalzibaldone.net/node/p2721_4,Cicerone,215,223,persona
+https://digitalzibaldone.net/node/p2722_1,Orazio,868,874,persona
+https://digitalzibaldone.net/node/p2722_1,Abate Colombo,1175,1188,persona
+https://digitalzibaldone.net/node/p2722_1,Abate Colombo,1339,1352,persona
+https://digitalzibaldone.net/node/p2722_1,Parma,1355,1360,luogo
+https://digitalzibaldone.net/node/p2722_1,Giuseppe Paganino,1365,1382,persona
+https://digitalzibaldone.net/node/p2723_1,Bembo,272,277,persona
+https://digitalzibaldone.net/node/p2723_1,Petrarca,395,403,persona
+https://digitalzibaldone.net/node/p2723_1,Boccaccio,414,423,persona
+https://digitalzibaldone.net/node/p2723_1,Cicerone,464,472,persona
+https://digitalzibaldone.net/node/p2723_1,Orazio,477,483,persona
+https://digitalzibaldone.net/node/p2725_1,scienziati,61,71,persona
+https://digitalzibaldone.net/node/p2725_1,grandi maestri,836,850,persona
+https://digitalzibaldone.net/node/p2725_1,scienziati,1069,1079,persona
+https://digitalzibaldone.net/node/p2725_1,scienziati,1432,1442,persona
+https://digitalzibaldone.net/node/p2725_1,grandi maestri,1930,1944,persona
+https://digitalzibaldone.net/node/p2727_1,Cicerone,432,440,persona
+https://digitalzibaldone.net/node/p2728_1,Platone,532,539,persona
+https://digitalzibaldone.net/node/p2728_1,Aristotele,603,613,persona
+https://digitalzibaldone.net/node/p2728_1,Teofrasto,619,628,persona
+https://digitalzibaldone.net/node/p2728_1,dimora,939,945,luogo
+https://digitalzibaldone.net/node/p2728_1,Celso,1223,1228,persona
+https://digitalzibaldone.net/node/p2728_1,Ippocrate,1354,1363,persona
+https://digitalzibaldone.net/node/p2728_1,Celso,1439,1444,persona
+https://digitalzibaldone.net/node/p2728_1,Plinio,1500,1506,persona
+https://digitalzibaldone.net/node/p2728_1,Mela,1615,1619,persona
+https://digitalzibaldone.net/node/p2728_1,Solino,1621,1627,persona
+https://digitalzibaldone.net/node/p2728_1,Varrone,1629,1636,persona
+https://digitalzibaldone.net/node/p2728_1,Vegezio,1638,1645,persona
+https://digitalzibaldone.net/node/p2728_1,Columella,1647,1656,persona
+https://digitalzibaldone.net/node/p2728_1,Galileo,1671,1678,persona
+https://digitalzibaldone.net/node/p2731_1,Speroni,192,199,persona
+https://digitalzibaldone.net/node/p2731_1,Buffon,787,793,persona
+https://digitalzibaldone.net/node/p2731_2,Tacito,147,153,persona
+https://digitalzibaldone.net/node/p2731_2,Vespasiano,176,186,persona
+https://digitalzibaldone.net/node/p2731_2,Appiano,322,329,persona
+https://digitalzibaldone.net/node/p2731_2,Dione,331,336,persona
+https://digitalzibaldone.net/node/p2731_2,Erodiano,338,346,persona
+https://digitalzibaldone.net/node/p2731_2,Constantinopoli,395,410,luogo
+https://digitalzibaldone.net/node/p2731_2,Procopio,429,437,persona
+https://digitalzibaldone.net/node/p2731_2,Agazia,439,445,persona
+https://digitalzibaldone.net/node/p2731_2,Zosimo,447,453,persona
+https://digitalzibaldone.net/node/p2731_2,Vespasiano,503,513,persona
+https://digitalzibaldone.net/node/p2731_2,Ammiano,679,686,persona
+https://digitalzibaldone.net/node/p2731_2,Orosio,720,726,persona
+https://digitalzibaldone.net/node/p2731_2,Erodoto,952,959,persona
+https://digitalzibaldone.net/node/p2731_2,grecia,1569,1575,luogo
+https://digitalzibaldone.net/node/p2731_2,grecia,1879,1885,luogo
+https://digitalzibaldone.net/node/p2734_1,S. Ilario,113,122,persona
+https://digitalzibaldone.net/node/p2734_1,S. Ilario,284,293,persona
+https://digitalzibaldone.net/node/p2734_1,Maffei,314,320,persona
+https://digitalzibaldone.net/node/p2734_1,S. Atanas,340,349,persona
+https://digitalzibaldone.net/node/p2734_1,Africano,396,404,persona
+https://digitalzibaldone.net/node/p2734_1,Eusebio,409,416,persona
+https://digitalzibaldone.net/node/p2734_1,Europa latina,482,495,luogo
+https://digitalzibaldone.net/node/p2734_1,Prospero,578,586,persona
+https://digitalzibaldone.net/node/p2734_1,Isidoro,588,595,persona
+https://digitalzibaldone.net/node/p2734_1,Italia,642,648,luogo
+https://digitalzibaldone.net/node/p2734_1,Omero,722,727,persona
+https://digitalzibaldone.net/node/p2734_1,Menandro,732,740,persona
+https://digitalzibaldone.net/node/p2734_1,Oriente,792,799,luogo
+https://digitalzibaldone.net/node/p2734_1,Oriente,832,839,luogo
+https://digitalzibaldone.net/node/p2734_1,grecia,893,899,luogo
+https://digitalzibaldone.net/node/p2734_1,Samuele Aniese,959,973,persona
+https://digitalzibaldone.net/node/p2735_1,gentibus,154,162,luogo
+https://digitalzibaldone.net/node/p2735_1,orbis terrae regionibus,245,268,luogo
+https://digitalzibaldone.net/node/p2735_1,Cic.,374,378,persona
+https://digitalzibaldone.net/node/p2735_1,gentibus,620,628,luogo
+https://digitalzibaldone.net/node/p2735_1,nazioni,645,652,luogo
+https://digitalzibaldone.net/node/p2735_1,mondo,718,723,luogo
+https://digitalzibaldone.net/node/p2735_1,impero latino,880,893,luogo
+https://digitalzibaldone.net/node/p2735_1,Cicerone,944,952,persona
+https://digitalzibaldone.net/node/p2736_1,giovani,24,31,persona
+https://digitalzibaldone.net/node/p2736_1,giovani,510,517,persona
+https://digitalzibaldone.net/node/p2738_1,Chateaubriand,199,212,persona
+https://digitalzibaldone.net/node/p2738_1,René,357,361,persona
+https://digitalzibaldone.net/node/p2738_1,Chateaubriand,606,619,persona
+https://digitalzibaldone.net/node/p2739_1,Ennio,34,39,persona
+https://digitalzibaldone.net/node/p2739_1,Forcell,45,52,persona
+https://digitalzibaldone.net/node/p2739_1,Cic.,181,185,persona
+https://digitalzibaldone.net/node/p2739_1,Mai,253,256,persona
+https://digitalzibaldone.net/node/p2740_1,Plinio,412,418,persona
+https://digitalzibaldone.net/node/p2740_1,Simonide,423,431,persona
+https://digitalzibaldone.net/node/p2740_1,Imperatore Claudio,459,477,persona
+https://digitalzibaldone.net/node/p2745_1,settentrionali,110,124,luogo
+https://digitalzibaldone.net/node/p2746_1,scrivani,445,453,persona
+https://digitalzibaldone.net/node/p2746_1,nazione,848,855,luogo
+https://digitalzibaldone.net/node/p2746_1,indiani,1133,1140,luogo
+https://digitalzibaldone.net/node/p2747_1,uomo,779,783,persona
+https://digitalzibaldone.net/node/p2747_1,mondo,1558,1563,luogo
+https://digitalzibaldone.net/node/p2747_1,uomo,1586,1590,persona
+https://digitalzibaldone.net/node/p2747_1,nazioni,1814,1821,luogo
+https://digitalzibaldone.net/node/p2747_1,uomo,1835,1839,persona
+https://digitalzibaldone.net/node/p2750_1,nazione,405,412,luogo
+https://digitalzibaldone.net/node/p2755_1,scrittore italiano,406,424,persona
+https://digitalzibaldone.net/node/p2757_1,Crusca,55,61,persona
+https://digitalzibaldone.net/node/p2757_1,Forcellini,143,153,persona
+https://digitalzibaldone.net/node/p2757_1,Cassiodoro,181,191,persona
+https://digitalzibaldone.net/node/p2757_1,Albinus,418,425,persona
+https://digitalzibaldone.net/node/p2757_1,bibliotheca Romae,501,518,luogo
+https://digitalzibaldone.net/node/p2757_2,Bartoli,543,550,persona
+https://digitalzibaldone.net/node/p2757_2,Virgilio,846,854,persona
+https://digitalzibaldone.net/node/p2757_2,volgo latino,1256,1268,luogo
+https://digitalzibaldone.net/node/p2759_1,uomo di campagna,18,34,persona
+https://digitalzibaldone.net/node/p2759_2,Omero,57,62,persona
+https://digitalzibaldone.net/node/p2759_2,Virgilio,76,84,persona
+https://digitalzibaldone.net/node/p2759_2,Achille,487,494,persona
+https://digitalzibaldone.net/node/p2759_2,Enea,508,512,persona
+https://digitalzibaldone.net/node/p2759_2,Eneide,540,546,luogo
+https://digitalzibaldone.net/node/p2759_2,Enea,564,568,persona
+https://digitalzibaldone.net/node/p2759_2,Magone,583,589,persona
+https://digitalzibaldone.net/node/p2759_2,Pallante,734,742,persona
+https://digitalzibaldone.net/node/p2759_2,Rutuli,765,771,persona
+https://digitalzibaldone.net/node/p2759_2,Omero,972,977,persona
+https://digitalzibaldone.net/node/p2759_2,Menelao,998,1005,persona
+https://digitalzibaldone.net/node/p2759_2,Agamennone,1070,1080,persona
+https://digitalzibaldone.net/node/p2759_2,troiano,1115,1122,persona
+https://digitalzibaldone.net/node/p2761_1,Omero,101,106,persona
+https://digitalzibaldone.net/node/p2761_1,Virgilio,154,162,persona
+https://digitalzibaldone.net/node/p2761_1,Enea,233,237,persona
+https://digitalzibaldone.net/node/p2761_1,Virgilio,375,383,persona
+https://digitalzibaldone.net/node/p2761_1,Enea,430,434,persona
+https://digitalzibaldone.net/node/p2761_1,Omero,541,546,persona
+https://digitalzibaldone.net/node/p2761_1,Virgilio,654,662,persona
+https://digitalzibaldone.net/node/p2761_1,Enea,745,749,persona
+https://digitalzibaldone.net/node/p2761_1,Omero,862,867,persona
+https://digitalzibaldone.net/node/p2762_1,Omero,20,25,persona
+https://digitalzibaldone.net/node/p2762_1,Virgilio,520,528,persona
+https://digitalzibaldone.net/node/p2762_1,Omero,737,742,persona
+https://digitalzibaldone.net/node/p2762_1,Enea,892,896,persona
+https://digitalzibaldone.net/node/p2762_1,Enea,1120,1124,persona
+https://digitalzibaldone.net/node/p2762_1,Enea,1613,1617,persona
+https://digitalzibaldone.net/node/p2762_1,Omero,1701,1706,persona
+https://digitalzibaldone.net/node/p2765_1,Omero,55,60,persona
+https://digitalzibaldone.net/node/p2767_1,Omero,7,12,persona
+https://digitalzibaldone.net/node/p2767_1,Priamo,24,30,persona
+https://digitalzibaldone.net/node/p2767_1,Achille,42,49,persona
+https://digitalzibaldone.net/node/p2767_1,Achille,300,307,persona
+https://digitalzibaldone.net/node/p2767_1,Priamo,463,469,persona
+https://digitalzibaldone.net/node/p2767_1,Priamo,494,500,persona
+https://digitalzibaldone.net/node/p2767_1,Patroclo,553,561,persona
+https://digitalzibaldone.net/node/p2767_1,Priamo,591,597,persona
+https://digitalzibaldone.net/node/p2767_1,Giove,813,818,persona
+https://digitalzibaldone.net/node/p2767_1,Teti,832,836,persona
+https://digitalzibaldone.net/node/p2767_1,Achille,1059,1066,persona
+https://digitalzibaldone.net/node/p2767_1,Omero,1520,1525,persona
+https://digitalzibaldone.net/node/p2767_1,Achille,1571,1578,persona
+https://digitalzibaldone.net/node/p2767_1,Achille,1722,1729,persona
+https://digitalzibaldone.net/node/p2767_1,Omero,1840,1845,persona
+https://digitalzibaldone.net/node/p2770_1,Omero,22,27,persona
+https://digitalzibaldone.net/node/p2770_1,eziandio,759,767,luogo
+https://digitalzibaldone.net/node/p2771_1,Caro,241,245,persona
+https://digitalzibaldone.net/node/p2771_2,Matto,0,5,persona
+https://digitalzibaldone.net/node/p2771_3,poeti,560,565,persona
+https://digitalzibaldone.net/node/p2774_1,poeti,732,737,persona
+https://digitalzibaldone.net/node/p2775_1,Scapula,734,741,persona
+https://digitalzibaldone.net/node/p2775_1,Schrevel,819,827,persona
+https://digitalzibaldone.net/node/p2780_1,lingua madre,131,143,luogo
+https://digitalzibaldone.net/node/p2780_1,Forcellini,234,244,persona
+https://digitalzibaldone.net/node/p2781_1,madre,141,146,persona
+https://digitalzibaldone.net/node/p2781_1,nazioni,175,182,luogo
+https://digitalzibaldone.net/node/p2781_1,sorella,515,522,persona
+https://digitalzibaldone.net/node/p2781_1,grecia,931,937,luogo
+https://digitalzibaldone.net/node/p2782_1,italia,89,95,luogo
+https://digitalzibaldone.net/node/p2782_1,francia,293,300,luogo
+https://digitalzibaldone.net/node/p2782_1,italia,370,376,luogo
+https://digitalzibaldone.net/node/p2782_1,forestiere,382,392,persona
+https://digitalzibaldone.net/node/p2782_1,italia,719,725,luogo
+https://digitalzibaldone.net/node/p2783_1,eziandio,6,14,persona
+https://digitalzibaldone.net/node/p2783_1,francia,109,116,luogo
+https://digitalzibaldone.net/node/p2783_1,Perticari,736,745,persona
+https://digitalzibaldone.net/node/p2783_2,latina,116,122,luogo
+https://digitalzibaldone.net/node/p2786_1,Scapula,406,413,persona
+https://digitalzibaldone.net/node/p2786_1,Schrevel,536,544,persona
+https://digitalzibaldone.net/node/p2786_1,Forcell,548,555,persona
+https://digitalzibaldone.net/node/p2786_1,odissea,643,650,luogo
+https://digitalzibaldone.net/node/p2786_1,teogonia,670,678,luogo
+https://digitalzibaldone.net/node/p2786_1,Visconti,744,752,persona
+https://digitalzibaldone.net/node/p2786_1,odissea,766,773,luogo
+https://digitalzibaldone.net/node/p2786_1,Teogonia,812,820,luogo
+https://digitalzibaldone.net/node/p2786_1,iscrizioni triopee,1245,1263,luogo
+https://digitalzibaldone.net/node/p2786_1,Visconti,1363,1371,persona
+https://digitalzibaldone.net/node/p2786_1,grammatici,1503,1513,persona
+https://digitalzibaldone.net/node/p2788_1,Visconti,311,319,persona
+https://digitalzibaldone.net/node/p2788_1,Tusano,359,365,luogo
+https://digitalzibaldone.net/node/p2788_1,Visconti,738,746,persona
+https://digitalzibaldone.net/node/p2788_1,odissea,799,806,luogo
+https://digitalzibaldone.net/node/p2788_1,Omero,879,884,persona
+https://digitalzibaldone.net/node/p2788_1,Parche,952,958,luogo
+https://digitalzibaldone.net/node/p2788_1,Iliade,968,974,luogo
+https://digitalzibaldone.net/node/p2788_1,Omero,1143,1148,persona
+https://digitalzibaldone.net/node/p2788_1,Sofocle,1414,1421,persona
+https://digitalzibaldone.net/node/p2790_1,Arpalice,18,26,persona
+https://digitalzibaldone.net/node/p2790_1,Harpalice,55,64,persona
+https://digitalzibaldone.net/node/p2790_1,Teogonia,191,199,luogo
+https://digitalzibaldone.net/node/p2790_1,Iliade,427,433,luogo
+https://digitalzibaldone.net/node/p2790_1,Esiodo,509,515,luogo
+https://digitalzibaldone.net/node/p2790_1,Nereo,537,542,persona
+https://digitalzibaldone.net/node/p2790_1,Ἁρπυίας,652,659,persona
+https://digitalzibaldone.net/node/p2790_1,Omero,1219,1224,persona
+https://digitalzibaldone.net/node/p2790_1,Dante,1264,1269,persona
+https://digitalzibaldone.net/node/p2790_1,Monti,1290,1295,persona
+https://digitalzibaldone.net/node/p2790_1,Iliade,1442,1448,luogo
+https://digitalzibaldone.net/node/p2791_1,odissea,198,205,luogo
+https://digitalzibaldone.net/node/p2791_1,autore,219,225,persona
+https://digitalzibaldone.net/node/p2792_1,Forcell,233,240,persona
+https://digitalzibaldone.net/node/p2792_1,Omero,300,305,persona
+https://digitalzibaldone.net/node/p2792_1,Esiodo,310,316,persona
+https://digitalzibaldone.net/node/p2792_1,odissea,498,505,luogo
+https://digitalzibaldone.net/node/p2792_1,Eustazio,538,546,persona
+https://digitalzibaldone.net/node/p2792_1,Scapula,557,564,luogo
+https://digitalzibaldone.net/node/p2792_1,Omero,665,670,persona
+https://digitalzibaldone.net/node/p2792_1,Luciano,861,868,persona
+https://digitalzibaldone.net/node/p2792_1,Amstel,875,881,persona
+https://digitalzibaldone.net/node/p2792_2,ferruginea,3,13,luogo
+https://digitalzibaldone.net/node/p2792_2,Charon,17,23,persona
+https://digitalzibaldone.net/node/p2792_2,Forcellini,321,331,persona
+https://digitalzibaldone.net/node/p2793_2,Coricio sofista,131,146,persona
+https://digitalzibaldone.net/node/p2795_1,lingua madre,134,146,luogo
+https://digitalzibaldone.net/node/p2796_1,χῶρον,60,65,luogo
+https://digitalzibaldone.net/node/p2796_1,Χορικίου Σοϕιστοῦ ᾽Eπιτάϕιος,467,495,persona
+https://digitalzibaldone.net/node/p2796_1,Προκοπίῳ Σοϕιστῇ Γάζης,500,522,persona
+https://digitalzibaldone.net/node/p2796_1,Procopium Sophistam-Gazaeum,543,570,persona
+https://digitalzibaldone.net/node/p2796_2,Castiglione,57,68,persona
+https://digitalzibaldone.net/node/p2796_2,scrittore,121,130,persona
+https://digitalzibaldone.net/node/p2796_2,scrittore,544,553,persona
+https://digitalzibaldone.net/node/p2796_2,scrittore,1116,1125,persona
+https://digitalzibaldone.net/node/p2796_2,scrittore,1701,1710,persona
+https://digitalzibaldone.net/node/p2796_2,scrittore,1851,1860,persona
+https://digitalzibaldone.net/node/p2796_2,nazione,1901,1908,luogo
+https://digitalzibaldone.net/node/p2799_1,aedes,506,511,luogo
+https://digitalzibaldone.net/node/p2799_1,Io. Northi,579,589,persona
+https://digitalzibaldone.net/node/p2799_1,Sesto Empirico,710,724,persona
+https://digitalzibaldone.net/node/p2799_1,Enrico Stefano,749,763,persona
+https://digitalzibaldone.net/node/p2799_1,Fabricio,802,810,persona
+https://digitalzibaldone.net/node/p2799_1,Fabricio,874,882,persona
+https://digitalzibaldone.net/node/p2799_1,Fabricio,1122,1130,persona
+https://digitalzibaldone.net/node/p2800_1,sapiente,89,97,persona
+https://digitalzibaldone.net/node/p2800_1,sapiente,420,428,persona
+https://digitalzibaldone.net/node/p2803_1,uomo,298,302,persona
+https://digitalzibaldone.net/node/p2804_1,individuo,378,387,persona
+https://digitalzibaldone.net/node/p2804_1,scena,550,555,luogo
+https://digitalzibaldone.net/node/p2804_1,poeta,1141,1146,persona
+https://digitalzibaldone.net/node/p2804_1,individuo,1649,1658,persona
+https://digitalzibaldone.net/node/p2804_1,poeta,1744,1749,persona
+https://digitalzibaldone.net/node/p2804_1,individuo,1770,1779,persona
+https://digitalzibaldone.net/node/p2804_1,individuo,1800,1809,persona
+https://digitalzibaldone.net/node/p2808_1,spettatore,513,523,persona
+https://digitalzibaldone.net/node/p2809_1,Marca,662,667,luogo
+https://digitalzibaldone.net/node/p2809_1,Lorenzo de' Medici,1044,1062,persona
+https://digitalzibaldone.net/node/p2809_1,Gio. de' Medici Card.,1086,1107,persona
+https://digitalzibaldone.net/node/p2809_1,Papa Leone X,1127,1139,persona
+https://digitalzibaldone.net/node/p2809_1,Torino,1203,1209,luogo
+https://digitalzibaldone.net/node/p2809_1,Dolce,1342,1347,persona
+https://digitalzibaldone.net/node/p2809_1,Gabriel Giolito de' Ferrari,1365,1392,persona
+https://digitalzibaldone.net/node/p2809_1,Paolo Manuzio,1513,1526,persona
+https://digitalzibaldone.net/node/p2809_1,Magnifico di Roscoe,1753,1772,persona
+https://digitalzibaldone.net/node/p2811_1,Omero,199,204,persona
+https://digitalzibaldone.net/node/p2811_1,Plutarco,247,255,persona
+https://digitalzibaldone.net/node/p2811_2,Moeridis,25,33,persona
+https://digitalzibaldone.net/node/p2811_2,Fabric. B. G.,332,345,persona
+https://digitalzibaldone.net/node/p2815_1,Forcellini,230,240,persona
+https://digitalzibaldone.net/node/p2815_1,Eneide 2. 459,406,419,luogo
+https://digitalzibaldone.net/node/p2819_2,Cicerone,333,341,persona
+https://digitalzibaldone.net/node/p2820_2,Forcellini,525,535,persona
+https://digitalzibaldone.net/node/p2820_3,Stazio,724,730,persona
+https://digitalzibaldone.net/node/p2821_1,Forcellini,86,96,persona
+https://digitalzibaldone.net/node/p2821_2,Forcellini,323,333,persona
+https://digitalzibaldone.net/node/p2821_3,Festo,21,26,persona
+https://digitalzibaldone.net/node/p2821_3,Catone,43,49,persona
+https://digitalzibaldone.net/node/p2821_3,Festo,1327,1332,persona
+https://digitalzibaldone.net/node/p2821_3,Catone,1376,1382,persona
+https://digitalzibaldone.net/node/p2821_3,Catone,1463,1469,persona
+https://digitalzibaldone.net/node/p2823_1,Servio,825,831,persona
+https://digitalzibaldone.net/node/p2823_1,Forcellini,1004,1014,persona
+https://digitalzibaldone.net/node/p2823_1,Servio,1143,1149,persona
+https://digitalzibaldone.net/node/p2825_1,Fortunatianus,0,13,persona
+https://digitalzibaldone.net/node/p2825_1,Fortunatius,106,117,persona
+https://digitalzibaldone.net/node/p2825_1,Afer,127,131,luogo
+https://digitalzibaldone.net/node/p2825_1,Aquilejensis,133,145,luogo
+https://digitalzibaldone.net/node/p2825_1,Hieronymo,219,228,persona
+https://digitalzibaldone.net/node/p2825_1,Hilarium,326,334,persona
+https://digitalzibaldone.net/node/p2825_1,V. C. Christianus Falsterus,466,493,persona
+https://digitalzibaldone.net/node/p2825_1,Fortunatianus,767,780,persona
+https://digitalzibaldone.net/node/p2825_2,Eustazio,388,396,persona
+https://digitalzibaldone.net/node/p2825_2,Φυσιολόγος d'Epifanio,522,543,persona
+https://digitalzibaldone.net/node/p2825_2,Mustoxidi,559,568,persona
+https://digitalzibaldone.net/node/p2825_2,Scinà,577,582,persona
+https://digitalzibaldone.net/node/p2828_1,sofisti,611,618,persona
+https://digitalzibaldone.net/node/p2828_1,Libanio,620,627,persona
+https://digitalzibaldone.net/node/p2828_1,Imerio,629,635,persona
+https://digitalzibaldone.net/node/p2828_1,Coricio,637,644,persona
+https://digitalzibaldone.net/node/p2829_1,Chateaubriand,1373,1386,persona
+https://digitalzibaldone.net/node/p2831_1,uomo,978,982,persona
+https://digitalzibaldone.net/node/p2833_1,spettatore,162,172,persona
+https://digitalzibaldone.net/node/p2833_1,persona,448,455,persona
+https://digitalzibaldone.net/node/p2833_1,persona,549,556,persona
+https://digitalzibaldone.net/node/p2833_1,persona,592,599,persona
+https://digitalzibaldone.net/node/p2833_1,persona,732,739,persona
+https://digitalzibaldone.net/node/p2833_1,città,878,883,luogo
+https://digitalzibaldone.net/node/p2833_1,nazione,886,893,luogo
+https://digitalzibaldone.net/node/p2833_1,campagna,935,943,luogo
+https://digitalzibaldone.net/node/p2833_1,città,949,954,luogo
+https://digitalzibaldone.net/node/p2834_1,uomini,69,75,persona
+https://digitalzibaldone.net/node/p2834_1,uomini,139,145,persona
+https://digitalzibaldone.net/node/p2834_1,sole,220,224,luogo
+https://digitalzibaldone.net/node/p2835_1,pascitus,13,21,persona
+https://digitalzibaldone.net/node/p2835_1,pasco,43,48,persona
+https://digitalzibaldone.net/node/p2835_1,noscitus,92,100,persona
+https://digitalzibaldone.net/node/p2835_2,Plauto Cas. 2. 5. 39.,82,103,persona
+https://digitalzibaldone.net/node/p2836_1,Urbis,45,50,luogo
+https://digitalzibaldone.net/node/p2836_2,poeti,42,47,persona
+https://digitalzibaldone.net/node/p2836_2,scrittori,54,63,persona
+https://digitalzibaldone.net/node/p2836_2,poeti,321,326,persona
+https://digitalzibaldone.net/node/p2836_2,nazione,1044,1051,luogo
+https://digitalzibaldone.net/node/p2836_2,nazione,1060,1067,luogo
+https://digitalzibaldone.net/node/p2836_2,poeta,1119,1124,persona
+https://digitalzibaldone.net/node/p2836_2,scrittore,1478,1487,persona
+https://digitalzibaldone.net/node/p2836_2,nazione,1634,1641,luogo
+https://digitalzibaldone.net/node/p2840_1,Ennio,919,924,persona
+https://digitalzibaldone.net/node/p2840_1,Lucrezio,972,980,persona
+https://digitalzibaldone.net/node/p2840_1,Catone,1005,1011,persona
+https://digitalzibaldone.net/node/p2840_1,Cincio,1013,1019,persona
+https://digitalzibaldone.net/node/p2840_1,nazione,1481,1488,luogo
+https://digitalzibaldone.net/node/p2841_1,Plauto,496,502,persona
+https://digitalzibaldone.net/node/p2841_1,Forcellini,699,709,persona
+https://digitalzibaldone.net/node/p2842_1,Venanzio Fortunato,165,183,persona
+https://digitalzibaldone.net/node/p2845_1,nazione,181,188,luogo
+https://digitalzibaldone.net/node/p2845_1,autore,206,212,persona
+https://digitalzibaldone.net/node/p2845_1,Calderon,551,559,persona
+https://digitalzibaldone.net/node/p2845_1,autore,638,644,persona
+https://digitalzibaldone.net/node/p2846_1,mondo,1298,1303,luogo
+https://digitalzibaldone.net/node/p2847_1,nazione,44,51,luogo
+https://digitalzibaldone.net/node/p2847_1,individuo,140,149,persona
+https://digitalzibaldone.net/node/p2847_1,individuo,173,182,persona
+https://digitalzibaldone.net/node/p2847_1,nazione,326,333,luogo
+https://digitalzibaldone.net/node/p2847_1,nazione,1116,1123,luogo
+https://digitalzibaldone.net/node/p2847_1,nazion tedesca,1430,1444,luogo
+https://digitalzibaldone.net/node/p2847_1,nazione tedesca,1621,1636,luogo
+https://digitalzibaldone.net/node/p2852_1,Settanta,235,243,persona
+https://digitalzibaldone.net/node/p2852_1,Settanta,922,930,persona
+https://digitalzibaldone.net/node/p2852_1,Settanta,1816,1824,persona
+https://digitalzibaldone.net/node/p2856_1,autore,402,408,persona
+https://digitalzibaldone.net/node/p2856_1,traduttore,505,515,persona
+https://digitalzibaldone.net/node/p2856_1,artefice,1137,1145,persona
+https://digitalzibaldone.net/node/p2856_1,artefice,1250,1258,persona
+https://digitalzibaldone.net/node/p2859_1,traduttori tedeschi,19,38,persona
+https://digitalzibaldone.net/node/p2859_1,nazione,950,957,luogo
+https://digitalzibaldone.net/node/p2859_1,nazione,1266,1273,luogo
+https://digitalzibaldone.net/node/p2861_1,uomo,85,89,persona
+https://digitalzibaldone.net/node/p2861_1,vivente,97,104,persona
+https://digitalzibaldone.net/node/p2861_1,individuo,325,334,persona
+https://digitalzibaldone.net/node/p2862_1,mondo,127,132,luogo
+https://digitalzibaldone.net/node/p2862_1,uomo,302,306,persona
+https://digitalzibaldone.net/node/p2864_1,Fratello,267,275,persona
+https://digitalzibaldone.net/node/p2864_1,sorella,277,284,persona
+https://digitalzibaldone.net/node/p2864_1,figliuolo,286,295,persona
+https://digitalzibaldone.net/node/p2864_3,Simmaco,174,181,persona
+https://digitalzibaldone.net/node/p2864_3,Forcell,348,355,luogo
+https://digitalzibaldone.net/node/p2864_3,Ulpiano,444,451,luogo
+https://digitalzibaldone.net/node/p2865_1,Floro,78,83,persona
+https://digitalzibaldone.net/node/p2865_1,Giusto de' Conti,171,187,persona
+https://digitalzibaldone.net/node/p2865_1,Angelo di Costanzo,220,238,persona
+https://digitalzibaldone.net/node/p2865_1,Crusca,440,446,persona
+https://digitalzibaldone.net/node/p2865_2,Forcell,40,47,persona
+https://digitalzibaldone.net/node/p2865_3,istile,399,405,luogo
+https://digitalzibaldone.net/node/p2865_3,S. Gio. Crisostomo,435,453,persona
+https://digitalzibaldone.net/node/p2866_1,autor greco,30,41,persona
+https://digitalzibaldone.net/node/p2866_1,autore,567,573,persona
+https://digitalzibaldone.net/node/p2866_1,Senofonte,790,799,persona
+https://digitalzibaldone.net/node/p2866_1,Platone,809,816,persona
+https://digitalzibaldone.net/node/p2866_1,autore,985,991,persona
+https://digitalzibaldone.net/node/p2866_1,autore,1220,1226,persona
+https://digitalzibaldone.net/node/p2866_1,luogo,1789,1794,luogo
+https://digitalzibaldone.net/node/p2869_1,Dante,1727,1732,persona
+https://digitalzibaldone.net/node/p2875_1,inghilterra,711,722,luogo
+https://digitalzibaldone.net/node/p2875_1,Germania,728,736,luogo
+https://digitalzibaldone.net/node/p2876_1,uomo,2,6,persona
+https://digitalzibaldone.net/node/p2876_2,Macrobio,328,336,persona
+https://digitalzibaldone.net/node/p2876_2,Virgilio,423,431,persona
+https://digitalzibaldone.net/node/p2876_2,Festo,1281,1286,persona
+https://digitalzibaldone.net/node/p2879_1,Forcellini,196,206,persona
+https://digitalzibaldone.net/node/p2879_2,Dionigi d'Alicarnasso,244,265,persona
+https://digitalzibaldone.net/node/p2879_2,Italia,327,333,luogo
+https://digitalzibaldone.net/node/p2879_2,Ηρακλέα,366,373,persona
+https://digitalzibaldone.net/node/p2879_2,Aργος,419,424,luogo
+https://digitalzibaldone.net/node/p2879_2,Iταλίᾳ,478,484,luogo
+https://digitalzibaldone.net/node/p2879_2,Σικελίαν,569,577,luogo
+https://digitalzibaldone.net/node/p2881_1,Dionigi d'Alicarnasso,44,65,persona
+https://digitalzibaldone.net/node/p2881_1,Pietro Giordani,75,90,persona
+https://digitalzibaldone.net/node/p2881_1,Chiarissimo Abate Giambattista Canova,108,145,persona
+https://digitalzibaldone.net/node/p2881_1,Abate Mai,176,185,persona
+https://digitalzibaldone.net/node/p2881_1,Milano,187,193,luogo
+https://digitalzibaldone.net/node/p2881_1,Giovanni Silvestri,199,217,persona
+https://digitalzibaldone.net/node/p2881_1,Ellanico Lesbiese,237,254,persona
+https://digitalzibaldone.net/node/p2881_1,Ercole,264,270,persona
+https://digitalzibaldone.net/node/p2881_1,Argo,282,286,luogo
+https://digitalzibaldone.net/node/p2881_1,Gerione,297,304,luogo
+https://digitalzibaldone.net/node/p2881_1,Italia,326,332,luogo
+https://digitalzibaldone.net/node/p2881_1,Sicilia,448,455,luogo
+https://digitalzibaldone.net/node/p2881_1,Ercole,469,475,persona
+https://digitalzibaldone.net/node/p2881_1,Ercole,633,639,persona
+https://digitalzibaldone.net/node/p2881_1,Ercole,860,866,persona
+https://digitalzibaldone.net/node/p2882_1,Ammiano,288,295,persona
+https://digitalzibaldone.net/node/p2882_1,Ammiano,325,332,persona
+https://digitalzibaldone.net/node/p2882_1,Festo,628,633,persona
+https://digitalzibaldone.net/node/p2882_1,S. Agostino,980,991,persona
+https://digitalzibaldone.net/node/p2882_1,Ispagna,1250,1257,luogo
+https://digitalzibaldone.net/node/p2882_1,Ammiano,1274,1281,persona
+https://digitalzibaldone.net/node/p2883_1,uomo,189,193,persona
+https://digitalzibaldone.net/node/p2883_1,uomo,500,504,persona
+https://digitalzibaldone.net/node/p2883_1,uomo,698,702,persona
+https://digitalzibaldone.net/node/p2883_1,punto,760,765,luogo
+https://digitalzibaldone.net/node/p2883_1,uomo,930,934,persona
+https://digitalzibaldone.net/node/p2883_1,punto,1322,1327,luogo
+https://digitalzibaldone.net/node/p2883_1,uomo,1330,1334,persona
+https://digitalzibaldone.net/node/p2884_1,Ab. Colombo,488,499,persona
+https://digitalzibaldone.net/node/p2884_1,Parma,501,506,luogo
+https://digitalzibaldone.net/node/p2884_1,Pico Mirandolano,548,564,persona
+https://digitalzibaldone.net/node/p2884_1,Girolamo Benivieni,593,611,persona
+https://digitalzibaldone.net/node/p2885_1,Forcellini,104,114,persona
+https://digitalzibaldone.net/node/p2885_1,Forcellini,623,633,persona
+https://digitalzibaldone.net/node/p2885_1,Forcellini,931,941,persona
+https://digitalzibaldone.net/node/p2885_1,Plinio,1448,1454,persona
+https://digitalzibaldone.net/node/p2885_1,Plinio,1618,1624,persona
+https://digitalzibaldone.net/node/p2887_1,latina,703,709,luogo
+https://digitalzibaldone.net/node/p2887_1,latina,732,738,luogo
+https://digitalzibaldone.net/node/p2887_1,Servio,847,853,persona
+https://digitalzibaldone.net/node/p2887_1,Perticari,1178,1187,persona
+https://digitalzibaldone.net/node/p2889_1,ἄλσος,117,122,luogo
+https://digitalzibaldone.net/node/p2890_2,Omero,28,33,persona
+https://digitalzibaldone.net/node/p2890_2,Omero,307,312,persona
+https://digitalzibaldone.net/node/p2890_2,Sebero,354,360,luogo
+https://digitalzibaldone.net/node/p2891_1,impero,146,152,luogo
+https://digitalzibaldone.net/node/p2891_1,spagnuoli,1252,1261,persona
+https://digitalzibaldone.net/node/p2891_1,spagnuoli,1299,1308,persona
+https://digitalzibaldone.net/node/p2893_1,Orazio,180,186,persona
+https://digitalzibaldone.net/node/p2895_1,Forcellini,374,384,persona
+https://digitalzibaldone.net/node/p2895_1,Dante,834,839,persona
+https://digitalzibaldone.net/node/p2895_2,campo,1010,1015,luogo
+https://digitalzibaldone.net/node/p2895_2,Dante,1138,1143,persona
+https://digitalzibaldone.net/node/p2898_1,uomo,49,53,persona
+https://digitalzibaldone.net/node/p2898_1,uomo,228,232,persona
+https://digitalzibaldone.net/node/p2898_1,mondo,262,267,luogo
+https://digitalzibaldone.net/node/p2898_1,uomo,349,353,persona
+https://digitalzibaldone.net/node/p2898_1,uomo,595,599,persona
+https://digitalzibaldone.net/node/p2898_1,uomo,810,814,persona
+https://digitalzibaldone.net/node/p2899_1,uomo,252,256,persona
+https://digitalzibaldone.net/node/p2899_2,uomo,920,924,persona
+https://digitalzibaldone.net/node/p2900_1,uomo,88,92,persona
+https://digitalzibaldone.net/node/p2900_1,uomo,443,447,persona
+https://digitalzibaldone.net/node/p2900_1,uomo,452,456,persona
+https://digitalzibaldone.net/node/p2900_2,uomo,29,33,persona
+https://digitalzibaldone.net/node/p2900_2,uomo,281,285,persona
+https://digitalzibaldone.net/node/p2900_2,uomo,357,361,persona
+https://digitalzibaldone.net/node/p2900_2,uomo,635,639,persona
+https://digitalzibaldone.net/node/p2900_2,uomo,953,957,persona
+https://digitalzibaldone.net/node/p2900_2,uomo,1524,1528,persona
+https://digitalzibaldone.net/node/p2900_2,uomo,1742,1746,persona
+https://digitalzibaldone.net/node/p2900_2,uomo,1834,1838,persona
+https://digitalzibaldone.net/node/p2903_1,artefici,28,36,persona
+https://digitalzibaldone.net/node/p2903_1,artefice,250,258,persona
+https://digitalzibaldone.net/node/p2903_1,artefice,344,352,persona
+https://digitalzibaldone.net/node/p2903_2,Frontone,392,400,persona
+https://digitalzibaldone.net/node/p2903_2,Sallustio,1689,1698,persona
+https://digitalzibaldone.net/node/p2905_1,personaggio,163,174,persona
+https://digitalzibaldone.net/node/p2905_1,uffizio,395,402,luogo
+https://digitalzibaldone.net/node/p2906_1,Racine,91,97,persona
+https://digitalzibaldone.net/node/p2906_1,piazza,642,648,luogo
+https://digitalzibaldone.net/node/p2906_1,porti,656,661,luogo
+https://digitalzibaldone.net/node/p2906_1,Plauto,686,692,persona
+https://digitalzibaldone.net/node/p2906_2,scrittore,89,98,persona
+https://digitalzibaldone.net/node/p2906_2,autore,1054,1060,persona
+https://digitalzibaldone.net/node/p2907_1,francese,51,59,luogo
+https://digitalzibaldone.net/node/p2907_1,francese,88,96,luogo
+https://digitalzibaldone.net/node/p2907_1,scrittore,567,576,persona
+https://digitalzibaldone.net/node/p2908_1,autori,182,188,persona
+https://digitalzibaldone.net/node/p2909_1,scrittor francese,85,102,persona
+https://digitalzibaldone.net/node/p2909_1,scrittor francese,216,233,persona
+https://digitalzibaldone.net/node/p2909_2,lingua ebraica,35,49,luogo
+https://digitalzibaldone.net/node/p2909_3,forestiere,147,157,persona
+https://digitalzibaldone.net/node/p2909_3,forestiere,686,696,persona
+https://digitalzibaldone.net/node/p2909_3,forestiero,796,806,persona
+https://digitalzibaldone.net/node/p2909_3,Corneille,1201,1210,persona
+https://digitalzibaldone.net/node/p2909_3,scrittore,1511,1520,persona
+https://digitalzibaldone.net/node/p2910_1,scrittore ebraico,366,383,persona
+https://digitalzibaldone.net/node/p2910_1,Francia,1101,1108,luogo
+https://digitalzibaldone.net/node/p2912_1,fanciullo,1224,1233,persona
+https://digitalzibaldone.net/node/p2912_1,filosofo,1312,1320,persona
+https://digitalzibaldone.net/node/p2914_1,Platone,601,608,persona
+https://digitalzibaldone.net/node/p2914_1,Senofonte,611,620,persona
+https://digitalzibaldone.net/node/p2914_1,Francia,1233,1240,luogo
+https://digitalzibaldone.net/node/p2916_1,secolo aureo,249,261,luogo
+https://digitalzibaldone.net/node/p2916_1,Cic.,875,879,persona
+https://digitalzibaldone.net/node/p2916_1,Quintiliano,885,896,persona
+https://digitalzibaldone.net/node/p2918_1,Forcell,848,855,persona
+https://digitalzibaldone.net/node/p2918_1,Claudiano,912,921,persona
+https://digitalzibaldone.net/node/p2919_1,negozio,528,535,luogo
+https://digitalzibaldone.net/node/p2919_1,Alberti,854,861,persona
+https://digitalzibaldone.net/node/p2919_1,ispagnuolo,887,897,luogo
+https://digitalzibaldone.net/node/p2919_2,Platone,221,228,persona
+https://digitalzibaldone.net/node/p2919_2,Astii,283,288,luogo
+https://digitalzibaldone.net/node/p2919_2,Scapula,483,490,persona
+https://digitalzibaldone.net/node/p2919_2,Corinto,510,517,luogo
+https://digitalzibaldone.net/node/p2919_2,Πλάτων,578,584,persona
+https://digitalzibaldone.net/node/p2919_2,Fedro,603,608,luogo
+https://digitalzibaldone.net/node/p2919_2,Scapula,737,744,persona
+https://digitalzibaldone.net/node/p2919_2,Sofista,801,808,luogo
+https://digitalzibaldone.net/node/p2919_2,Omero,1152,1157,luogo
+https://digitalzibaldone.net/node/p2919_2,Scapula,1168,1175,persona
+https://digitalzibaldone.net/node/p2919_2,Fedro,1309,1314,luogo
+https://digitalzibaldone.net/node/p2919_2,Socrate,1556,1563,persona
+https://digitalzibaldone.net/node/p2923_1,italiani,10,18,persona
+https://digitalzibaldone.net/node/p2923_1,nazioni,103,110,luogo
+https://digitalzibaldone.net/node/p2923_2,se stesso,54,63,persona
+https://digitalzibaldone.net/node/p2923_3,Cicerone,404,412,persona
+https://digitalzibaldone.net/node/p2923_3,Attica,414,420,luogo
+https://digitalzibaldone.net/node/p2925_1,Forcellini,138,148,persona
+https://digitalzibaldone.net/node/p2925_1,Cic. de Senect.,189,204,persona
+https://digitalzibaldone.net/node/p2925_1,Forcellini,438,448,persona
+https://digitalzibaldone.net/node/p2925_2,Crusca,284,290,luogo
+https://digitalzibaldone.net/node/p2925_2,scrittore,357,366,persona
+https://digitalzibaldone.net/node/p2925_2,Salvini,503,510,luogo
+https://digitalzibaldone.net/node/p2926_1,Arnobio,56,63,persona
+https://digitalzibaldone.net/node/p2926_1,volgar fiorentino,186,203,luogo
+https://digitalzibaldone.net/node/p2926_2,volgar latino,267,280,luogo
+https://digitalzibaldone.net/node/p2926_3,uomo,75,79,persona
+https://digitalzibaldone.net/node/p2926_3,giovane,93,100,persona
+https://digitalzibaldone.net/node/p2926_3,giovane,122,129,persona
+https://digitalzibaldone.net/node/p2926_3,giovane,805,812,persona
+https://digitalzibaldone.net/node/p2928_1,nazioni,57,64,luogo
+https://digitalzibaldone.net/node/p2930_1,Plauto,104,110,persona
+https://digitalzibaldone.net/node/p2930_1,Forcellini,165,175,persona
+https://digitalzibaldone.net/node/p2930_1,spagnuolo,383,392,luogo
+https://digitalzibaldone.net/node/p2930_2,Festo,28,33,persona
+https://digitalzibaldone.net/node/p2930_2,Festo,304,309,persona
+https://digitalzibaldone.net/node/p2930_2,Festo,1236,1241,persona
+https://digitalzibaldone.net/node/p2932_1,Pistus,0,6,luogo
+https://digitalzibaldone.net/node/p2932_1,Varrone,715,722,persona
+https://digitalzibaldone.net/node/p2932_1,Plinio,725,731,persona
+https://digitalzibaldone.net/node/p2932_1,Diomede,826,833,persona
+https://digitalzibaldone.net/node/p2932_1,Persio,869,875,persona
+https://digitalzibaldone.net/node/p2932_1,Anonimo,1060,1067,persona
+https://digitalzibaldone.net/node/p2932_1,Vitruvio,1165,1173,persona
+https://digitalzibaldone.net/node/p2932_1,Varrone,1398,1405,persona
+https://digitalzibaldone.net/node/p2932_1,anonimo,1742,1749,persona
+https://digitalzibaldone.net/node/p2934_1,dialetto,689,697,luogo
+https://digitalzibaldone.net/node/p2934_1,provincia d'italia,700,718,luogo
+https://digitalzibaldone.net/node/p2934_1,veneziano,740,749,luogo
+https://digitalzibaldone.net/node/p2934_2,antico latino,136,149,luogo
+https://digitalzibaldone.net/node/p2934_2,rustico Latino,478,492,luogo
+https://digitalzibaldone.net/node/p2934_2,vernacoli,560,569,luogo
+https://digitalzibaldone.net/node/p2935_1,Forcellini,102,112,persona
+https://digitalzibaldone.net/node/p2935_1,Forcellini,603,613,persona
+https://digitalzibaldone.net/node/p2935_2,Forcellini,43,53,persona
+https://digitalzibaldone.net/node/p2935_2,Glossario,74,83,persona
+https://digitalzibaldone.net/node/p2936_1,uomo,121,125,persona
+https://digitalzibaldone.net/node/p2936_1,uomo,209,213,persona
+https://digitalzibaldone.net/node/p2936_1,fanciullo,548,557,persona
+https://digitalzibaldone.net/node/p2936_1,uomo,562,566,persona
+https://digitalzibaldone.net/node/p2936_1,uomo,583,587,persona
+https://digitalzibaldone.net/node/p2936_1,fanciullo,594,603,persona
+https://digitalzibaldone.net/node/p2936_1,uomo,786,790,persona
+https://digitalzibaldone.net/node/p2936_1,uomo,825,829,persona
+https://digitalzibaldone.net/node/p2936_1,uomo,919,923,persona
+https://digitalzibaldone.net/node/p2936_1,uomo,1050,1054,persona
+https://digitalzibaldone.net/node/p2936_1,uomo,1579,1583,persona
+https://digitalzibaldone.net/node/p2941_1,filosofo,181,189,persona
+https://digitalzibaldone.net/node/p2941_1,selvaggio,207,216,persona
+https://digitalzibaldone.net/node/p2941_1,fanciullo,225,234,persona
+https://digitalzibaldone.net/node/p2941_1,filosofo,257,265,persona
+https://digitalzibaldone.net/node/p2941_1,mondo civile,329,341,luogo
+https://digitalzibaldone.net/node/p2941_1,mondo selvaggio,380,395,luogo
+https://digitalzibaldone.net/node/p2943_1,morto,221,226,persona
+https://digitalzibaldone.net/node/p2943_1,mondo,353,358,luogo
+https://digitalzibaldone.net/node/p2943_1,morto,607,612,persona
+https://digitalzibaldone.net/node/p2943_1,morto,811,816,persona
+https://digitalzibaldone.net/node/p2944_1,poeta,361,366,persona
+https://digitalzibaldone.net/node/p2944_1,patria,503,509,luogo
+https://digitalzibaldone.net/node/p2944_1,poeta,733,738,persona
+https://digitalzibaldone.net/node/p2944_1,poeta,743,748,persona
+https://digitalzibaldone.net/node/p2944_1,poeta,833,838,persona
+https://digitalzibaldone.net/node/p2944_1,poeta,849,854,persona
+https://digitalzibaldone.net/node/p2944_1,poeta,963,968,persona
+https://digitalzibaldone.net/node/p2944_1,poeta,1020,1025,persona
+https://digitalzibaldone.net/node/p2945_1,Osservisi,0,9,luogo
+https://digitalzibaldone.net/node/p2945_1,poeta,263,268,persona
+https://digitalzibaldone.net/node/p2945_1,uomo colto,485,495,persona
+https://digitalzibaldone.net/node/p2945_1,donna,619,624,persona
+https://digitalzibaldone.net/node/p2945_1,poeta,646,651,persona
+https://digitalzibaldone.net/node/p2946_1,poeta moderno,21,34,persona
+https://digitalzibaldone.net/node/p2946_1,poeta,411,416,persona
+https://digitalzibaldone.net/node/p2946_1,poeta,582,587,persona
+https://digitalzibaldone.net/node/p2948_1,uomo,168,172,persona
+https://digitalzibaldone.net/node/p2948_1,uomo,331,335,persona
+https://digitalzibaldone.net/node/p2948_1,uomo,452,456,persona
+https://digitalzibaldone.net/node/p2949_1,poeta,1313,1318,persona
+https://digitalzibaldone.net/node/p2950_1,uomo,189,193,persona
+https://digitalzibaldone.net/node/p2951_1,uomo,193,197,persona
+https://digitalzibaldone.net/node/p2951_1,fanciulli,239,248,persona
+https://digitalzibaldone.net/node/p2953_1,fanciulli,393,402,persona
+https://digitalzibaldone.net/node/p2955_1,fanciulli,1772,1781,persona
+https://digitalzibaldone.net/node/p2957_2,Rousseau,778,786,persona
+https://digitalzibaldone.net/node/p2960_1,cieco,13,18,persona
+https://digitalzibaldone.net/node/p2961_1,cieco nato,5,15,persona
+https://digitalzibaldone.net/node/p2961_1,cieco nato,433,443,persona
+https://digitalzibaldone.net/node/p2961_1,cieco nato,822,832,persona
+https://digitalzibaldone.net/node/p2961_1,cieco,972,977,persona
+https://digitalzibaldone.net/node/p2961_1,cieco,1028,1033,persona
+https://digitalzibaldone.net/node/p2962_1,fanciullo,3,12,persona
+https://digitalzibaldone.net/node/p2962_1,cieco nato,17,27,persona
+https://digitalzibaldone.net/node/p2962_1,nazione,107,114,luogo
+https://digitalzibaldone.net/node/p2963_1,donna,482,487,persona
+https://digitalzibaldone.net/node/p2963_1,donna,553,558,persona
+https://digitalzibaldone.net/node/p2963_1,cieco,1499,1504,persona
+https://digitalzibaldone.net/node/p2965_1,fanciullo,20,29,persona
+https://digitalzibaldone.net/node/p2965_1,persona giovane,334,349,persona
+https://digitalzibaldone.net/node/p2965_1,persona vecchia,416,431,persona
+https://digitalzibaldone.net/node/p2965_1,fanciullo,584,593,persona
+https://digitalzibaldone.net/node/p2965_1,paesi meridionali,868,885,luogo
+https://digitalzibaldone.net/node/p2965_1,fanciullo,898,907,persona
+https://digitalzibaldone.net/node/p2965_1,Alfieri,966,973,persona
+https://digitalzibaldone.net/node/p2965_1,cieco nato,1038,1048,persona
+https://digitalzibaldone.net/node/p2965_1,cieco nato,1299,1309,persona
+https://digitalzibaldone.net/node/p2967_1,Giove,1513,1518,persona
+https://digitalzibaldone.net/node/p2967_1,Apollo,1711,1717,persona
+https://digitalzibaldone.net/node/p2967_1,Mercurio,1733,1741,persona
+https://digitalzibaldone.net/node/p2967_1,Amore,1768,1773,persona
+https://digitalzibaldone.net/node/p2972_2,Prisciano,0,9,persona
+https://digitalzibaldone.net/node/p2972_2,Forcell,541,548,persona
+https://digitalzibaldone.net/node/p2972_2,Prisciano,552,561,persona
+https://digitalzibaldone.net/node/p2974_1,Urito,0,5,persona
+https://digitalzibaldone.net/node/p2974_1,Plauto,13,19,luogo
+https://digitalzibaldone.net/node/p2974_2,frate,43,48,persona
+https://digitalzibaldone.net/node/p2974_2,suora,51,56,persona
+https://digitalzibaldone.net/node/p2974_2,frater,63,69,persona
+https://digitalzibaldone.net/node/p2974_2,Frayle spagnuolo,116,132,persona
+https://digitalzibaldone.net/node/p2974_2,frater,186,192,persona
+https://digitalzibaldone.net/node/p2974_2,fratellus,259,268,persona
+https://digitalzibaldone.net/node/p2974_2,fratello,286,294,persona
+https://digitalzibaldone.net/node/p2974_3,Gellio,28,34,persona
+https://digitalzibaldone.net/node/p2974_3,Gellio,771,777,persona
+https://digitalzibaldone.net/node/p2976_1,Omero,68,73,persona
+https://digitalzibaldone.net/node/p2976_1,Omero,278,283,persona
+https://digitalzibaldone.net/node/p2976_1,Virgilio,712,720,persona
+https://digitalzibaldone.net/node/p2976_1,Omero,760,765,persona
+https://digitalzibaldone.net/node/p2976_1,Omero,1184,1189,persona
+https://digitalzibaldone.net/node/p2977_1,Omero,70,75,persona
+https://digitalzibaldone.net/node/p2977_1,Cremona,1051,1058,luogo
+https://digitalzibaldone.net/node/p2977_1,Virgilio,1076,1084,persona
+https://digitalzibaldone.net/node/p2977_1,Omero,1120,1125,persona
+https://digitalzibaldone.net/node/p2977_1,Virgilio,1471,1479,persona
+https://digitalzibaldone.net/node/p2977_1,Chateaubriand,1548,1561,persona
+https://digitalzibaldone.net/node/p2977_1,Paris,1570,1575,luogo
+https://digitalzibaldone.net/node/p2977_1,Virgilio,1657,1665,persona
+https://digitalzibaldone.net/node/p2980_1,Omero,354,359,persona
+https://digitalzibaldone.net/node/p2980_1,Iliade,1173,1179,luogo
+https://digitalzibaldone.net/node/p2981_1,Omero,28,33,persona
+https://digitalzibaldone.net/node/p2981_1,Omero,289,294,persona
+https://digitalzibaldone.net/node/p2981_1,Paradiso perduto,394,410,luogo
+https://digitalzibaldone.net/node/p2981_1,Messiade,416,424,luogo
+https://digitalzibaldone.net/node/p2982_1,Omero,36,41,persona
+https://digitalzibaldone.net/node/p2982_1,campi,58,63,luogo
+https://digitalzibaldone.net/node/p2982_1,stalle,413,419,luogo
+https://digitalzibaldone.net/node/p2982_1,Omero,646,651,persona
+https://digitalzibaldone.net/node/p2983_1,poeti,341,346,persona
+https://digitalzibaldone.net/node/p2983_2,Crusca,508,514,luogo
+https://digitalzibaldone.net/node/p2983_2,Forcellini,888,898,persona
+https://digitalzibaldone.net/node/p2984_2,Forcellini,282,292,persona
+https://digitalzibaldone.net/node/p2985_1,Forcell,696,703,persona
+https://digitalzibaldone.net/node/p2986_2,Pagolo,106,112,persona
+https://digitalzibaldone.net/node/p2986_2,Pavolo,117,123,persona
+https://digitalzibaldone.net/node/p2986_2,Pavlo,126,131,persona
+https://digitalzibaldone.net/node/p2986_2,Pablo,151,156,persona
+https://digitalzibaldone.net/node/p2987_1,spagnuolo,53,62,luogo
+https://digitalzibaldone.net/node/p2987_1,Bastian Borrego,237,252,persona
+https://digitalzibaldone.net/node/p2987_3,Pomponio Attico,465,480,persona
+https://digitalzibaldone.net/node/p2989_1,nazion francese,22,37,luogo
+https://digitalzibaldone.net/node/p2991_1,Diomede,1643,1650,persona
+https://digitalzibaldone.net/node/p2995_1,Crusca,393,399,luogo
+https://digitalzibaldone.net/node/p2995_1,Buommattei,405,415,luogo
+https://digitalzibaldone.net/node/p2995_2,Fischer,19,26,persona
+https://digitalzibaldone.net/node/p2995_2,Omero,115,120,persona
+https://digitalzibaldone.net/node/p2995_2,Fischer,292,299,persona
+https://digitalzibaldone.net/node/p2999_1,Aminta,45,51,luogo
+https://digitalzibaldone.net/node/p2999_1,Pastor fido,58,69,persona
+https://digitalzibaldone.net/node/p2999_1,spettatore,418,428,persona
+https://digitalzibaldone.net/node/p2999_1,attori,516,522,persona
+https://digitalzibaldone.net/node/p3000_1,società,43,50,luogo
+https://digitalzibaldone.net/node/p3000_1,compagno,142,150,persona
+https://digitalzibaldone.net/node/p3000_2,Platone,474,481,persona
+https://digitalzibaldone.net/node/p3000_2,attico,887,893,luogo
