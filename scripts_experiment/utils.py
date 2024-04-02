@@ -4,9 +4,9 @@ import csv
 
 
 X = ['Precision', 'Recall', 'F1']
-Yllamantino = [60.886, 64.706, 62.738]
-Ykind = [65.361, 81.765, 72.648]
-Ywikineural = [65.582, 75.098, 70.018]
+Yllamantino = [51.768, 58.228, 54.809]
+Ykind = [62.261, 76.672, 68.72]
+Ywikineural = [64.678, 74.503, 69.244]
 
 X_axis = np.arange(len(X))
 
@@ -101,9 +101,9 @@ f2.close()
 
 
 
-eval_ner(data, path="../results/kind_final", type="LOC")
-eval_ner(data, path="../results/kind_final", type="PER")
-eval_ner(data, path="../results/llamantino_final", type="LOC")
-eval_ner(data, path="../results/llamantino_final", type="PER")
-eval_ner(data, path="../results/wikiann_final", type="LOC")
-eval_ner(data, path="../results/wikiann_final", type="PER")
+# eval_ner(data, path="../results/kind_final", type="LOC")
+# eval_ner(data, path="../results/kind_final", type="PER")
+# eval_ner(data, path="../results/llamantino_final", type="LOC")
+# eval_ner(data, path="../results/llamantino_final", type="PER")
+# eval_ner(data, path="../results/wikiann_final", type="LOC")
+# eval_ner(data, path="../results/wikiann_final", type="PER")
