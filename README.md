@@ -5,7 +5,7 @@
 This repository contains data and source code used to extract silver annotations from the [DigitalZibaldone](https://digitalzibaldone.net/), a web platform that contains an XML/TEI editions of Giacomo Leopardi's *Zibaldone 
 di pensieri*.
 
-This project develops a simple Web Scraping strategies were entity annotations are extracted from the links in each 
+This project develops a simple Web Scraping strategy were entity annotations are extracted from the links in each 
 paragraph. As an example, places referenced in the Zibaldone are linked to Wikidata. 
 
 ```html
