@@ -50,7 +50,7 @@ def scrape_paragraphs_recursive(paragraph_num):
 scrape_paragraphs_recursive(initial_paragraph)
 
 o_keys = output[0].keys()
-with open("paragraphs.csv", "w", encoding="utf-8") as f:
+with open("../data/paragraphs.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, o_keys)
     dict_writer.writeheader()
     dict_writer.writerows(output)

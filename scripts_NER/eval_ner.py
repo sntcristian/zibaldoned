@@ -71,7 +71,7 @@ def eval_ner(data, model_result):
     fn_file.close()
 
 
-with open("../scripts_extraction/annotations_no_work.csv", "r", encoding="utf-8") as f2:
+with open("../data/annotations_no_work_23.csv", "r", encoding="utf-8") as f2:
     data = csv.DictReader(f2)
     data = list(data)
 f2.close()

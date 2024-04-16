@@ -6,7 +6,7 @@ model = GLiNER.from_pretrained("DeepMount00/universal_ner_ita", token="put token
 
 labels = ["persona", "luogo"]
 
-with open("../scripts_extraction/paragraphs.csv", "r", encoding="utf-8") as f:
+with open("../data/paragraphs.csv", "r", encoding="utf-8") as f:
     data = csv.DictReader(f)
     data = list(data)
 f.close()

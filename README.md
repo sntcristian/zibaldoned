@@ -14,7 +14,7 @@ paragraph. As an example, places referenced in the Zibaldone are linked to Wikid
 org/wiki/Q38">Italy</a>.
 </p>
 ```
-The result of the annotation process from the paragraphs in pp.2700-3000 is available in  [this file](scripts_extraction/annotations.csv). 
+The result of the annotation process from the paragraphs in pp.2700-3000 is available in  [this file](data/annotations_23.csv). 
 
 ## Experiments
 

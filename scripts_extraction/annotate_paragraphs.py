@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 
 
-with open("paragraphs.csv", "r", encoding="utf-8") as f1:
+with open("../data/paragraphs.csv", "r", encoding="utf-8") as f1:
     paragraphs = csv.DictReader(f1)
     paragraphs = list(paragraphs)
 f1.close()
@@ -116,7 +116,7 @@ pbar.close()
 annotations_no_work = [anno for anno in annotations if anno["type"]!="WORK"]
 
 keys = annotations[0].keys()
-with open("annotations.csv", "w", encoding="utf-8") as f:
+with open("../data/annotations_23.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(annotations)
@@ -124,7 +124,7 @@ f.close()
 
 
 keys = annotations[0].keys()
-with open("annotations_no_work.csv", "w", encoding="utf-8") as f:
+with open("../data/annotations_no_work_23.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(annotations_no_work)
