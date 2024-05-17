@@ -1,22 +1,12 @@
+import requests
+import re
 import csv
+import json
 from tqdm import tqdm
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import pickle
+from genre.trie import Trie, MarisaTrie
+from genre.fairseq_model import mGENRE
 
-# OPTIONAL: load the prefix tree (trie), you need to additionally download
-# https://huggingface.co/facebook/mgenre-wiki/blob/main/trie.py and
-# https://huggingface.co/facebook/mgenre-wiki/blob/main/titles_lang_all105_trie_with_redirect.pkl
-# that is fast but memory inefficient prefix tree (trie) -- it is implemented with nested python `dict`
-# NOTE: loading this map may take up to 10 minutes and occupy a lot of RAM!
-# import pickle
-# from trie import Trie
-# with open("titles_lang_all105_marisa_trie_with_redirect.pkl", "rb") as f:
-#     trie = Trie.load_from_dict(pickle.load(f))
-
-# or a memory efficient but a bit slower prefix tree (trie) -- it is implemented with `marisa_trie` from
-# https://huggingface.co/facebook/mgenre-wiki/blob/main/titles_lang_all105_marisa_trie_with_redirect.pkl
-# from genre.trie import MarisaTrie
-# with open("titles_lang_all105_marisa_trie_with_redirect.pkl", "rb") as f:
-#     trie = pickle.load(f)
 
 with open("../data/paragraphs.csv", "r", encoding="utf-8") as f1:
     paragraphs = csv.DictReader(f1)
@@ -27,40 +17,89 @@ with open("../data/annotations_23.csv", "r", encoding="utf-8") as f2:
     all_spans = csv.DictReader(f2)
     all_spans = list(all_spans)
 
-tokenizer = AutoTokenizer.from_pretrained("facebook/mgenre-wiki")
-model = AutoModelForSeq2SeqLM.from_pretrained("facebook/mgenre-wiki").eval()
+# data to have
+with open("../GENRE/data/lang_title2wikidataID-normalized_with_redirect.pkl", "rb") as f:
+   lang_title2wikidataID = pickle.load(f)
+
+with open("../GENRE/data/titles_lang_all105_marisa_trie_with_redirect.pkl", "rb") as f2:
+    trie = pickle.load(f2)
+
+model = mGENRE.from_pretrained("../GENRE/data/fairseq_model_ed").eval()
 
 output = []
-pbar = tqdm(total=len(paragraphs))
 
-for row in paragraphs:
-    _id = row["id"]
-    text = row["text"]
-    spans = [span for span in all_spans if span["par_id"]==_id]
-    for span in spans:
-        start = int(span["start"])
-        end = int(span["end"])
-        annotated_text = [text[:start]+"[START] "+\
-        text[start:end]+" [END]"+text[end:]]
-        outputs = model.generate(
-            **tokenizer(annotated_text, return_tensors="pt"),
-            num_beams=5,
-            num_return_sequences=5,
-            # OPTIONAL: use constrained beam search
-            # prefix_allowed_tokens_fn=lambda batch_id, sent: trie.get(sent.tolist()),
-        )
-        answer = tokenizer.batch_decode(outputs, skip_special_tokens=True)
-        first_candidate = answer[0]
-        title_lang = first_candidate.split(" >> ")
-        title = title_lang[0]
-        lang = title_lang[1]
-        output.append({"par_id":_id, "start":start, "end":end, "wikititle":title, "lang":lang})
+pbar = tqdm(total=len(paragraphs))
+for item in paragraphs:
+    text = item["text"]
+    data_id = item["id"]
+    entities = []
+    begin = []
+    end = []
+    labels = []
+    sentences = []
+    wb_ids = []
+    scores = []
+    surface_forms = [(int(ent["start"]), int(ent["end"]), ent["type"]) for ent in all_spans \
+                     if ent["par_id"] == data_id]
+    for ent in surface_forms:
+        start_pos = ent[0]
+        end_pos = ent[1]
+        if start_pos >= 500:
+            history_start = start_pos - 500
+        else:
+            history_start = 0
+        if end_pos + 500 <= len(text):
+            future_end = end_pos + 500
+        else:
+            future_end = len(text)
+        label = ent[2]
+        mention = text[history_start:start_pos] + "[START] " + text[start_pos:end_pos] + " [END]" + text[end_pos:future_end]
+        begin.append(start_pos)
+        end.append(end_pos)
+        labels.append(label)
+        sentences.append(mention)
+    results = model.sample(
+       sentences,
+       prefix_allowed_tokens_fn=lambda batch_id, sent: [
+           e for e in trie.get(sent.tolist()) if e < len(model.task.target_dictionary)
+       ],
+       text_to_id=lambda x: max(lang_title2wikidataID[tuple(reversed(x.split(" >> ")))], key=lambda y: int(y[1:])),
+       marginalize=True,
+    )
+    # Example output =    [[{'id': 'Q937',
+    #    'texts': ['Albert Einstein >> it','Alberto Einstein >> it',    'Einstein >> it'],
+    #    'scores': tensor([-0.0808, -1.4619, -1.5765]), 'score': tensor(-0.0884)}]]
+
+    for result in results:
+       print(result)
+       candidate = result[0]
+       name = candidate["texts"][0]
+       score = candidate["score"].item()
+       wb_id = candidate["id"]
+       entities.append(name)
+       scores.append(score)
+       wb_ids.append(wb_id)
+
+    labels = list(zip(begin, end, labels, scores, entities, wb_ids))
+    for start_pos, end_pos, label, score, alias, wb_ids in labels:
+       output.append(
+           {
+               "id": item["id"],
+               "start_pos": start_pos,
+               "end_pos": end_pos,
+               "type": label,
+               "alias": alias,
+               "wb_id": wb_ids,
+               "score": score
+           }
+       )
     pbar.update(1)
+pbar.close()
 
 keys = output[0].keys()
-with open("../results/mgenre_ed/output.csv", "w", encoding="utf-8") as f:
-    dict_writer = csv.DictWriter(f, keys)
-    dict_writer.writeheader()
-    dict_writer.writerows(output)
 
-f.close()
+a_file = open("../results/mgenre_ed/output.csv", "w")
+dict_writer = csv.DictWriter(a_file, keys)
+dict_writer.writeheader()
+dict_writer.writerows(output)
+a_file.close()
