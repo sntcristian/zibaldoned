@@ -10,9 +10,9 @@ Ywikineural = [64.678, 74.503, 69.244]
 
 X_axis = np.arange(len(X))
 
-plt.bar(X_axis - 0.2, Yllamantino, 0.3, label='LLaMantino')
-plt.bar(X_axis + 0.1, Ykind, 0.3, label='Kind')
-plt.bar(X_axis + 0.4, Ywikineural, 0.3, label='Wikineural')
+plt.bar(X_axis - 0.2, Yllamantino, 0.3, label='swap-uniba/LLaMAntino-2-13b-hf-evalita-ITA')
+plt.bar(X_axis + 0.1, Ykind, 0.3, label='StanzaNLP/NER_Italian')
+plt.bar(X_axis + 0.4, Ywikineural, 0.3, label='nickprock/bert-italian-finetuned-ner')
 
 plt.xticks(X_axis, X)
 plt.xlabel("Metrics")
@@ -94,16 +94,16 @@ def eval_ner(data, type, path):
     fn_file.close()
 
 
-with open("../scripts_extraction/annotations_23.csv", "r", encoding="utf-8") as f2:
+with open("../data/annotations_no_work_23.csv", "r", encoding="utf-8") as f2:
     data = csv.DictReader(f2)
     data = list(data)
 f2.close()
 
 
 
-# eval_ner(data, path="../results/kind_final", type="LOC")
-# eval_ner(data, path="../results/kind_final", type="PER")
-# eval_ner(data, path="../results/llamantino_final", type="LOC")
-# eval_ner(data, path="../results/llamantino_final", type="PER")
-# eval_ner(data, path="../results/wikiann_final", type="LOC")
-# eval_ner(data, path="../results/wikiann_final", type="PER")
+eval_ner(data, path="../results/kind_final", type="LOC")
+eval_ner(data, path="../results/kind_final", type="PER")
+eval_ner(data, path="../results/llamantino_final", type="LOC")
+eval_ner(data, path="../results/llamantino_final", type="PER")
+eval_ner(data, path="../results/wikiann_final", type="LOC")
+eval_ner(data, path="../results/wikiann_final", type="PER")

@@ -19,9 +19,10 @@ The result of the annotation process from the paragraphs in pp.2700-3000 is avai
 ## Experiments
 
 Three Named Entity Recognition (NER) models were tested on the annotations from the aforementioned file:
-* KIND: Transformer Model trained on the dataset [KIND](https://github.com/dhfbk/KIND)
-* Wikineural: Transformer Model trained on the Italian portion of [Wikineural](https://github.com/Babelscape/wikineural)
-* LLaMantino-16B: Encoder-Decoder LLM for Italian based on LLaMa 2 and trained via Instruction-Tuning on [KIND](https://github.com/dhfbk/KIND)
+* KIND: Transformer model trained on [KIND](https://github.com/dhfbk/KIND)
+* Wikiann: Transformer Model trained on the Italian portion of [Wikiann](https://paperswithcode.com/dataset/wikiann-1)
+* LLaMantino-16B-hf-evalita: Encoder-Decoder LLM for Italian based on LLaMa 2 and trained via Instruction-Tuning on 
+  [EVALITA2023](https://www.evalita.it/campaigns/evalita-2023/)
 
 Results are available in the [results](./results) folder.
 

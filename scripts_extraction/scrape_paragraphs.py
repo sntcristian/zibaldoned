@@ -2,6 +2,7 @@ import csv
 import requests
 from bs4 import BeautifulSoup
 import re
+import time
 
 
 
@@ -13,6 +14,7 @@ persons = []
 works = []
 
 def scrape_paragraphs_recursive(paragraph_num):
+    time.sleep(10)
     if paragraph_num != None:
         response = requests.get(paragraph_num)
         if response.status_code == 200:
@@ -48,6 +50,7 @@ def scrape_paragraphs_recursive(paragraph_num):
                         works.append({"surface": surface, "_id": href.replace("/node/", ""), "par_id": paragraph_num})
             scrape_paragraphs_recursive(next_page)
     else:
+        print(response.status_code)
         return None
 
 scrape_paragraphs_recursive(initial_paragraph)
@@ -61,21 +64,21 @@ if len(output)>0:
 
 if len(places)>0:
     p_keys = places[0].keys()
-    with open("places_1_1_800_1.csv.csv", "w", encoding="utf-8") as f:
+    with open("places_1_1_800_1.csv", "w", encoding="utf-8") as f:
         dict_writer = csv.DictWriter(f, p_keys)
         dict_writer.writeheader()
         dict_writer.writerows(places)
 
 if len(persons)>0:
     p_keys = persons[0].keys()
-    with open("people_1_1_800_1.csv.csv", "w", encoding="utf-8") as f:
+    with open("people_1_1_800_1.csv", "w", encoding="utf-8") as f:
         dict_writer = csv.DictWriter(f, p_keys)
         dict_writer.writeheader()
         dict_writer.writerows(persons)
 
 if len(works)>0:
     w_keys = works[0].keys()
-    with open("works_1_1_800_1.csv.csv", "w", encoding="utf-8") as f:
+    with open("works_1_1_800_1.csv", "w", encoding="utf-8") as f:
         dict_writer = csv.DictWriter(f, w_keys)
         dict_writer.writeheader()
         dict_writer.writerows(works)
