@@ -1,0 +1,138 @@
+[
+    {
+        "id": "https://digitalzibaldone.net/node/p2705_1",
+        "start_pos": 114,
+        "end_pos": 120,
+        "surface": "Italia",
+        "type": "LOC",
+        "filtered_candidates": [
+            [
+                "Q38",
+                "Italia",
+                100
+            ],
+            [
+                "Q3155864",
+                "Italia",
+                100
+            ],
+            [
+                "Q11772",
+                "antica Grecia",
+                42
+            ]
+        ]
+    },
+    {
+        "id": "https://digitalzibaldone.net/node/p2705_1",
+        "start_pos": 127,
+        "end_pos": 136,
+        "surface": "Perticari",
+        "type": "PER",
+        "filtered_candidates": []
+    },
+    {
+        "id": "https://digitalzibaldone.net/node/p2705_1",
+        "start_pos": 137,
+        "end_pos": 154,
+        "surface": "Apologia di Dante",
+        "type": "WORK",
+        "filtered_candidates": [
+            [
+                "Q273668",
+                "Apologia di Socrate",
+                83
+            ]
+        ]
+    },
+    {
+        "id": "https://digitalzibaldone.net/node/p2705_2",
+        "start_pos": 33,
+        "end_pos": 42,
+        "surface": "Perticari",
+        "type": "PER",
+        "filtered_candidates": []
+    },
+    {
+        "id": "https://digitalzibaldone.net/node/p2705_2",
+        "start_pos": 43,
+        "end_pos": 66,
+        "surface": "Degli scrittori del 300",
+        "type": "WORK",
+        "filtered_candidates": []
+    },
+    {
+        "id": "https://digitalzibaldone.net/node/p2705_3",
+        "start_pos": 589,
+        "end_pos": 598,
+        "surface": "Perticari",
+        "type": "PER",
+        "filtered_candidates": [
+            [
+                "Q268649",
+                "Giovanni Battista Pignatelli",
+                22
+            ]
+        ]
+    },
+    {
+        "id": "https://digitalzibaldone.net/node/p2705_3",
+        "start_pos": 623,
+        "end_pos": 628,
+        "surface": "Monti",
+        "type": "PER",
+        "filtered_candidates": [
+            [
+                "Q723643",
+                "Vincenzo Monti",
+                53
+            ]
+        ]
+    },
+    {
+        "id": "https://digitalzibaldone.net/node/p2705_3",
+        "start_pos": 2172,
+        "end_pos": 2177,
+        "surface": "Locke",
+        "type": "PER",
+        "filtered_candidates": [
+            [
+                "Q9353",
+                "John Locke",
+                67
+            ],
+            [
+                "Q5541788",
+                "",
+                0
+            ]
+        ]
+    },
+    {
+        "id": "https://digitalzibaldone.net/node/p2705_3",
+        "start_pos": 577,
+        "end_pos": 585,
+        "surface": "Trattati",
+        "type": "WORK",
+        "filtered_candidates": [
+            [
+                "Q384515",
+                "trattato",
+                88
+            ],
+            [
+                "Q1347812",
+                "trattato di Alexandropol",
+                50
+            ]
+        ]
+    },
+    {
+        "id": "https://digitalzibaldone.net/node/p2705_3",
+        "start_pos": 611,
+        "end_pos": 619,
+        "surface": "Proposta",
+        "type": "WORK",
+        "filtered_candidates": []
+    }
+]
