@@ -1,6 +1,7 @@
 import json
 import csv
 from tqdm import tqdm
+import time
 import requests
 from thefuzz import fuzz
 import re
@@ -9,17 +10,12 @@ with open("../data/paragraphs.csv", "r", encoding="utf-8") as f:
     list_of_paragraphs = csv.DictReader(f)
     list_of_paragraphs = list(list_of_paragraphs)
 
-list_of_paragraphs = list_of_paragraphs[3:6]
 
-with open("../results/mgenre_ed/candidates.json", "r", encoding="utf-8") as f2:
+with open("../results/mgenre_el/candidates.json", "r", encoding="utf-8") as f2:
     list_of_candidates = json.load(f2)
 
 output = []
-
-import requests
-
-import time
-
+list_of_paragraphs = list_of_paragraphs[:50]
 
 def execute_sparql_query(query, max_retries=5, backoff_factor=1):
     # Definizione dell'endpoint SPARQL di Wikidata
@@ -208,7 +204,7 @@ def query_work(item_id):
     output["classes"] = classes
     return output
 
-
+pbar = tqdm(total=len(list_of_paragraphs))
 for paragraph in list_of_paragraphs:
     _id = paragraph["id"]
     text = paragraph["text"]
@@ -228,10 +224,8 @@ for paragraph in list_of_paragraphs:
                 if birth_date:
                     date = int(birth_date.group(0))
                     if date > 1833:
-                        print(label, date)
                         continue
                 if "person" not in classes or "wikimedia disambiguation page" in classes:
-                    print(label)
                     continue
                 ratio = fuzz.ratio(surface_form.lower(), label.lower())
                 if ratio>max_ratio:
@@ -244,7 +238,6 @@ for paragraph in list_of_paragraphs:
                 label = data["label"]
                 classes = data["classes"]
                 if "geographic location" not in classes or "wikimedia disambiguation page" in classes:
-                    print(label)
                     continue
                 ratio = fuzz.ratio(surface_form.lower(), label.lower())
                 if ratio>max_ratio:
@@ -254,7 +247,6 @@ for paragraph in list_of_paragraphs:
                     filtered_candidates.append((item, label, ratio))
 
             elif entity_type=="WORK":
-                print(item)
                 data = query_work(item) #dictionary: {"label", "publication_date", "classes"}
                 label = data["label"]
                 publication_date = re.match(r'^\d{4}', data["publication_date"])
@@ -262,10 +254,8 @@ for paragraph in list_of_paragraphs:
                 if publication_date:
                     date = int(publication_date.group(0))
                     if date > 1833:
-                        print(label, date)
                         continue
                 if "work" not in classes or "wikimedia disambiguation page" in classes:
-                    print(label)
                     continue
                 ratio = fuzz.ratio(surface_form.lower(), label.lower())
                 if ratio>max_ratio:
@@ -274,15 +264,26 @@ for paragraph in list_of_paragraphs:
                 else:
                     filtered_candidates.append((item, label, ratio))
 
+        if len(filtered_candidates)>=1:
+            output.append({"id": _id, "start_pos": candidates["start_pos"], "end_pos": candidates["end_pos"],
+                                "surface": surface_form, "type": candidates["type"],
+                                "wb_id": filtered_candidates[0][0], "alias":filtered_candidates[0][1]})
+        else:
+            output.append({"id": _id, "start_pos": candidates["start_pos"], "end_pos": candidates["end_pos"],
+                           "surface": surface_form, "type": candidates["type"],
+                           "wb_id": "NIL", "alias":""})
+    pbar.update(1)
 
-        output.append({"id":_id, "start_pos":candidates["start_pos"], "end_pos":candidates["end_pos"],
-                       "surface":surface_form,"type":candidates["type"], "filtered_candidates":filtered_candidates})
 
 
 
 
-with open('../results/mgenre_ed/candidates_filtered.json', 'w', encoding='utf-8') as f:
-    json.dump(output, f, ensure_ascii=False, indent=4)
+keys = output[0].keys()
+with open('../results/mgenre_el/output_filtered_50.csv', 'w', encoding='utf-8') as f:
+    dict_writer = csv.DictWriter(f, keys)
+    dict_writer.writeheader()
+    dict_writer.writerows(output)
+    f.close()
 
 
 
