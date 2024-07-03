@@ -15,7 +15,7 @@ with open("../results/mgenre_el/candidates.json", "r", encoding="utf-8") as f2:
     list_of_candidates = json.load(f2)
 
 output = []
-list_of_paragraphs = list_of_paragraphs[:50]
+list_of_paragraphs = list_of_paragraphs[150:]
 
 def execute_sparql_query(query, max_retries=5, backoff_factor=1):
     # Definizione dell'endpoint SPARQL di Wikidata
@@ -219,10 +219,14 @@ for paragraph in list_of_paragraphs:
             if entity_type=="PER":
                 data = query_person(item) #dictionary: {"label", "birth_date", "classes"}
                 label = data.get("label","")
-                birth_date = re.match(r'^\d{4}', data["birth_date"])
+                birth_date = re.match(r'^\-?\d{4}', data["birth_date"])
                 classes = data["classes"]
                 if birth_date:
-                    date = int(birth_date.group(0))
+                    date = birth_date.group(0)
+                    if date.startswith("-"):
+                        date = 0
+                    else:
+                        date = int(birth_date.group(0))
                     if date > 1833:
                         continue
                 if "person" not in classes or "wikimedia disambiguation page" in classes:
@@ -279,7 +283,7 @@ for paragraph in list_of_paragraphs:
 
 
 keys = output[0].keys()
-with open('../results/mgenre_el/output_filtered_50.csv', 'w', encoding='utf-8') as f:
+with open('../results/mgenre_el/output_filtered_150.csv', 'w', encoding='utf-8') as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(output)
