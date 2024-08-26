@@ -3,8 +3,8 @@ import spacy
 import json
 
 # Load the uploaded CSV files
-paragraphs_df = pd.read_csv('paragraphs_train.csv')
-annotations_df = pd.read_csv('annotations_train.csv')
+paragraphs_df = pd.read_csv('paragraphs_test.csv')
+annotations_df = pd.read_csv('annotations_test.csv')
 
 # Load Spacy model for tokenization
 nlp = spacy.load("it_core_news_sm")
