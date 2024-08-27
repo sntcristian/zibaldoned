@@ -1,13 +1,14 @@
 import pandas as pd
 import spacy
 import json
+import re
 
 # Load the uploaded CSV files
-paragraphs_df = pd.read_csv('paragraphs_test.csv')
-annotations_df = pd.read_csv('annotations_test.csv')
+paragraphs_df = pd.read_csv('paragraphs_train.csv')
+annotations_df = pd.read_csv('annotations_train.csv')
 
 # Load Spacy model for tokenization
-nlp = spacy.load("it_core_news_sm")
+nlp = spacy.load("it_core_news_lg")
 
 
 # Function to process each document
@@ -38,11 +39,13 @@ def process_document(text, annotations):
 
         if token_start is not None and token_end is not None:
             ner.append([token_start, token_end, entity_type])
-
-    return {
-        "tokenized_text": tokenized_text,
-        "ner": ner
-    }
+    if len(ner)>0:
+        return {
+            "tokenized_text": tokenized_text,
+            "ner": ner
+        }
+    else:
+        return None
 
 
 # Merge and process the data
@@ -50,11 +53,23 @@ result = []
 for _, row in paragraphs_df.iterrows():
     paragraph_id = row['id']
     text = row['text']
+
+# Per rimuovere frasi lunghe
+#     if len(re.split("\W", text))>300:
+#         print(len(re.split("\W", text)))
+#         continue
+#     else:
+#         annotations = annotations_df[annotations_df['par_id'] == paragraph_id]
+#         processed_data = process_document(text, annotations)
+#         if processed_data != None:
+#             result.append(processed_data)
+
     annotations = annotations_df[annotations_df['par_id'] == paragraph_id]
     processed_data = process_document(text, annotations)
-    result.append(processed_data)
+    if processed_data != None:
+        result.append(processed_data)
 
 # Save the result to a JSON file
-output_path = 'test.json'
+output_path = 'train.json'
 with open(output_path, 'w', encoding="utf-8") as f:
     json.dump(result, f, ensure_ascii=False)
