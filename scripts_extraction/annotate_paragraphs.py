@@ -4,22 +4,22 @@ from tqdm import tqdm
 
 
 
-with open("../data/paragraphs_train_3.csv", "r", encoding="utf-8") as f1:
+with open("../data/train/paragraphs_train_2.csv", "r", encoding="utf-8") as f1:
     paragraphs = csv.DictReader(f1)
     paragraphs = list(paragraphs)
 f1.close()
 
-with open("../data/places_train_3.csv", "r", encoding="utf-8") as f3:
+with open("../data/train/places_train_2.csv", "r", encoding="utf-8") as f3:
     places = csv.DictReader(f3)
     places = list(places)
 f3.close()
 
-with open("../data/people_train_3.csv", "r", encoding="utf-8") as f3:
+with open("../data/train/people_train_2.csv", "r", encoding="utf-8") as f3:
     people = csv.DictReader(f3)
     people = list(people)
 f3.close()
 
-with open("../data/works_train_3.csv", "r", encoding="utf-8") as f3:
+with open("../data/train/works_train_2.csv", "r", encoding="utf-8") as f3:
     works = csv.DictReader(f3)
     works = list(works)
 f3.close()
@@ -116,7 +116,7 @@ pbar.close()
 annotations_no_work = [anno for anno in annotations if anno["type"]!="WORK"]
 
 keys = annotations[0].keys()
-with open("../data/annotations_train_3.csv", "w", encoding="utf-8") as f:
+with open("../data/train/annotations_train_2.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(annotations)
@@ -124,7 +124,7 @@ f.close()
 
 
 keys = annotations[0].keys()
-with open("../data/annotations_no_work_train_3.csv", "w", encoding="utf-8") as f:
+with open("../data/train/annotations_no_work_train_2.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(annotations_no_work)

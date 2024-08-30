@@ -13,14 +13,16 @@ def eval_ner(data, model_result):
         end_pos1 = int(entity1["end"])
         ent_type1 = entity1["type"]
         for entity2 in model_result:
-            id2 = entity2["doc_id"]
+            id2 = entity2["id"]
             start_pos2 = int(entity2["start_pos"])
             end_pos2 = int(entity2["end_pos"])
-            ent_type2 = entity2["tag"]
+            ent_type2 = entity2["type"]
             if ent_type2=="persona":
                 ent_type2="PER"
             elif ent_type2=="luogo":
                 ent_type2="LOC"
+            elif ent_type2=="opera":
+                ent_type2="WORK"
 
             char_intersection = len(set(range(start_pos1, end_pos1)).intersection(set(range(start_pos2, end_pos2))))
             if id2 == id1 and char_intersection > 0 and ent_type1==ent_type2:
@@ -40,7 +42,7 @@ def eval_ner(data, model_result):
     recall = len(matches) / (len(matches) + len(fn))
     f1 = (2 * precision * recall) / (precision + recall)
 
-    with open("../results/llamantino_final/results.txt", "w") as output:
+    with open("../results/gliner_lg_b4_e4/results.txt", "w") as output:
         output.write("True Positives: " + str(len(tp)) + "\n\n")
         output.write("False Positives: " + str(len(fp)) + "\n\n")
         output.write("False Negatives: " + str(len(fn)) + "\n\n")
@@ -52,31 +54,31 @@ def eval_ner(data, model_result):
     n_keys = fn[0].keys()
     fp_keys = fp[0].keys()
 
-    tp_file = open("../results/llamantino_final/tp_ner.csv", "w", encoding="utf-8")
+    tp_file = open("../results/gliner_base_b4_e4/tp_ner.csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(tp_file, p_keys)
     dict_writer.writeheader()
     dict_writer.writerows(matches)
     tp_file.close()
 
-    fp_file = open("../results/llamantino_final/fp_ner.csv", "w", encoding="utf-8")
+    fp_file = open("../results/gliner_base_b4_e4/fp_ner.csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(fp_file, fp_keys)
     dict_writer.writeheader()
     dict_writer.writerows(fp)
     fp_file.close()
 
-    fn_file = open("../results/llamantino_final/fn_ner.csv", "w", encoding="utf-8")
+    fn_file = open("../results/gliner_base_b4_e4/fn_ner.csv", "w", encoding="utf-8")
     dict_writer = csv.DictWriter(fn_file, n_keys)
     dict_writer.writeheader()
     dict_writer.writerows(fn)
     fn_file.close()
 
 
-with open("../data/annotations_no_work_23.csv", "r", encoding="utf-8") as f2:
+with open("../data/test/annotations_test.csv", "r", encoding="utf-8") as f2:
     data = csv.DictReader(f2)
     data = list(data)
 f2.close()
 
-with open("../results/llamantino_final/output.csv", "r", encoding="utf-8") as f3:
+with open("../results/gliner_base_b4_e4/output.csv", "r", encoding="utf-8") as f3:
     model_result = csv.DictReader(f3)
     model_result = list(model_result)
 f3.close()
