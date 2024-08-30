@@ -3,9 +3,10 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-# prossimo 3505_1
+# intermedio 4300
+# finale 4524
 
-initial_paragraph = "https://digitalzibaldone.net/node/p3505_1"
+initial_paragraph = "https://digitalzibaldone.net/node/p4001_1"
 
 output = []
 places = []
@@ -21,7 +22,7 @@ def scrape_paragraphs_recursive(paragraph_num):
             second_link = nextprev_div.find_all('a')[1]  # Secondo link
             second_link_href = second_link.get("href")
             page_num = re.match("https:\/\/digitalzibaldone\.net\/node\/p(.*?)\_.*?", second_link_href).group(1)
-            if int(page_num)>4000:
+            if int(page_num)>4300:
                 next_page = None
             else:
                 next_page = second_link_href
@@ -50,25 +51,25 @@ def scrape_paragraphs_recursive(paragraph_num):
 scrape_paragraphs_recursive(initial_paragraph)
 
 o_keys = output[0].keys()
-with open("../data/paragraphs_train_3.csv", "w", encoding="utf-8") as f:
+with open("../data/paragraphs_train_lg.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, o_keys)
     dict_writer.writeheader()
     dict_writer.writerows(output)
 
 p_keys = places[0].keys()
-with open("../data/places_train_3.csv", "w", encoding="utf-8") as f:
+with open("../data/places_train_lg.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, p_keys)
     dict_writer.writeheader()
     dict_writer.writerows(places)
 
 p_keys = persons[0].keys()
-with open("../data/people_train_3.csv", "w", encoding="utf-8") as f:
+with open("../data/people_train_lg.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, p_keys)
     dict_writer.writeheader()
     dict_writer.writerows(persons)
 
 w_keys = persons[0].keys()
-with open("../data/works_train_3.csv", "w", encoding="utf-8") as f:
+with open("../data/works_train_lg.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, w_keys)
     dict_writer.writeheader()
     dict_writer.writerows(works)
