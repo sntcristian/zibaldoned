@@ -15,7 +15,7 @@ nlp = spacy.load("it_core_news_lg")
 def process_document(paragraph_id, text, annotations):
     doc = nlp(text)
     tokenized_text = [token.text for token in doc]
-    if len(tokenized_text)<=350:
+    if len(tokenized_text)<=700:
         ner = []
         for _, row in annotations.iterrows():
             start = int(row['start'])
@@ -66,6 +66,6 @@ for _, row in paragraphs_df.iterrows():
 print(len(result))
 
 # Save the result to a JSON file
-output_path = 'json_data/train.json'
+output_path = 'json_data/train_max_len_768.json'
 with open(output_path, 'w', encoding="utf-8") as f:
     json.dump(result, f, ensure_ascii=False)
