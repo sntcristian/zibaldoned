@@ -1,20 +1,20 @@
 Results with exact match for all classes:
 
 True Positives: 370
-False Positives: 1370
+False Positives: 1276
 False Negatives: 394
-Precision: 0.21264367816091953
+Precision: 0.22478736330498178
 Recall: 0.48429319371727747
-F1: 0.2955271565495208
+F1: 0.3070539419087137
 
 Results with relaxed match for all classes:
 
 True Positives: 407
-False Positives: 1333
+False Positives: 1239
 False Negatives: 357
-Precision: 0.23390804597701148
+Precision: 0.24726609963547996
 Recall: 0.5327225130890052
-F1: 0.3250798722044728
+F1: 0.3377593360995851
 
 Results with exact match for class Person:
 

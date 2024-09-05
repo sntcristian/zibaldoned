@@ -64,7 +64,7 @@ with open("../data/annotations_test.csv", "r", encoding="utf-8") as f2:
     data = list(data)
 f2.close()
 
-with open("../results/llama3_1/output.csv", "r", encoding="utf-8") as f3:
+with open("../results/gliner_base/output.csv", "r", encoding="utf-8") as f3:
     model_result = csv.DictReader(f3)
     model_result = list(model_result)
 f3.close()
@@ -90,7 +90,7 @@ results_work_relaxed = eval_ner(data_work, model_result_work, "relaxed")
 results_loc_exact = eval_ner(data_loc, model_result_loc, "exact")
 results_loc_relaxed = eval_ner(data_loc, model_result_loc, "relaxed")
 
-with open("../results/llama3_1/results.txt", "w") as output:
+with open("../results/gliner_base/results.txt", "w") as output:
     output.write("Results with exact match for all classes:\n\n")
     output.write("True Positives: " + str(results_exact[0]) + "\n")
     output.write("False Positives: " + str(results_exact[1]) + "\n")
