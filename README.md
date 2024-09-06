@@ -5,7 +5,7 @@ This repository contains data and source code used to extract silver annotations
 This project develops a simple Web Scraping strategy were entity annotations are extracted from the links in each 
 paragraph. As an example, places referenced in the Zibaldone are linked to Wikidata. 
 
-```
+```html
 <p> 
 <a href="https://www.wikidata.org/wiki/Q220">Rome</a> is the capital of <a href="https://www.wikidata.org/wiki/Q38">Italy</a>.
 </p>
@@ -49,9 +49,9 @@ TO BE DONE
 
 ## References
 
-* Basile, P., Musacchio, E., Polignano, M., Siciliani, L., Fiameni, G., & Semeraro, G. (2023). LLaMAntino: LLaMA 2 Models for Effective Text Generation in Italian Language (arXiv:2312.09993). arXiv. https://doi.org/10.48550/arXiv.2312.09993
-* De Cao, N., Wu, L., Popat, K., Artetxe, M., Goyal, N., Plekhanov, M., Zettlemoyer, L., Cancedda, N., Riedel, S., & 
-Petroni, F. (2022). Multilingual Autoregressive Entity Linking. Transactions of the Association for Computational Linguistics, 10, 274–290. https://doi.org/10.1162/tacl_a_00460
-* Paccosi, T., & Palmero Aprosio, A. (2022). KIND: An Italian Multi-Domain Dataset for Named Entity Recognition. In N. Calzolari, F. Béchet, P. Blache, K. Choukri, C. Cieri, T. Declerck, S. Goggi, H. Isahara, B. Maegaard, J. Mariani, H. Mazo, J. Odijk, & S. Piperidis (A c. Di), Proceedings of the Thirteenth Language Resources and Evaluation Conference (pp. 501–507). European Language Resources Association. https://aclanthology.org/2022.lrec-1.52
-* Pan, X., Zhang, B., May, J., Nothman, J., Knight, K., & Ji, H. (2017). Cross-lingual Name Tagging and Linking for 282 Languages. In R. Barzilay & M.-Y. Kan (A c. Di), Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 1946–1958). Association for Computational Linguistics. https://doi.org/10.18653/v1/P17-1178
+
+* Research - AI at Meta. (2024). The Llama 3 Herd of Models. Retrieved 6 September 2024, https://ai.meta.com/research/publications/the-llama-3-herd-of-models/
+
 * Stoyanova, S. & Johnston, B. (Eds.), *Giacomo Leopardi's Zibaldone di pensieri: a digital research platform*. https://digitalzibaldone.net/
+
+* Zaratiana, U., Tomeh, N., Holat, P., & Charnois, T. (2024). GLiNER: Generalist Model for Named Entity Recognition using Bidirectional Transformer. In K. Duh, H. Gomez, & S. Bethard (A c. Di), Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) (pp. 5364–5376). Association for Computational Linguistics. https://doi.org/10.18653/v1/2024.naacl-long.300
