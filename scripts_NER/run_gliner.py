@@ -2,7 +2,7 @@ from gliner import GLiNER
 import csv
 from tqdm import tqdm
 
-trained_model = GLiNER.from_pretrained("../models/gliner_base_b4_e4/", load_tokenizer=True)
+trained_model = GLiNER.from_pretrained("DeepMount00/GLiNER_ITA_BASE")
 
 labels = ["persona", "luogo", "opera"]
 

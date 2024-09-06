@@ -1,52 +1,73 @@
 ## Extract Silver Annotations for Entity Linking from DigitalZibaldone
 
-This repository contains data and source code used to extract silver annotations from the [DigitalZibaldone](https://digitalzibaldone.net/), a web platform that contains an XML/TEI editions of Giacomo Leopardi's *Zibaldone 
-di pensieri*.
+This repository contains data and source code used to extract silver annotations from the [DigitalZibaldone](https://digitalzibaldone.net/), a web platform that contains an XML/TEI editions of Giacomo Leopardi's *Zibaldone di pensieri*.
 
 This project develops a simple Web Scraping strategy were entity annotations are extracted from the links in each 
 paragraph. As an example, places referenced in the Zibaldone are linked to Wikidata. 
 
-```html
+html
 <p> 
 <a href="https://www.wikidata.org/wiki/Q220">Rome</a> is the capital of <a href="https://www.wikidata.org/wiki/Q38">Italy</a>.
 </p>
-```
-By applying this algorithm, we automatically collected **764 references to persons, locations and bibliographic works** 
-from 260 paragraphs ([available here](data/annotations_23.csv)). 
+
+By applying this algorithm, we automatically collected **2,968 references to persons, locations and bibliographic works** 
+from 1,028 paragraphs ([available here](data/)). 
 
 ## Named Entity Recognition Evaluation
 
-Three Named Entity Recognition (NER) models were tested on the annotations of persons and locations from the aforementioned file:
-* `stanzanlp/ner-it`: Transformer model trained on [KIND](https://github.com/dhfbk/KIND) (Paccosi & Aprosio, 2022)
-* `nickprock/bert-italian-finetuned-ner`: Transformer Model trained on the Italian portion of [Wikiann](https://paperswithcode.com/dataset/wikiann-1) (Pan et al., 2017)
-* `swap-uniba/LLaMAntino-2-13b-hf-evalita-ITA`: Encoder-Decoder LLM for Italian based on LLaMa 2 and trained via 
-  Instruction-Tuning on [EVALITA2023](https://www.evalita.it/campaigns/evalita-2023/) (Basile et al., 2023)
+Four Named Entity Recognition (NER) models were tested on the annotations of persons and locations from the aforementioned file:
+* `LLaMa3.1-instruct-8B (Generative)`: Instruction-tuned LLM prompted in order to generate named entity annotations from text
+* `LLaMa3.1-instruct-8B (Extractive)`: Instruction-tuned LLM prompted in order to extract a list of named entities from a text
+* `GLiNER_ITA_BASE (Zero-shot)`: Pre-trained GliNER model trained on general-domain Italian for Universal Named Entity Recognition
+* `GLiNER_ITA_BASE (Fine-tuned)`: Fine-tuned GliNER model trained on a [training portion](data/json_data/train.json) of Zibaldone
+ 
 
-|                                          | Precision | Recall    | F1        |
-|------------------------------------------|-----------|-----------|-----------|
-| `stanzanlp/ner-it`                       | 62.26     | **76.67** | 68.72     |
-| `nickprock/bert-italian-finetuned-ner`      | **64.68** | 74.50     | **69.24** |
-| `swap-uniba/LLaMAntino-2-13b-hf-evalita-ITA`      | 51.77     | 58.23     | 54.81     |
+## Extract Silver Annotations for Entity Linking from DigitalZibaldone
+
+This repository contains data and source code used to extract silver annotations from the [DigitalZibaldone](https://digitalzibaldone.net/), a web platform that contains an XML/TEI editions of Giacomo Leopardi's *Zibaldone di pensieri*.
+
+This project develops a simple Web Scraping strategy were entity annotations are extracted from the links in each 
+paragraph. As an example, places referenced in the Zibaldone are linked to Wikidata.
+
+html
+<p> 
+<a href="https://www.wikidata.org/wiki/Q220">Rome</a> is the capital of <a href="https://www.wikidata.org/wiki/Q38">Italy</a>.
+</p>
+
+By applying this algorithm, we automatically collected **2,968 references to persons, locations and bibliographic works** 
+from 1,028 paragraphs ([available here](data/)).
+
+## Named Entity Recognition Evaluation
+
+Four Named Entity Recognition (NER) models were tested on the annotations of persons and locations from the aforementioned file:
+* `LLaMa3.1-instruct-8B (Generative)`: Instruction-tuned LLM prompted in order to generate named entity annotations from text.
+* `LLaMa3.1-instruct-8B (Extractive)`: Instruction-tuned LLM prompted in order to extract a list of named entities from a text.
+* `GLiNER_ITA_BASE (Zero-shot)`: Pre-trained GliNER model trained on general-domain Italian for Universal Named Entity Recognition.
+* `GLiNER_ITA_BASE (Fine-tuned)`: Fine-tuned GliNER model trained on a [training portion](data/json_data/train.json) of Zibaldone.
+
+### Exact Matching Results
+
+| Metric             | LLaMa Generative | LLaMa Extractive | GliNER Zero-Shot | GLiNER Fine-Tuned |
+|--------------------|------------------------|------------------------|------------------------|-------------------------|
+| Precision MicroAvg  | 22.48                  | 37.06                  | 30.60                  | **75.15**                   |
+| Recall MicroAvg     | 48.42                  | 29.06                  | 50.79                  | **63.74**                   |
+| F1 MicroAvg         | 30.71                  | 32.58                  | 38.19                  | **68.98**                   |
+
+
+### Fuzzy Matching Results
+
+| Metric             | LLaMa Generative  | LLaMa Extractive | GliNER Zero-Shot | GLiNER Fine-Tuned |
+|--------------------|------------------------|------------------------|------------------------|-------------------------|
+| Precision MicroAvg  | 24.73                  | 44.07                  | 35.33                  | **82.40**                   |
+| Recall MicroAvg     | 53.27                  | 34.55                  | 58.64                  | **69.90**                   |
+| F1 MicroAvg         | 33.78                  | 38.74                  | 44.09                  | **75.64**                   |
+
+
 
 
 ## Entity Linking Evaluation
 
-For the Entity Linking experiments, we equipped the NER model from `stanzanlp` with a multilingual Entity 
-Disambiguation model, namely [mGENRE](https://github.com/facebookresearch/GENRE) (De Cao et al., 2022).
-In order to adapt our pipeline to Leopardi's text, we adopted a simple filtering strategy by **querying Wikidata**. 
-A flowchart of the filtering algorithm is shown below. 
-
-![Illustration of the filtering approach used in this repository.](docs/filtering_algo.png)
-
-
-|                                                   | Precision | Recall | F1    |
-|---------------------------------------------------|-----------|--------|-------|
-| `stanzanlp/ner-it + mGENRE (baseline)`            | 46.7      | 57.92  | 51.71 |
-| `stanzanlp/ner-it + mGENRE + filtering` | **58.13** | 42.99  | 49.42 |
-
-By applying our filtering strategy, we drastically reduced the amount of false positives from 363 to 170 and we 
-**successfully increased the precision** of the entity linker. However, 82 correct predictions were wrongly filtered in 
-the process, reducing the recall of our approach. 
+TO BE DONE
 
 ## References
 
