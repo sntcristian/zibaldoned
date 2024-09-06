@@ -5,10 +5,11 @@ This repository contains data and source code used to extract silver annotations
 This project develops a simple Web Scraping strategy were entity annotations are extracted from the links in each 
 paragraph. As an example, places referenced in the Zibaldone are linked to Wikidata. 
 
-html
+```
 <p> 
 <a href="https://www.wikidata.org/wiki/Q220">Rome</a> is the capital of <a href="https://www.wikidata.org/wiki/Q38">Italy</a>.
 </p>
+```
 
 By applying this algorithm, we automatically collected **2,968 references to persons, locations and bibliographic works** 
 from 1,028 paragraphs ([available here](data/)). 
@@ -21,29 +22,6 @@ Four Named Entity Recognition (NER) models were tested on the annotations of per
 * `GLiNER_ITA_BASE (Zero-shot)`: Pre-trained GliNER model trained on general-domain Italian for Universal Named Entity Recognition
 * `GLiNER_ITA_BASE (Fine-tuned)`: Fine-tuned GliNER model trained on a [training portion](data/json_data/train.json) of Zibaldone
  
-
-## Extract Silver Annotations for Entity Linking from DigitalZibaldone
-
-This repository contains data and source code used to extract silver annotations from the [DigitalZibaldone](https://digitalzibaldone.net/), a web platform that contains an XML/TEI editions of Giacomo Leopardi's *Zibaldone di pensieri*.
-
-This project develops a simple Web Scraping strategy were entity annotations are extracted from the links in each 
-paragraph. As an example, places referenced in the Zibaldone are linked to Wikidata.
-
-html
-<p> 
-<a href="https://www.wikidata.org/wiki/Q220">Rome</a> is the capital of <a href="https://www.wikidata.org/wiki/Q38">Italy</a>.
-</p>
-
-By applying this algorithm, we automatically collected **2,968 references to persons, locations and bibliographic works** 
-from 1,028 paragraphs ([available here](data/)).
-
-## Named Entity Recognition Evaluation
-
-Four Named Entity Recognition (NER) models were tested on the annotations of persons and locations from the aforementioned file:
-* `LLaMa3.1-instruct-8B (Generative)`: Instruction-tuned LLM prompted in order to generate named entity annotations from text.
-* `LLaMa3.1-instruct-8B (Extractive)`: Instruction-tuned LLM prompted in order to extract a list of named entities from a text.
-* `GLiNER_ITA_BASE (Zero-shot)`: Pre-trained GliNER model trained on general-domain Italian for Universal Named Entity Recognition.
-* `GLiNER_ITA_BASE (Fine-tuned)`: Fine-tuned GliNER model trained on a [training portion](data/json_data/train.json) of Zibaldone.
 
 ### Exact Matching Results
 
