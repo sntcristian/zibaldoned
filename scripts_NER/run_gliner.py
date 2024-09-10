@@ -2,7 +2,7 @@ from gliner import GLiNER
 import csv
 from tqdm import tqdm
 
-trained_model = GLiNER.from_pretrained("DeepMount00/GLiNER_ITA_BASE")
+trained_model = GLiNER.from_pretrained("../models/gliner_base_b4_e4", load_tokenizer=True)
 
 labels = ["persona", "luogo", "opera"]
 
@@ -30,7 +30,7 @@ for row in data:
 pbar.close()
 
 keys = entita_nominate[0].keys()
-with open("../results/gliner_base/output.csv", "w", encoding="utf-8") as f:
+with open("../results/gliner_base_b4_e4/output.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(entita_nominate)
