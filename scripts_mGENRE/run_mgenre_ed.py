@@ -8,35 +8,37 @@ from genre.trie import Trie, MarisaTrie
 from genre.fairseq_model import mGENRE
 
 
-with open("../data/paragraphs.csv", "r", encoding="utf-8") as f1:
+with open("../data/paragraphs_test.csv", "r", encoding="utf-8") as f1:
     paragraphs = csv.DictReader(f1)
     paragraphs = list(paragraphs)
+    paragraphs = paragraphs[:4]
 
-with open("../data/annotations_23.csv", "r", encoding="utf-8") as f2:
+with open("../data/annotations_test.csv", "r", encoding="utf-8") as f2:
     all_spans = csv.DictReader(f2)
     all_spans = list(all_spans)
 
 # data to have
-with open("../GENRE/data/lang_title2wikidataID-normalized_with_redirect.pkl", "rb") as f:
+with open("../GENRE_models/lang_title2wikidataID-normalized_with_redirect.pkl", "rb") as f:
    lang_title2wikidataID = pickle.load(f)
 
-with open("../GENRE/data/titles_lang_all105_marisa_trie_with_redirect.pkl", "rb") as f2:
+with open("../GENRE_models/titles_lang_all105_marisa_trie_with_redirect.pkl", "rb") as f2:
     trie = pickle.load(f2)
 
-model = mGENRE.from_pretrained("../GENRE/data/fairseq_model_ed").eval()
+model = mGENRE.from_pretrained("../GENRE_models/fairseq_model_ed").eval()
 
 output = []
-
-paragraphs = paragraphs[:1]
 
 pbar = tqdm(total=len(paragraphs))
 for item in paragraphs:
     text = item["text"]
     data_id = item["id"]
+    entities = []
     begin = []
     end = []
     labels = []
     sentences = []
+    wb_ids = []
+    scores = []
     surface_forms = [(int(ent["start"]), int(ent["end"]), ent["type"]) for ent in all_spans \
                      if ent["par_id"] == data_id]
     for ent in surface_forms:
@@ -67,30 +69,37 @@ for item in paragraphs:
     # Example output =    [[{'id': 'Q937',
     #    'texts': ['Albert Einstein >> it','Alberto Einstein >> it',    'Einstein >> it'],
     #    'scores': tensor([-0.0808, -1.4619, -1.5765]), 'score': tensor(-0.0884)}]]
-    candidates_list = list()
-    for candidates in results:
-        new_list = list()
-        for candidate in candidates:
-            name = candidate["texts"][0]
-            score = candidate["score"].item()
-            wb_id = candidate["id"]
-            new_list.append({"alias":name, "score": score, "wb_id":wb_id})
-        candidates_list.append(new_list)
 
-    labels = list(zip(begin, end, labels, candidates_list))
-    for start_pos, end_pos, label, candidates in labels:
+    for result in results:
+       print(result)
+       candidate = result[0]
+       name = candidate["texts"][0]
+       score = candidate["score"].item()
+       wb_id = candidate["id"]
+       entities.append(name)
+       scores.append(score)
+       wb_ids.append(wb_id)
+
+    labels = list(zip(begin, end, labels, scores, entities, wb_ids))
+    for start_pos, end_pos, label, score, alias, wb_ids in labels:
        output.append(
            {
                "id": item["id"],
                "start_pos": start_pos,
                "end_pos": end_pos,
                "type": label,
-               "candidates":candidates
+               "alias": alias,
+               "wb_id": wb_ids,
+               "score": score
            }
        )
     pbar.update(1)
 pbar.close()
 
+keys = output[0].keys()
 
-with open('../results/mgenre_ed/candidates.json', 'w', encoding='utf-8') as f:
-    json.dump(output, f, ensure_ascii=False, indent=4)
+a_file = open("../results/mgenre_ed/output.csv", "w")
+dict_writer = csv.DictWriter(a_file, keys)
+dict_writer.writeheader()
+dict_writer.writerows(output)
+a_file.close()
