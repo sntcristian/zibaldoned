@@ -1,4 +1,6 @@
-## Extract Silver Annotations for Entity Linking from DigitalZibaldone
+# ZibaldonED
+
+## extract silver annotations for Entity Dinking from digitalzibaldone
 
 This repository contains data and source code used to extract silver annotations from the [DigitalZibaldone](https://digitalzibaldone.net/), a web platform that contains an XML/TEI editions of Giacomo Leopardi's *Zibaldone di pensieri*.
 
@@ -11,8 +13,8 @@ paragraph. As an example, places referenced in the Zibaldone are linked to Wikid
 </p>
 ```
 
-By applying this algorithm, we automatically collected **2,968 references to persons, locations and bibliographic works** 
-from 1,028 paragraphs ([available here](data/)). 
+By applying this algorithm, we automatically collected **2,941 references to persons, locations and bibliographic works** 
+from 957 paragraphs ([available here](data/)). 
 
 ## Named Entity Recognition Evaluation
 
