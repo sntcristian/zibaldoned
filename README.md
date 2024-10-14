@@ -1,6 +1,6 @@
 # ZibaldonED
 
-## extract silver annotations for Entity Dinking from digitalzibaldone
+## extract silver annotations for Entity Disambiguation from digitalzibaldone
 
 This repository contains data and source code used to extract silver annotations from the [DigitalZibaldone](https://digitalzibaldone.net/), a web platform that contains an XML/TEI editions of Giacomo Leopardi's *Zibaldone di pensieri*.
 
