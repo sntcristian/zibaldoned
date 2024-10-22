@@ -2,10 +2,11 @@ import pandas as pd
 import spacy
 import json
 from tqdm import tqdm
+import os
 
 # Load the uploaded CSV files
-paragraphs_df = pd.read_csv('paragraphs_train.csv')
-annotations_df = pd.read_csv('annotations_train.csv')
+paragraphs_df = pd.read_csv('../data/paragraphs_train.csv')
+annotations_df = pd.read_csv('../data/annotations_train.csv')
 
 # Load Spacy model for tokenization
 nlp = spacy.load("it_core_news_lg")
@@ -65,7 +66,10 @@ for _, row in paragraphs_df.iterrows():
 
 print(len(result))
 
+if not os.path.exists("../data/json_data"):
+    os.makedirs("../data/json_data")
+
 # Save the result to a JSON file
-output_path = 'json_data/train_max_len_768.json'
+output_path = '../data/json_data/train.json'
 with open(output_path, 'w', encoding="utf-8") as f:
     json.dump(result, f, ensure_ascii=False)

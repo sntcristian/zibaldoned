@@ -2,7 +2,7 @@
 
 ## extract silver annotations for Entity Disambiguation from digitalzibaldone
 
-This repository contains data and source code used to extract silver annotations from the [DigitalZibaldone](https://digitalzibaldone.net/), a web platform that contains an XML/TEI editions of Giacomo Leopardi's *Zibaldone di pensieri*.
+This repository contains the source code used to extract silver annotations from the [DigitalZibaldone](https://digitalzibaldone.net/), a web platform that contains an XML/TEI editions of Giacomo Leopardi's *Zibaldone di pensieri*.
 
 This project develops a simple Web Scraping strategy were entity annotations are extracted from the links in each 
 paragraph. As an example, places referenced in the Zibaldone are linked to Wikidata. 
@@ -14,11 +14,11 @@ paragraph. As an example, places referenced in the Zibaldone are linked to Wikid
 ```
 
 By applying this algorithm, we automatically collected **2,941 references to persons, locations and bibliographic works** 
-from 957 paragraphs ([available here](data/)). 
+from 957 paragraphs ([available on Zenodo](https://doi.org/10.5281/zenodo.13971759)). 
 
 ## Named Entity Recognition Evaluation
 
-Four Named Entity Recognition (NER) models were tested on the annotations of persons and locations from the aforementioned file:
+Four Named Entity Recognition (NER) models were tested on the annotations of persons, locations and works from the aforementioned file:
 * `LLaMa3.1-instruct-8B (Generative)`: Instruction-tuned LLM prompted in order to generate named entity annotations from text
 * `LLaMa3.1-instruct-8B (Extractive)`: Instruction-tuned LLM prompted in order to extract a list of named entities from a text
 * `GLiNER_ITA_BASE (Zero-shot)`: Pre-trained GliNER model trained on general-domain Italian for Universal Named Entity Recognition
@@ -51,6 +51,7 @@ TO BE DONE
 
 ## References
 
+* Santini, C. (2024). Zibaldoned: Silver annotations for Entity Disambiguation from Digitalzibaldone (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13971759
 
 * Research - AI at Meta. (2024). The Llama 3 Herd of Models. Retrieved 6 September 2024, https://ai.meta.com/research/publications/the-llama-3-herd-of-models/
 

@@ -68,6 +68,9 @@ trainer = Trainer(
 
 trainer.train()
 
+if not os.path.exists("../models"):
+    os.makedirs("../models")
+
 trainer.model.save_pretrained("../models/gliner_base_b4_e4")
 
 trained_model = GLiNER.from_pretrained("../models/gliner_base_b4_e4", load_tokenizer=True)

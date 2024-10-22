@@ -1,6 +1,7 @@
 import stanza
 import csv
 from tqdm import tqdm
+import os
 
 #load NER model
 stanza.download('it')
@@ -29,8 +30,12 @@ for row in data:
     pbar.update(1)
 pbar.close()
 
+
+if not os.path.exists("../results/kind"):
+    os.makedirs("../results/kind")
+
 keys = entita_nominate[0].keys()
-with open("../results/kind_final/output.csv", "w", encoding="utf-8") as f:
+with open("../results/kind/output.csv", "w", encoding="utf-8") as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(entita_nominate)

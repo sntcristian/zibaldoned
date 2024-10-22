@@ -2,6 +2,7 @@ import csv
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 from transformers import pipeline
+import os
 
 tokenizer = AutoTokenizer.from_pretrained("nickprock/bert-italian-finetuned-ner")
 tagger = AutoModelForTokenClassification.from_pretrained("nickprock/bert-italian-finetuned-ner")
@@ -44,8 +45,11 @@ for row in data:
     pbar.update(1)
 pbar.close()
 
+if not os.path.exists("../results/wikiann"):
+    os.makedirs("../results/wikiann")
+
 keys = output[0].keys()
-a_file = open("../results/wikiann_final/output.csv", "w", encoding="utf-8")
+a_file = open("../results/wikiann/output.csv", "w", encoding="utf-8")
 dict_writer = csv.DictWriter(a_file, keys)
 dict_writer.writeheader()
 dict_writer.writerows(output)

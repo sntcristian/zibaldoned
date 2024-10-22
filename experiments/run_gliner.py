@@ -1,6 +1,7 @@
 from gliner import GLiNER
 import csv
 from tqdm import tqdm
+import os
 
 trained_model = GLiNER.from_pretrained("../models/gliner_base_b4_e4", load_tokenizer=True)
 
@@ -28,6 +29,9 @@ for row in data:
         entita_nominate.append(entry)
     pbar.update(1)
 pbar.close()
+
+if not os.path.exists("../results/gliner_base_b4_e4"):
+    os.makedirs("../results/gliner_base_b4_e4")
 
 keys = entita_nominate[0].keys()
 with open("../results/gliner_base_b4_e4/output.csv", "w", encoding="utf-8") as f:

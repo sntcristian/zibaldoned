@@ -4,7 +4,7 @@ import re
 from tqdm import tqdm
 import gc
 import torch
-
+import os
 
 with open("../data/paragraphs.csv", "r", encoding="utf-8") as f:
     data = csv.DictReader(f)
@@ -60,9 +60,13 @@ for row in data:
         pbar.update(1)
         continue
 
+
+if not os.path.exists("../results/llamantino"):
+    os.makedirs("../results/llamantino")
+
 if len(output)>0:
     keys = output[0].keys()
-    with open("../results/llamantino_final/output.csv", "w", encoding="utf-8") as f:
+    with open("../results/llamantino/output.csv", "w", encoding="utf-8") as f:
         dict_writer = csv.DictWriter(f, keys)
         dict_writer.writeheader()
         dict_writer.writerows(output)
